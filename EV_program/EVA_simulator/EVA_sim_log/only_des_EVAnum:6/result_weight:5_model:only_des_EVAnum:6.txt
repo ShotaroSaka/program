@@ -1,0 +1,3399 @@
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.181
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.058
+EVA_id: 2 dis: 207 price: 14.966 V: 68.622 pr: 0.37
+EVA_id: 4 dis: 224 price: 14.966 V: 68.112 pr: 0.31
+EVA_id: 5 dis: 352 price: 14.966 V: 64.272 pr: 0.081
+選択したEVA: 2
+EVA: 0 time: 0.10336706172584574 S_num: 1 Bnum: 1
+EVA: 1 time: 0.10336706172584574 S_num: 1 Bnum: 1
+EVA: 2 time: 0.10336706172584574 S_num: 2 Bnum: 1
+EVA: 3 time: 0.10336706172584574 S_num: 1 Bnum: 1
+EVA: 4 time: 0.10336706172584574 S_num: 1 Bnum: 1
+EVA: 5 time: 0.10336706172584574 S_num: 1 Bnum: 1
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.154
+EVA_id: 2 dis: 408 price: 16.036 V: -92.421 pr: 0.034
+EVA_id: 3 dis: 226 price: 16.031 V: -86.937 pr: 0.234
+EVA_id: 5 dis: 140 price: 16.031 V: -84.357 pr: 0.578
+選択したEVA: 5
+EVA: 0 time: 0.14314232560179857 S_num: 1 Bnum: 1
+EVA: 1 time: 0.14314232560179857 S_num: 1 Bnum: 1
+EVA: 2 time: 0.14314232560179857 S_num: 2 Bnum: 1
+EVA: 3 time: 0.14314232560179857 S_num: 1 Bnum: 1
+EVA: 4 time: 0.14314232560179857 S_num: 1 Bnum: 1
+EVA: 5 time: 0.14314232560179857 S_num: 1 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.155
+EVA_id: 2 dis: 408 price: 14.862 V: 62.071 pr: 0.029
+EVA_id: 3 dis: 226 price: 14.966 V: 68.052 pr: 0.235
+EVA_id: 5 dis: 140 price: 14.966 V: 70.631 pr: 0.581
+選択したEVA: 5
+EVA: 0 time: 0.17910918502142648 S_num: 1 Bnum: 1
+EVA: 1 time: 0.17910918502142648 S_num: 1 Bnum: 1
+EVA: 2 time: 0.17910918502142648 S_num: 2 Bnum: 1
+EVA: 3 time: 0.17910918502142648 S_num: 1 Bnum: 1
+EVA: 4 time: 0.17910918502142648 S_num: 1 Bnum: 1
+EVA: 5 time: 0.17910918502142648 S_num: 2 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.196
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.063
+EVA_id: 2 dis: 207 price: 14.862 V: 68.101 pr: 0.333
+EVA_id: 4 dis: 224 price: 14.966 V: 68.112 pr: 0.335
+EVA_id: 5 dis: 352 price: 14.862 V: 63.749 pr: 0.073
+選択したEVA: 4
+EVA: 0 time: 0.19750140124244064 S_num: 1 Bnum: 1
+EVA: 1 time: 0.19750140124244064 S_num: 1 Bnum: 1
+EVA: 2 time: 0.19750140124244064 S_num: 2 Bnum: 1
+EVA: 3 time: 0.19750140124244064 S_num: 1 Bnum: 1
+EVA: 4 time: 0.19750140124244064 S_num: 2 Bnum: 1
+EVA: 5 time: 0.19750140124244064 S_num: 2 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.171
+EVA_id: 2 dis: 408 price: 14.862 V: 62.071 pr: 0.032
+EVA_id: 3 dis: 226 price: 14.966 V: 68.052 pr: 0.261
+EVA_id: 5 dis: 140 price: 14.862 V: 70.109 pr: 0.536
+選択したEVA: 5
+EVA: 0 time: 0.33111974554872825 S_num: 1 Bnum: 1
+EVA: 1 time: 0.33111974554872825 S_num: 1 Bnum: 1
+EVA: 2 time: 0.33111974554872825 S_num: 2 Bnum: 1
+EVA: 3 time: 0.33111974554872825 S_num: 1 Bnum: 1
+EVA: 4 time: 0.33111974554872825 S_num: 2 Bnum: 1
+EVA: 5 time: 0.33111974554872825 S_num: 3 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.198
+EVA_id: 2 dis: 408 price: 14.862 V: 62.071 pr: 0.037
+EVA_id: 3 dis: 226 price: 14.966 V: 68.052 pr: 0.301
+EVA_id: 5 dis: 140 price: 14.699 V: 69.296 pr: 0.465
+選択したEVA: 5
+EVA: 0 time: 0.35174627737332387 S_num: 1 Bnum: 1
+EVA: 1 time: 0.35174627737332387 S_num: 1 Bnum: 1
+EVA: 2 time: 0.35174627737332387 S_num: 2 Bnum: 1
+EVA: 3 time: 0.35174627737332387 S_num: 1 Bnum: 1
+EVA: 4 time: 0.35174627737332387 S_num: 2 Bnum: 1
+EVA: 5 time: 0.35174627737332387 S_num: 4 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.171
+EVA_id: 2 dis: 408 price: 16.036 V: -92.421 pr: 0.038
+EVA_id: 3 dis: 226 price: 16.031 V: -86.937 pr: 0.26
+EVA_id: 5 dis: 140 price: 16.139 V: -84.893 pr: 0.531
+選択したEVA: 3
+EVA: 0 time: 0.38724235105276905 S_num: 1 Bnum: 1
+EVA: 1 time: 0.38724235105276905 S_num: 1 Bnum: 1
+EVA: 2 time: 0.38724235105276905 S_num: 2 Bnum: 1
+EVA: 3 time: 0.38724235105276905 S_num: 1 Bnum: 2
+EVA: 4 time: 0.38724235105276905 S_num: 2 Bnum: 1
+EVA: 5 time: 0.38724235105276905 S_num: 4 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.216
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.069
+EVA_id: 2 dis: 207 price: 14.862 V: 68.101 pr: 0.367
+EVA_id: 4 dis: 224 price: 14.862 V: 67.591 pr: 0.307
+EVA_id: 5 dis: 352 price: 14.481 V: 61.844 pr: 0.041
+選択したEVA: 2
+EVA: 0 time: 0.52290758533668 S_num: 1 Bnum: 1
+EVA: 1 time: 0.52290758533668 S_num: 1 Bnum: 1
+EVA: 2 time: 0.52290758533668 S_num: 3 Bnum: 1
+EVA: 3 time: 0.52290758533668 S_num: 1 Bnum: 2
+EVA: 4 time: 0.52290758533668 S_num: 2 Bnum: 1
+EVA: 5 time: 0.52290758533668 S_num: 4 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.237
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.076
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.304
+EVA_id: 4 dis: 224 price: 14.862 V: 67.591 pr: 0.338
+EVA_id: 5 dis: 352 price: 14.481 V: 61.844 pr: 0.045
+選択したEVA: 2
+EVA: 0 time: 0.5396726185865239 S_num: 1 Bnum: 1
+EVA: 1 time: 0.5396726185865239 S_num: 1 Bnum: 1
+EVA: 2 time: 0.5396726185865239 S_num: 4 Bnum: 1
+EVA: 3 time: 0.5396726185865239 S_num: 1 Bnum: 2
+EVA: 4 time: 0.5396726185865239 S_num: 2 Bnum: 1
+EVA: 5 time: 0.5396726185865239 S_num: 4 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.179
+EVA_id: 2 dis: 408 price: 16.034 V: -92.412 pr: 0.04
+EVA_id: 3 dis: 226 price: 16.14 V: -87.479 pr: 0.225
+EVA_id: 5 dis: 140 price: 16.139 V: -84.893 pr: 0.556
+選択したEVA: 5
+EVA: 0 time: 0.610334370819561 S_num: 1 Bnum: 1
+EVA: 1 time: 0.610334370819561 S_num: 1 Bnum: 1
+EVA: 2 time: 0.610334370819561 S_num: 4 Bnum: 1
+EVA: 3 time: 0.610334370819561 S_num: 1 Bnum: 2
+EVA: 4 time: 0.610334370819561 S_num: 2 Bnum: 1
+EVA: 5 time: 0.610334370819561 S_num: 4 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.188
+EVA_id: 1 dis: 383 price: 16.031 V: -91.647 pr: 0.06
+EVA_id: 2 dis: 207 price: 16.034 V: -86.382 pr: 0.382
+EVA_id: 4 dis: 224 price: 16.036 V: -86.901 pr: 0.318
+EVA_id: 5 dis: 352 price: 16.303 V: -92.077 pr: 0.052
+選択したEVA: 4
+EVA: 0 time: 0.6103978970879148 S_num: 1 Bnum: 1
+EVA: 1 time: 0.6103978970879148 S_num: 1 Bnum: 1
+EVA: 2 time: 0.6103978970879148 S_num: 4 Bnum: 1
+EVA: 3 time: 0.6103978970879148 S_num: 1 Bnum: 2
+EVA: 4 time: 0.6103978970879148 S_num: 2 Bnum: 2
+EVA: 5 time: 0.6103978970879148 S_num: 4 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.237
+EVA_id: 2 dis: 408 price: 14.481 V: 60.166 pr: 0.023
+EVA_id: 3 dis: 226 price: 14.966 V: 68.051 pr: 0.36
+EVA_id: 5 dis: 140 price: 14.48 V: 68.2 pr: 0.38
+選択したEVA: 1
+EVA: 0 time: 0.6322504189532658 S_num: 1 Bnum: 1
+EVA: 1 time: 0.6322504189532658 S_num: 2 Bnum: 1
+EVA: 2 time: 0.6322504189532658 S_num: 4 Bnum: 1
+EVA: 3 time: 0.6322504189532658 S_num: 1 Bnum: 2
+EVA: 4 time: 0.6322504189532658 S_num: 2 Bnum: 2
+EVA: 5 time: 0.6322504189532658 S_num: 4 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.862 V: 66.331 pr: 0.206
+EVA_id: 2 dis: 408 price: 14.481 V: 60.166 pr: 0.024
+EVA_id: 3 dis: 226 price: 14.966 V: 68.051 pr: 0.375
+EVA_id: 5 dis: 140 price: 14.48 V: 68.2 pr: 0.395
+選択したEVA: 5
+EVA: 0 time: 0.6473958275876912 S_num: 1 Bnum: 1
+EVA: 1 time: 0.6473958275876912 S_num: 2 Bnum: 1
+EVA: 2 time: 0.6473958275876912 S_num: 4 Bnum: 1
+EVA: 3 time: 0.6473958275876912 S_num: 1 Bnum: 2
+EVA: 4 time: 0.6473958275876912 S_num: 2 Bnum: 2
+EVA: 5 time: 0.6473958275876912 S_num: 5 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.036 V: -88.161 pr: 0.206
+EVA_id: 2 dis: 408 price: 16.034 V: -92.412 pr: 0.046
+EVA_id: 3 dis: 226 price: 16.14 V: -87.479 pr: 0.261
+EVA_id: 5 dis: 140 price: 16.3 V: -85.698 pr: 0.487
+選択したEVA: 3
+EVA: 0 time: 0.6520550671305625 S_num: 1 Bnum: 1
+EVA: 1 time: 0.6520550671305625 S_num: 2 Bnum: 1
+EVA: 2 time: 0.6520550671305625 S_num: 4 Bnum: 1
+EVA: 3 time: 0.6520550671305625 S_num: 1 Bnum: 3
+EVA: 4 time: 0.6520550671305625 S_num: 2 Bnum: 2
+EVA: 5 time: 0.6520550671305625 S_num: 5 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.862 V: 66.331 pr: 0.242
+EVA_id: 2 dis: 408 price: 14.481 V: 60.166 pr: 0.028
+EVA_id: 3 dis: 226 price: 14.963 V: 68.035 pr: 0.439
+EVA_id: 5 dis: 140 price: 14.213 V: 66.865 pr: 0.291
+選択したEVA: 3
+EVA: 0 time: 0.6584703880250337 S_num: 1 Bnum: 1
+EVA: 1 time: 0.6584703880250337 S_num: 2 Bnum: 1
+EVA: 2 time: 0.6584703880250337 S_num: 4 Bnum: 1
+EVA: 3 time: 0.6584703880250337 S_num: 2 Bnum: 3
+EVA: 4 time: 0.6584703880250337 S_num: 2 Bnum: 2
+EVA: 5 time: 0.6584703880250337 S_num: 5 Bnum: 3
+EVA: 0 time: 0.7287513953449183 S_num: 1 Bnum: 1
+EVA: 1 time: 0.7287513953449183 S_num: 2 Bnum: 1
+EVA: 2 time: 0.7287513953449183 S_num: 4 Bnum: 1
+EVA: 3 time: 0.7287513953449183 S_num: 2 Bnum: 3
+EVA: 4 time: 0.7287513953449183 S_num: 1 Bnum: 2
+EVA: 5 time: 0.7287513953449183 S_num: 5 Bnum: 3
+EVA: 0 time: 0.6915347731027546 S_num: 1 Bnum: 1
+EVA: 1 time: 0.6915347731027546 S_num: 2 Bnum: 1
+EVA: 2 time: 0.6915347731027546 S_num: 4 Bnum: 1
+EVA: 3 time: 0.6915347731027546 S_num: 2 Bnum: 3
+EVA: 4 time: 0.6915347731027546 S_num: 1 Bnum: 2
+EVA: 5 time: 0.6915347731027546 S_num: 5 Bnum: 2
+EVA: 0 time: 0.7407382766476646 S_num: 1 Bnum: 1
+EVA: 1 time: 0.7407382766476646 S_num: 2 Bnum: 1
+EVA: 2 time: 0.7407382766476646 S_num: 3 Bnum: 1
+EVA: 3 time: 0.7407382766476646 S_num: 2 Bnum: 3
+EVA: 4 time: 0.7407382766476646 S_num: 1 Bnum: 2
+EVA: 5 time: 0.7407382766476646 S_num: 5 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.862 V: 66.331 pr: 0.257
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.043
+EVA_id: 3 dis: 226 price: 14.861 V: 67.527 pr: 0.39
+EVA_id: 5 dis: 140 price: 14.212 V: 66.862 pr: 0.309
+選択したEVA: 3
+EVA: 0 time: 0.7520549312661361 S_num: 1 Bnum: 1
+EVA: 1 time: 0.7520549312661361 S_num: 2 Bnum: 1
+EVA: 2 time: 0.7520549312661361 S_num: 3 Bnum: 1
+EVA: 3 time: 0.7520549312661361 S_num: 3 Bnum: 3
+EVA: 4 time: 0.7520549312661361 S_num: 1 Bnum: 2
+EVA: 5 time: 0.7520549312661361 S_num: 5 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.862 V: 66.331 pr: 0.284
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.048
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.325
+EVA_id: 5 dis: 140 price: 14.212 V: 66.862 pr: 0.342
+選択したEVA: 2
+EVA: 0 time: 0.7790533915904023 S_num: 1 Bnum: 1
+EVA: 1 time: 0.7790533915904023 S_num: 2 Bnum: 1
+EVA: 2 time: 0.7790533915904023 S_num: 4 Bnum: 1
+EVA: 3 time: 0.7790533915904023 S_num: 3 Bnum: 3
+EVA: 4 time: 0.7790533915904023 S_num: 1 Bnum: 2
+EVA: 5 time: 0.7790533915904023 S_num: 5 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.862 V: 66.331 pr: 0.289
+EVA_id: 2 dis: 408 price: 14.481 V: 60.166 pr: 0.033
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.33
+EVA_id: 5 dis: 140 price: 14.212 V: 66.862 pr: 0.348
+選択したEVA: 5
+EVA: 0 time: 0.7905362549897763 S_num: 1 Bnum: 1
+EVA: 1 time: 0.7905362549897763 S_num: 2 Bnum: 1
+EVA: 2 time: 0.7905362549897763 S_num: 4 Bnum: 1
+EVA: 3 time: 0.7905362549897763 S_num: 3 Bnum: 3
+EVA: 4 time: 0.7905362549897763 S_num: 1 Bnum: 2
+EVA: 5 time: 0.7905362549897763 S_num: 6 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.255
+EVA_id: 1 dis: 383 price: 14.862 V: 62.821 pr: 0.068
+EVA_id: 2 dis: 207 price: 14.481 V: 66.196 pr: 0.223
+EVA_id: 4 dis: 224 price: 14.966 V: 68.111 pr: 0.436
+EVA_id: 5 dis: 352 price: 13.898 V: 58.93 pr: 0.018
+選択したEVA: 4
+EVA: 0 time: 0.7957650154575563 S_num: 1 Bnum: 1
+EVA: 1 time: 0.7957650154575563 S_num: 2 Bnum: 1
+EVA: 2 time: 0.7957650154575563 S_num: 4 Bnum: 1
+EVA: 3 time: 0.7957650154575563 S_num: 3 Bnum: 3
+EVA: 4 time: 0.7957650154575563 S_num: 2 Bnum: 2
+EVA: 5 time: 0.7957650154575563 S_num: 6 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.862 V: 66.331 pr: 0.338
+EVA_id: 2 dis: 408 price: 14.481 V: 60.166 pr: 0.039
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.387
+EVA_id: 5 dis: 140 price: 13.898 V: 65.29 pr: 0.235
+選択したEVA: 5
+EVA: 0 time: 0.8984359766304064 S_num: 1 Bnum: 1
+EVA: 1 time: 0.8984359766304064 S_num: 2 Bnum: 1
+EVA: 2 time: 0.8984359766304064 S_num: 4 Bnum: 1
+EVA: 3 time: 0.8984359766304064 S_num: 3 Bnum: 3
+EVA: 4 time: 0.8984359766304064 S_num: 2 Bnum: 2
+EVA: 5 time: 0.8984359766304064 S_num: 7 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.278
+EVA_id: 1 dis: 383 price: 14.862 V: 62.821 pr: 0.074
+EVA_id: 2 dis: 207 price: 14.481 V: 66.196 pr: 0.243
+EVA_id: 4 dis: 224 price: 14.862 V: 67.589 pr: 0.395
+EVA_id: 5 dis: 352 price: 13.543 V: 57.153 pr: 0.01
+選択したEVA: 0
+EVA: 0 time: 0.9260150463331509 S_num: 2 Bnum: 1
+EVA: 1 time: 0.9260150463331509 S_num: 2 Bnum: 1
+EVA: 2 time: 0.9260150463331509 S_num: 4 Bnum: 1
+EVA: 3 time: 0.9260150463331509 S_num: 3 Bnum: 3
+EVA: 4 time: 0.9260150463331509 S_num: 2 Bnum: 2
+EVA: 5 time: 0.9260150463331509 S_num: 7 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.862 V: 66.331 pr: 0.38
+EVA_id: 2 dis: 408 price: 14.481 V: 60.166 pr: 0.044
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.435
+EVA_id: 5 dis: 140 price: 13.543 V: 63.513 pr: 0.142
+選択したEVA: 3
+EVA: 0 time: 1.0312205432534571 S_num: 2 Bnum: 1
+EVA: 1 time: 1.0312205432534571 S_num: 2 Bnum: 1
+EVA: 2 time: 1.0312205432534571 S_num: 4 Bnum: 1
+EVA: 3 time: 1.0312205432534571 S_num: 4 Bnum: 3
+EVA: 4 time: 1.0312205432534571 S_num: 2 Bnum: 2
+EVA: 5 time: 1.0312205432534571 S_num: 7 Bnum: 2
+EVA: 0 time: 1.0585415091110353 S_num: 2 Bnum: 1
+EVA: 1 time: 1.0585415091110353 S_num: 2 Bnum: 1
+EVA: 2 time: 1.0585415091110353 S_num: 4 Bnum: 1
+EVA: 3 time: 1.0585415091110353 S_num: 4 Bnum: 2
+EVA: 4 time: 1.0585415091110353 S_num: 2 Bnum: 2
+EVA: 5 time: 1.0585415091110353 S_num: 7 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.862 V: 66.061 pr: 0.243
+EVA_id: 1 dis: 383 price: 14.862 V: 62.821 pr: 0.078
+EVA_id: 2 dis: 207 price: 14.481 V: 66.196 pr: 0.254
+EVA_id: 4 dis: 224 price: 14.862 V: 67.589 pr: 0.414
+EVA_id: 5 dis: 352 price: 13.543 V: 57.153 pr: 0.011
+選択したEVA: 5
+EVA: 0 time: 1.0793746913836495 S_num: 2 Bnum: 1
+EVA: 1 time: 1.0793746913836495 S_num: 2 Bnum: 1
+EVA: 2 time: 1.0793746913836495 S_num: 4 Bnum: 1
+EVA: 3 time: 1.0793746913836495 S_num: 4 Bnum: 2
+EVA: 4 time: 1.0793746913836495 S_num: 2 Bnum: 2
+EVA: 5 time: 1.0793746913836495 S_num: 8 Bnum: 2
+EVA: 0 time: 1.1416479788243958 S_num: 2 Bnum: 1
+EVA: 1 time: 1.1416479788243958 S_num: 2 Bnum: 1
+EVA: 2 time: 1.1416479788243958 S_num: 4 Bnum: 1
+EVA: 3 time: 1.1416479788243958 S_num: 4 Bnum: 2
+EVA: 4 time: 1.1416479788243958 S_num: 2 Bnum: 1
+EVA: 5 time: 1.1416479788243958 S_num: 8 Bnum: 2
+EVA: 0 time: 1.1635004571282948 S_num: 2 Bnum: 1
+EVA: 1 time: 1.1635004571282948 S_num: 1 Bnum: 1
+EVA: 2 time: 1.1635004571282948 S_num: 4 Bnum: 1
+EVA: 3 time: 1.1635004571282948 S_num: 4 Bnum: 2
+EVA: 4 time: 1.1635004571282948 S_num: 2 Bnum: 1
+EVA: 5 time: 1.1635004571282948 S_num: 8 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.178
+EVA_id: 2 dis: 408 price: 16.034 V: -92.412 pr: 0.04
+EVA_id: 3 dis: 226 price: 16.139 V: -87.473 pr: 0.225
+EVA_id: 5 dis: 140 price: 16.137 V: -84.887 pr: 0.556
+選択したEVA: 5
+EVA: 0 time: 1.166964034434138 S_num: 2 Bnum: 1
+EVA: 1 time: 1.166964034434138 S_num: 1 Bnum: 1
+EVA: 2 time: 1.166964034434138 S_num: 4 Bnum: 1
+EVA: 3 time: 1.166964034434138 S_num: 4 Bnum: 2
+EVA: 4 time: 1.166964034434138 S_num: 2 Bnum: 1
+EVA: 5 time: 1.166964034434138 S_num: 8 Bnum: 3
+EVA: 0 time: 1.1694947420957578 S_num: 2 Bnum: 1
+EVA: 1 time: 1.1694947420957578 S_num: 1 Bnum: 1
+EVA: 2 time: 1.1694947420957578 S_num: 4 Bnum: 1
+EVA: 3 time: 1.1694947420957578 S_num: 4 Bnum: 2
+EVA: 4 time: 1.1694947420957578 S_num: 2 Bnum: 1
+EVA: 5 time: 1.1694947420957578 S_num: 8 Bnum: 2
+EVA_id: 0 dis: 275 price: 16.036 V: -88.431 pr: 0.183
+EVA_id: 1 dis: 383 price: 16.031 V: -91.647 pr: 0.059
+EVA_id: 2 dis: 207 price: 16.034 V: -86.382 pr: 0.376
+EVA_id: 4 dis: 224 price: 16.036 V: -86.901 pr: 0.313
+EVA_id: 5 dis: 352 price: 16.138 V: -91.248 pr: 0.068
+選択したEVA: 1
+EVA: 0 time: 1.1824328724084037 S_num: 2 Bnum: 1
+EVA: 1 time: 1.1824328724084037 S_num: 1 Bnum: 2
+EVA: 2 time: 1.1824328724084037 S_num: 4 Bnum: 1
+EVA: 3 time: 1.1824328724084037 S_num: 4 Bnum: 2
+EVA: 4 time: 1.1824328724084037 S_num: 2 Bnum: 1
+EVA: 5 time: 1.1824328724084037 S_num: 8 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.862 V: 66.061 pr: 0.24
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.093
+EVA_id: 2 dis: 207 price: 14.481 V: 66.196 pr: 0.252
+EVA_id: 4 dis: 224 price: 14.862 V: 67.591 pr: 0.41
+EVA_id: 5 dis: 352 price: 13.148 V: 55.181 pr: 0.005
+選択したEVA: 0
+EVA: 0 time: 1.204892319425545 S_num: 3 Bnum: 1
+EVA: 1 time: 1.204892319425545 S_num: 1 Bnum: 2
+EVA: 2 time: 1.204892319425545 S_num: 4 Bnum: 1
+EVA: 3 time: 1.204892319425545 S_num: 4 Bnum: 2
+EVA: 4 time: 1.204892319425545 S_num: 2 Bnum: 1
+EVA: 5 time: 1.204892319425545 S_num: 8 Bnum: 2
+EVA: 0 time: 1.246257052181447 S_num: 3 Bnum: 1
+EVA: 1 time: 1.246257052181447 S_num: 1 Bnum: 2
+EVA: 2 time: 1.246257052181447 S_num: 4 Bnum: 1
+EVA: 3 time: 1.246257052181447 S_num: 4 Bnum: 2
+EVA: 4 time: 1.246257052181447 S_num: 2 Bnum: 1
+EVA: 5 time: 1.246257052181447 S_num: 7 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.699 V: 65.246 pr: 0.191
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.098
+EVA_id: 2 dis: 207 price: 14.481 V: 66.196 pr: 0.266
+EVA_id: 4 dis: 224 price: 14.862 V: 67.591 pr: 0.434
+EVA_id: 5 dis: 352 price: 13.542 V: 57.151 pr: 0.011
+選択したEVA: 4
+EVA: 0 time: 1.2713500005633862 S_num: 3 Bnum: 1
+EVA: 1 time: 1.2713500005633862 S_num: 1 Bnum: 2
+EVA: 2 time: 1.2713500005633862 S_num: 4 Bnum: 1
+EVA: 3 time: 1.2713500005633862 S_num: 4 Bnum: 2
+EVA: 4 time: 1.2713500005633862 S_num: 3 Bnum: 1
+EVA: 5 time: 1.2713500005633862 S_num: 7 Bnum: 2
+EVA_id: 0 dis: 275 price: 16.036 V: -88.432 pr: 0.185
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.05
+EVA_id: 2 dis: 207 price: 16.034 V: -86.382 pr: 0.38
+EVA_id: 4 dis: 224 price: 16.036 V: -86.902 pr: 0.316
+EVA_id: 5 dis: 352 price: 16.138 V: -91.251 pr: 0.069
+選択したEVA: 4
+EVA: 0 time: 1.3347542794101133 S_num: 3 Bnum: 1
+EVA: 1 time: 1.3347542794101133 S_num: 1 Bnum: 2
+EVA: 2 time: 1.3347542794101133 S_num: 4 Bnum: 1
+EVA: 3 time: 1.3347542794101133 S_num: 4 Bnum: 2
+EVA: 4 time: 1.3347542794101133 S_num: 3 Bnum: 2
+EVA: 5 time: 1.3347542794101133 S_num: 7 Bnum: 2
+EVA: 0 time: 1.3028469274796401 S_num: 3 Bnum: 1
+EVA: 1 time: 1.3028469274796401 S_num: 1 Bnum: 2
+EVA: 2 time: 1.3028469274796401 S_num: 4 Bnum: 1
+EVA: 3 time: 1.3028469274796401 S_num: 4 Bnum: 1
+EVA: 4 time: 1.3028469274796401 S_num: 3 Bnum: 2
+EVA: 5 time: 1.3028469274796401 S_num: 7 Bnum: 2
+EVA: 0 time: 1.3375140589199266 S_num: 3 Bnum: 1
+EVA: 1 time: 1.3375140589199266 S_num: 1 Bnum: 2
+EVA: 2 time: 1.3375140589199266 S_num: 4 Bnum: 1
+EVA: 3 time: 1.3375140589199266 S_num: 4 Bnum: 1
+EVA: 4 time: 1.3375140589199266 S_num: 2 Bnum: 2
+EVA: 5 time: 1.3375140589199266 S_num: 7 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.486
+EVA_id: 2 dis: 408 price: 14.481 V: 60.166 pr: 0.047
+EVA_id: 3 dis: 226 price: 14.481 V: 65.626 pr: 0.316
+EVA_id: 5 dis: 140 price: 13.542 V: 63.511 pr: 0.151
+選択したEVA: 1
+EVA: 0 time: 1.3824159937591882 S_num: 3 Bnum: 1
+EVA: 1 time: 1.3824159937591882 S_num: 2 Bnum: 2
+EVA: 2 time: 1.3824159937591882 S_num: 4 Bnum: 1
+EVA: 3 time: 1.3824159937591882 S_num: 4 Bnum: 1
+EVA: 4 time: 1.3824159937591882 S_num: 2 Bnum: 2
+EVA: 5 time: 1.3824159937591882 S_num: 7 Bnum: 2
+EVA: 0 time: 1.5265475262909505 S_num: 3 Bnum: 1
+EVA: 1 time: 1.5265475262909505 S_num: 2 Bnum: 2
+EVA: 2 time: 1.5265475262909505 S_num: 4 Bnum: 1
+EVA: 3 time: 1.5265475262909505 S_num: 4 Bnum: 1
+EVA: 4 time: 1.5265475262909505 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5265475262909505 S_num: 6 Bnum: 2
+EVA: 0 time: 1.5343307551148924 S_num: 3 Bnum: 1
+EVA: 1 time: 1.5343307551148924 S_num: 2 Bnum: 2
+EVA: 2 time: 1.5343307551148924 S_num: 4 Bnum: 1
+EVA: 3 time: 1.5343307551148924 S_num: 3 Bnum: 1
+EVA: 4 time: 1.5343307551148924 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5343307551148924 S_num: 6 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.142 V: -88.689 pr: 0.145
+EVA_id: 2 dis: 408 price: 16.034 V: -92.412 pr: 0.04
+EVA_id: 3 dis: 226 price: 16.036 V: -86.962 pr: 0.266
+EVA_id: 5 dis: 140 price: 16.139 V: -84.893 pr: 0.549
+選択したEVA: 5
+EVA: 0 time: 1.5626935499868864 S_num: 3 Bnum: 1
+EVA: 1 time: 1.5626935499868864 S_num: 2 Bnum: 2
+EVA: 2 time: 1.5626935499868864 S_num: 4 Bnum: 1
+EVA: 3 time: 1.5626935499868864 S_num: 3 Bnum: 1
+EVA: 4 time: 1.5626935499868864 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5626935499868864 S_num: 6 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.036 V: -88.432 pr: 0.199
+EVA_id: 1 dis: 383 price: 16.142 V: -92.199 pr: 0.053
+EVA_id: 2 dis: 207 price: 16.034 V: -86.382 pr: 0.408
+EVA_id: 4 dis: 224 price: 16.138 V: -87.412 pr: 0.284
+EVA_id: 5 dis: 352 price: 16.302 V: -92.068 pr: 0.056
+選択したEVA: 0
+EVA: 0 time: 1.563973889369232 S_num: 3 Bnum: 2
+EVA: 1 time: 1.563973889369232 S_num: 2 Bnum: 2
+EVA: 2 time: 1.563973889369232 S_num: 4 Bnum: 1
+EVA: 3 time: 1.563973889369232 S_num: 3 Bnum: 1
+EVA: 4 time: 1.563973889369232 S_num: 2 Bnum: 2
+EVA: 5 time: 1.563973889369232 S_num: 6 Bnum: 3
+EVA: 0 time: 1.5670477653400334 S_num: 3 Bnum: 2
+EVA: 1 time: 1.5670477653400334 S_num: 2 Bnum: 2
+EVA: 2 time: 1.5670477653400334 S_num: 3 Bnum: 1
+EVA: 3 time: 1.5670477653400334 S_num: 3 Bnum: 1
+EVA: 4 time: 1.5670477653400334 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5670477653400334 S_num: 6 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.137 V: -88.933 pr: 0.173
+EVA_id: 1 dis: 383 price: 16.142 V: -92.199 pr: 0.055
+EVA_id: 2 dis: 207 price: 16.036 V: -86.392 pr: 0.42
+EVA_id: 4 dis: 224 price: 16.138 V: -87.412 pr: 0.294
+EVA_id: 5 dis: 352 price: 16.302 V: -92.068 pr: 0.058
+選択したEVA: 1
+EVA: 0 time: 1.5778363945479612 S_num: 3 Bnum: 2
+EVA: 1 time: 1.5778363945479612 S_num: 2 Bnum: 3
+EVA: 2 time: 1.5778363945479612 S_num: 3 Bnum: 1
+EVA: 3 time: 1.5778363945479612 S_num: 3 Bnum: 1
+EVA: 4 time: 1.5778363945479612 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5778363945479612 S_num: 6 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.302 V: -89.49 pr: 0.133
+EVA_id: 2 dis: 408 price: 16.036 V: -92.422 pr: 0.048
+EVA_id: 3 dis: 226 price: 16.036 V: -86.962 pr: 0.321
+EVA_id: 5 dis: 140 price: 16.302 V: -85.708 pr: 0.498
+選択したEVA: 5
+EVA: 0 time: 1.5800683403107882 S_num: 3 Bnum: 2
+EVA: 1 time: 1.5800683403107882 S_num: 2 Bnum: 3
+EVA: 2 time: 1.5800683403107882 S_num: 3 Bnum: 1
+EVA: 3 time: 1.5800683403107882 S_num: 3 Bnum: 1
+EVA: 4 time: 1.5800683403107882 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5800683403107882 S_num: 6 Bnum: 4
+EVA: 0 time: 1.5823236905364806 S_num: 2 Bnum: 2
+EVA: 1 time: 1.5823236905364806 S_num: 2 Bnum: 3
+EVA: 2 time: 1.5823236905364806 S_num: 3 Bnum: 1
+EVA: 3 time: 1.5823236905364806 S_num: 3 Bnum: 1
+EVA: 4 time: 1.5823236905364806 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5823236905364806 S_num: 6 Bnum: 4
+EVA: 0 time: 1.5838127437902607 S_num: 2 Bnum: 2
+EVA: 1 time: 1.5838127437902607 S_num: 2 Bnum: 3
+EVA: 2 time: 1.5838127437902607 S_num: 2 Bnum: 1
+EVA: 3 time: 1.5838127437902607 S_num: 3 Bnum: 1
+EVA: 4 time: 1.5838127437902607 S_num: 2 Bnum: 2
+EVA: 5 time: 1.5838127437902607 S_num: 6 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.86 V: 66.051 pr: 0.194
+EVA_id: 1 dis: 383 price: 14.862 V: 62.818 pr: 0.062
+EVA_id: 2 dis: 207 price: 14.862 V: 68.101 pr: 0.397
+EVA_id: 4 dis: 224 price: 14.86 V: 67.581 pr: 0.331
+EVA_id: 5 dis: 352 price: 13.898 V: 58.929 pr: 0.016
+選択したEVA: 0
+EVA: 0 time: 1.6047368016938932 S_num: 3 Bnum: 2
+EVA: 1 time: 1.6047368016938932 S_num: 2 Bnum: 3
+EVA: 2 time: 1.6047368016938932 S_num: 2 Bnum: 1
+EVA: 3 time: 1.6047368016938932 S_num: 3 Bnum: 1
+EVA: 4 time: 1.6047368016938932 S_num: 2 Bnum: 2
+EVA: 5 time: 1.6047368016938932 S_num: 6 Bnum: 4
+EVA: 0 time: 1.674707603237367 S_num: 3 Bnum: 2
+EVA: 1 time: 1.674707603237367 S_num: 2 Bnum: 3
+EVA: 2 time: 1.674707603237367 S_num: 2 Bnum: 1
+EVA: 3 time: 1.674707603237367 S_num: 2 Bnum: 1
+EVA: 4 time: 1.674707603237367 S_num: 2 Bnum: 2
+EVA: 5 time: 1.674707603237367 S_num: 6 Bnum: 4
+EVA: 0 time: 1.7098888362361127 S_num: 3 Bnum: 2
+EVA: 1 time: 1.7098888362361127 S_num: 2 Bnum: 3
+EVA: 2 time: 1.7098888362361127 S_num: 1 Bnum: 1
+EVA: 3 time: 1.7098888362361127 S_num: 2 Bnum: 1
+EVA: 4 time: 1.7098888362361127 S_num: 2 Bnum: 2
+EVA: 5 time: 1.7098888362361127 S_num: 6 Bnum: 4
+EVA: 0 time: 1.7816062616225419 S_num: 3 Bnum: 2
+EVA: 1 time: 1.7816062616225419 S_num: 2 Bnum: 2
+EVA: 2 time: 1.7816062616225419 S_num: 1 Bnum: 1
+EVA: 3 time: 1.7816062616225419 S_num: 2 Bnum: 1
+EVA: 4 time: 1.7816062616225419 S_num: 2 Bnum: 2
+EVA: 5 time: 1.7816062616225419 S_num: 6 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.138 V: -88.672 pr: 0.199
+EVA_id: 2 dis: 408 price: 16.031 V: -92.397 pr: 0.054
+EVA_id: 3 dis: 226 price: 16.036 V: -86.961 pr: 0.363
+EVA_id: 5 dis: 140 price: 16.52 V: -86.802 pr: 0.384
+選択したEVA: 2
+EVA: 0 time: 1.7934962849727734 S_num: 3 Bnum: 2
+EVA: 1 time: 1.7934962849727734 S_num: 2 Bnum: 2
+EVA: 2 time: 1.7934962849727734 S_num: 1 Bnum: 2
+EVA: 3 time: 1.7934962849727734 S_num: 2 Bnum: 1
+EVA: 4 time: 1.7934962849727734 S_num: 2 Bnum: 2
+EVA: 5 time: 1.7934962849727734 S_num: 6 Bnum: 4
+EVA: 0 time: 1.8246545348020964 S_num: 3 Bnum: 2
+EVA: 1 time: 1.8246545348020964 S_num: 2 Bnum: 2
+EVA: 2 time: 1.8246545348020964 S_num: 1 Bnum: 2
+EVA: 3 time: 1.8246545348020964 S_num: 2 Bnum: 1
+EVA: 4 time: 1.8246545348020964 S_num: 1 Bnum: 2
+EVA: 5 time: 1.8246545348020964 S_num: 6 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.138 V: -88.672 pr: 0.201
+EVA_id: 2 dis: 408 price: 16.14 V: -92.939 pr: 0.045
+EVA_id: 3 dis: 226 price: 16.036 V: -86.961 pr: 0.366
+EVA_id: 5 dis: 140 price: 16.52 V: -86.802 pr: 0.387
+選択したEVA: 3
+EVA: 0 time: 1.825938466052238 S_num: 3 Bnum: 2
+EVA: 1 time: 1.825938466052238 S_num: 2 Bnum: 2
+EVA: 2 time: 1.825938466052238 S_num: 1 Bnum: 2
+EVA: 3 time: 1.825938466052238 S_num: 2 Bnum: 2
+EVA: 4 time: 1.825938466052238 S_num: 1 Bnum: 2
+EVA: 5 time: 1.825938466052238 S_num: 6 Bnum: 4
+EVA: 0 time: 1.829630079926833 S_num: 3 Bnum: 2
+EVA: 1 time: 1.829630079926833 S_num: 2 Bnum: 2
+EVA: 2 time: 1.829630079926833 S_num: 1 Bnum: 2
+EVA: 3 time: 1.829630079926833 S_num: 2 Bnum: 2
+EVA: 4 time: 1.829630079926833 S_num: 1 Bnum: 2
+EVA: 5 time: 1.829630079926833 S_num: 6 Bnum: 3
+EVA: 0 time: 1.8531419875529314 S_num: 3 Bnum: 2
+EVA: 1 time: 1.8531419875529314 S_num: 2 Bnum: 2
+EVA: 2 time: 1.8531419875529314 S_num: 1 Bnum: 2
+EVA: 3 time: 1.8531419875529314 S_num: 2 Bnum: 2
+EVA: 4 time: 1.8531419875529314 S_num: 1 Bnum: 2
+EVA: 5 time: 1.8531419875529314 S_num: 5 Bnum: 3
+EVA: 0 time: 1.860817905453856 S_num: 3 Bnum: 2
+EVA: 1 time: 1.860817905453856 S_num: 2 Bnum: 2
+EVA: 2 time: 1.860817905453856 S_num: 1 Bnum: 2
+EVA: 3 time: 1.860817905453856 S_num: 1 Bnum: 2
+EVA: 4 time: 1.860817905453856 S_num: 1 Bnum: 2
+EVA: 5 time: 1.860817905453856 S_num: 5 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.137 V: -88.933 pr: 0.186
+EVA_id: 1 dis: 383 price: 16.138 V: -92.182 pr: 0.06
+EVA_id: 2 dis: 207 price: 16.14 V: -86.909 pr: 0.377
+EVA_id: 4 dis: 224 price: 16.14 V: -87.419 pr: 0.316
+EVA_id: 5 dis: 352 price: 16.302 V: -92.068 pr: 0.062
+選択したEVA: 2
+EVA: 0 time: 1.8654105262507277 S_num: 3 Bnum: 2
+EVA: 1 time: 1.8654105262507277 S_num: 2 Bnum: 2
+EVA: 2 time: 1.8654105262507277 S_num: 1 Bnum: 3
+EVA: 3 time: 1.8654105262507277 S_num: 1 Bnum: 2
+EVA: 4 time: 1.8654105262507277 S_num: 1 Bnum: 2
+EVA: 5 time: 1.8654105262507277 S_num: 5 Bnum: 3
+EVA: 0 time: 1.8660041559982274 S_num: 3 Bnum: 2
+EVA: 1 time: 1.8660041559982274 S_num: 2 Bnum: 2
+EVA: 2 time: 1.8660041559982274 S_num: 1 Bnum: 3
+EVA: 3 time: 1.8660041559982274 S_num: 1 Bnum: 2
+EVA: 4 time: 1.8660041559982274 S_num: 1 Bnum: 1
+EVA: 5 time: 1.8660041559982274 S_num: 5 Bnum: 3
+EVA: 0 time: 1.9136659243780954 S_num: 3 Bnum: 2
+EVA: 1 time: 1.9136659243780954 S_num: 1 Bnum: 2
+EVA: 2 time: 1.9136659243780954 S_num: 1 Bnum: 3
+EVA: 3 time: 1.9136659243780954 S_num: 1 Bnum: 2
+EVA: 4 time: 1.9136659243780954 S_num: 1 Bnum: 1
+EVA: 5 time: 1.9136659243780954 S_num: 5 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.137 V: -88.933 pr: 0.19
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.061
+EVA_id: 2 dis: 207 price: 16.296 V: -87.688 pr: 0.294
+EVA_id: 4 dis: 224 price: 16.031 V: -86.877 pr: 0.391
+EVA_id: 5 dis: 352 price: 16.302 V: -92.068 pr: 0.064
+選択したEVA: 1
+EVA: 0 time: 1.9405853792152898 S_num: 3 Bnum: 2
+EVA: 1 time: 1.9405853792152898 S_num: 1 Bnum: 3
+EVA: 2 time: 1.9405853792152898 S_num: 1 Bnum: 3
+EVA: 3 time: 1.9405853792152898 S_num: 1 Bnum: 2
+EVA: 4 time: 1.9405853792152898 S_num: 1 Bnum: 1
+EVA: 5 time: 1.9405853792152898 S_num: 5 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.296 V: -89.458 pr: 0.144
+EVA_id: 2 dis: 408 price: 16.296 V: -93.718 pr: 0.032
+EVA_id: 3 dis: 226 price: 16.14 V: -87.479 pr: 0.288
+EVA_id: 5 dis: 140 price: 16.302 V: -85.708 pr: 0.535
+選択したEVA: 3
+EVA: 0 time: 1.9647083087700297 S_num: 3 Bnum: 2
+EVA: 1 time: 1.9647083087700297 S_num: 1 Bnum: 3
+EVA: 2 time: 1.9647083087700297 S_num: 1 Bnum: 3
+EVA: 3 time: 1.9647083087700297 S_num: 1 Bnum: 3
+EVA: 4 time: 1.9647083087700297 S_num: 1 Bnum: 1
+EVA: 5 time: 1.9647083087700297 S_num: 5 Bnum: 3
+EVA: 0 time: 1.9905606463748842 S_num: 2 Bnum: 2
+EVA: 1 time: 1.9905606463748842 S_num: 1 Bnum: 3
+EVA: 2 time: 1.9905606463748842 S_num: 1 Bnum: 3
+EVA: 3 time: 1.9905606463748842 S_num: 1 Bnum: 3
+EVA: 4 time: 1.9905606463748842 S_num: 1 Bnum: 1
+EVA: 5 time: 1.9905606463748842 S_num: 5 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.862 V: 66.059 pr: 0.166
+EVA_id: 1 dis: 383 price: 14.963 V: 63.325 pr: 0.064
+EVA_id: 2 dis: 207 price: 14.963 V: 68.605 pr: 0.405
+EVA_id: 4 dis: 224 price: 14.966 V: 68.112 pr: 0.341
+EVA_id: 5 dis: 352 price: 14.211 V: 60.497 pr: 0.024
+選択したEVA: 2
+EVA: 0 time: 2.0205101562423735 S_num: 2 Bnum: 2
+EVA: 1 time: 2.0205101562423735 S_num: 1 Bnum: 3
+EVA: 2 time: 2.0205101562423735 S_num: 2 Bnum: 3
+EVA: 3 time: 2.0205101562423735 S_num: 1 Bnum: 3
+EVA: 4 time: 2.0205101562423735 S_num: 1 Bnum: 1
+EVA: 5 time: 2.0205101562423735 S_num: 5 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.142 V: -88.959 pr: 0.192
+EVA_id: 1 dis: 383 price: 16.296 V: -92.968 pr: 0.047
+EVA_id: 2 dis: 207 price: 16.302 V: -87.719 pr: 0.297
+EVA_id: 4 dis: 224 price: 16.031 V: -86.877 pr: 0.399
+EVA_id: 5 dis: 352 price: 16.302 V: -92.068 pr: 0.065
+選択したEVA: 0
+EVA: 0 time: 2.0789659655050627 S_num: 2 Bnum: 3
+EVA: 1 time: 2.0789659655050627 S_num: 1 Bnum: 3
+EVA: 2 time: 2.0789659655050627 S_num: 2 Bnum: 3
+EVA: 3 time: 2.0789659655050627 S_num: 1 Bnum: 3
+EVA: 4 time: 2.0789659655050627 S_num: 1 Bnum: 1
+EVA: 5 time: 2.0789659655050627 S_num: 5 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.963 V: 66.835 pr: 0.269
+EVA_id: 2 dis: 408 price: 14.861 V: 62.067 pr: 0.051
+EVA_id: 3 dis: 226 price: 14.963 V: 68.035 pr: 0.409
+EVA_id: 5 dis: 140 price: 14.211 V: 66.857 pr: 0.271
+選択したEVA: 3
+EVA: 0 time: 2.0941697803598824 S_num: 2 Bnum: 3
+EVA: 1 time: 2.0941697803598824 S_num: 1 Bnum: 3
+EVA: 2 time: 2.0941697803598824 S_num: 2 Bnum: 3
+EVA: 3 time: 2.0941697803598824 S_num: 2 Bnum: 3
+EVA: 4 time: 2.0941697803598824 S_num: 1 Bnum: 1
+EVA: 5 time: 2.0941697803598824 S_num: 5 Bnum: 3
+EVA: 0 time: 2.103352781227486 S_num: 2 Bnum: 2
+EVA: 1 time: 2.103352781227486 S_num: 1 Bnum: 3
+EVA: 2 time: 2.103352781227486 S_num: 2 Bnum: 3
+EVA: 3 time: 2.103352781227486 S_num: 2 Bnum: 3
+EVA: 4 time: 2.103352781227486 S_num: 1 Bnum: 1
+EVA: 5 time: 2.103352781227486 S_num: 5 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.138 V: -88.942 pr: 0.193
+EVA_id: 1 dis: 383 price: 16.296 V: -92.968 pr: 0.047
+EVA_id: 2 dis: 207 price: 16.302 V: -87.719 pr: 0.297
+EVA_id: 4 dis: 224 price: 16.031 V: -86.877 pr: 0.398
+EVA_id: 5 dis: 352 price: 16.302 V: -92.068 pr: 0.065
+選択したEVA: 4
+EVA: 0 time: 2.140818683890309 S_num: 2 Bnum: 2
+EVA: 1 time: 2.140818683890309 S_num: 1 Bnum: 3
+EVA: 2 time: 2.140818683890309 S_num: 2 Bnum: 3
+EVA: 3 time: 2.140818683890309 S_num: 2 Bnum: 3
+EVA: 4 time: 2.140818683890309 S_num: 1 Bnum: 2
+EVA: 5 time: 2.140818683890309 S_num: 5 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.296 V: -89.458 pr: 0.155
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.035
+EVA_id: 3 dis: 226 price: 16.302 V: -88.289 pr: 0.234
+EVA_id: 5 dis: 140 price: 16.302 V: -85.708 pr: 0.577
+選択したEVA: 5
+EVA: 0 time: 2.2011125230393063 S_num: 2 Bnum: 2
+EVA: 1 time: 2.2011125230393063 S_num: 1 Bnum: 3
+EVA: 2 time: 2.2011125230393063 S_num: 2 Bnum: 3
+EVA: 3 time: 2.2011125230393063 S_num: 2 Bnum: 3
+EVA: 4 time: 2.2011125230393063 S_num: 1 Bnum: 2
+EVA: 5 time: 2.2011125230393063 S_num: 5 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.86 V: 66.051 pr: 0.178
+EVA_id: 1 dis: 383 price: 14.963 V: 63.325 pr: 0.068
+EVA_id: 2 dis: 207 price: 14.861 V: 68.097 pr: 0.363
+EVA_id: 4 dis: 224 price: 14.966 V: 68.111 pr: 0.365
+EVA_id: 5 dis: 352 price: 14.211 V: 60.497 pr: 0.025
+選択したEVA: 2
+EVA: 0 time: 2.2106460281431786 S_num: 2 Bnum: 2
+EVA: 1 time: 2.2106460281431786 S_num: 1 Bnum: 3
+EVA: 2 time: 2.2106460281431786 S_num: 3 Bnum: 3
+EVA: 3 time: 2.2106460281431786 S_num: 2 Bnum: 3
+EVA: 4 time: 2.2106460281431786 S_num: 1 Bnum: 2
+EVA: 5 time: 2.2106460281431786 S_num: 5 Bnum: 4
+EVA: 0 time: 2.2359669230523265 S_num: 2 Bnum: 2
+EVA: 1 time: 2.2359669230523265 S_num: 1 Bnum: 3
+EVA: 2 time: 2.2359669230523265 S_num: 3 Bnum: 3
+EVA: 3 time: 2.2359669230523265 S_num: 2 Bnum: 3
+EVA: 4 time: 2.2359669230523265 S_num: 1 Bnum: 2
+EVA: 5 time: 2.2359669230523265 S_num: 4 Bnum: 4
+EVA: 0 time: 2.264594648272866 S_num: 1 Bnum: 2
+EVA: 1 time: 2.264594648272866 S_num: 1 Bnum: 3
+EVA: 2 time: 2.264594648272866 S_num: 3 Bnum: 3
+EVA: 3 time: 2.264594648272866 S_num: 2 Bnum: 3
+EVA: 4 time: 2.264594648272866 S_num: 1 Bnum: 2
+EVA: 5 time: 2.264594648272866 S_num: 4 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.296 V: -89.458 pr: 0.19
+EVA_id: 2 dis: 408 price: 16.3 V: -93.741 pr: 0.042
+EVA_id: 3 dis: 226 price: 16.302 V: -88.289 pr: 0.286
+EVA_id: 5 dis: 140 price: 16.52 V: -86.801 pr: 0.481
+選択したEVA: 3
+EVA: 0 time: 2.288894787610256 S_num: 1 Bnum: 2
+EVA: 1 time: 2.288894787610256 S_num: 1 Bnum: 3
+EVA: 2 time: 2.288894787610256 S_num: 3 Bnum: 3
+EVA: 3 time: 2.288894787610256 S_num: 2 Bnum: 4
+EVA: 4 time: 2.288894787610256 S_num: 1 Bnum: 2
+EVA: 5 time: 2.288894787610256 S_num: 4 Bnum: 4
+EVA: 0 time: 2.2952217954188487 S_num: 1 Bnum: 2
+EVA: 1 time: 2.2952217954188487 S_num: 1 Bnum: 2
+EVA: 2 time: 2.2952217954188487 S_num: 3 Bnum: 3
+EVA: 3 time: 2.2952217954188487 S_num: 2 Bnum: 4
+EVA: 4 time: 2.2952217954188487 S_num: 1 Bnum: 2
+EVA: 5 time: 2.2952217954188487 S_num: 4 Bnum: 4
+EVA: 0 time: 2.355543407679951 S_num: 1 Bnum: 2
+EVA: 1 time: 2.355543407679951 S_num: 1 Bnum: 2
+EVA: 2 time: 2.355543407679951 S_num: 3 Bnum: 3
+EVA: 3 time: 2.355543407679951 S_num: 2 Bnum: 4
+EVA: 4 time: 2.355543407679951 S_num: 1 Bnum: 2
+EVA: 5 time: 2.355543407679951 S_num: 3 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.966 V: 66.581 pr: 0.218
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.07
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.279
+EVA_id: 4 dis: 224 price: 14.966 V: 68.111 pr: 0.372
+EVA_id: 5 dis: 352 price: 14.698 V: 62.929 pr: 0.061
+選択したEVA: 4
+EVA: 0 time: 2.404426576613462 S_num: 1 Bnum: 2
+EVA: 1 time: 2.404426576613462 S_num: 1 Bnum: 2
+EVA: 2 time: 2.404426576613462 S_num: 3 Bnum: 3
+EVA: 3 time: 2.404426576613462 S_num: 2 Bnum: 4
+EVA: 4 time: 2.404426576613462 S_num: 2 Bnum: 2
+EVA: 5 time: 2.404426576613462 S_num: 3 Bnum: 4
+EVA: 0 time: 2.4111821670709426 S_num: 1 Bnum: 2
+EVA: 1 time: 2.4111821670709426 S_num: 1 Bnum: 2
+EVA: 2 time: 2.4111821670709426 S_num: 3 Bnum: 3
+EVA: 3 time: 2.4111821670709426 S_num: 2 Bnum: 4
+EVA: 4 time: 2.4111821670709426 S_num: 2 Bnum: 2
+EVA: 5 time: 2.4111821670709426 S_num: 2 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.209
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.067
+EVA_id: 2 dis: 207 price: 16.3 V: -87.711 pr: 0.322
+EVA_id: 4 dis: 224 price: 16.142 V: -87.429 pr: 0.355
+EVA_id: 5 dis: 352 price: 16.52 V: -93.158 pr: 0.048
+選択したEVA: 4
+EVA: 0 time: 2.476260024051954 S_num: 1 Bnum: 2
+EVA: 1 time: 2.476260024051954 S_num: 1 Bnum: 2
+EVA: 2 time: 2.476260024051954 S_num: 3 Bnum: 3
+EVA: 3 time: 2.476260024051954 S_num: 2 Bnum: 4
+EVA: 4 time: 2.476260024051954 S_num: 2 Bnum: 3
+EVA: 5 time: 2.476260024051954 S_num: 2 Bnum: 4
+EVA: 0 time: 2.447245982988053 S_num: 1 Bnum: 2
+EVA: 1 time: 2.447245982988053 S_num: 1 Bnum: 2
+EVA: 2 time: 2.447245982988053 S_num: 3 Bnum: 3
+EVA: 3 time: 2.447245982988053 S_num: 2 Bnum: 4
+EVA: 4 time: 2.447245982988053 S_num: 2 Bnum: 3
+EVA: 5 time: 2.447245982988053 S_num: 1 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.228
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.073
+EVA_id: 2 dis: 207 price: 16.3 V: -87.711 pr: 0.352
+EVA_id: 4 dis: 224 price: 16.302 V: -88.23 pr: 0.294
+EVA_id: 5 dis: 352 price: 16.521 V: -93.163 pr: 0.052
+選択したEVA: 4
+EVA: 0 time: 2.4896041303686793 S_num: 1 Bnum: 2
+EVA: 1 time: 2.4896041303686793 S_num: 1 Bnum: 2
+EVA: 2 time: 2.4896041303686793 S_num: 3 Bnum: 3
+EVA: 3 time: 2.4896041303686793 S_num: 2 Bnum: 4
+EVA: 4 time: 2.4896041303686793 S_num: 2 Bnum: 4
+EVA: 5 time: 2.4896041303686793 S_num: 1 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.257
+EVA_id: 2 dis: 408 price: 16.3 V: -93.741 pr: 0.044
+EVA_id: 3 dis: 226 price: 16.516 V: -89.359 pr: 0.203
+EVA_id: 5 dis: 140 price: 16.521 V: -86.803 pr: 0.496
+選択したEVA: 5
+EVA: 0 time: 2.495320891401119 S_num: 1 Bnum: 2
+EVA: 1 time: 2.495320891401119 S_num: 1 Bnum: 2
+EVA: 2 time: 2.495320891401119 S_num: 3 Bnum: 3
+EVA: 3 time: 2.495320891401119 S_num: 2 Bnum: 4
+EVA: 4 time: 2.495320891401119 S_num: 2 Bnum: 4
+EVA: 5 time: 2.495320891401119 S_num: 1 Bnum: 5
+EVA: 0 time: 2.4956379262382358 S_num: 1 Bnum: 2
+EVA: 1 time: 2.4956379262382358 S_num: 1 Bnum: 2
+EVA: 2 time: 2.4956379262382358 S_num: 3 Bnum: 3
+EVA: 3 time: 2.4956379262382358 S_num: 2 Bnum: 4
+EVA: 4 time: 2.4956379262382358 S_num: 2 Bnum: 4
+EVA: 5 time: 2.4956379262382358 S_num: 1 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.251
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.081
+EVA_id: 2 dis: 207 price: 16.3 V: -87.711 pr: 0.388
+EVA_id: 4 dis: 224 price: 16.516 V: -89.299 pr: 0.222
+EVA_id: 5 dis: 352 price: 16.521 V: -93.163 pr: 0.058
+選択したEVA: 4
+EVA: 0 time: 2.5135697858265464 S_num: 1 Bnum: 2
+EVA: 1 time: 2.5135697858265464 S_num: 1 Bnum: 2
+EVA: 2 time: 2.5135697858265464 S_num: 3 Bnum: 3
+EVA: 3 time: 2.5135697858265464 S_num: 2 Bnum: 4
+EVA: 4 time: 2.5135697858265464 S_num: 2 Bnum: 5
+EVA: 5 time: 2.5135697858265464 S_num: 1 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.257
+EVA_id: 2 dis: 408 price: 16.3 V: -93.741 pr: 0.044
+EVA_id: 3 dis: 226 price: 16.516 V: -89.359 pr: 0.203
+EVA_id: 5 dis: 140 price: 16.521 V: -86.803 pr: 0.496
+選択したEVA: 3
+EVA: 0 time: 2.518283401872892 S_num: 1 Bnum: 2
+EVA: 1 time: 2.518283401872892 S_num: 1 Bnum: 2
+EVA: 2 time: 2.518283401872892 S_num: 3 Bnum: 3
+EVA: 3 time: 2.518283401872892 S_num: 2 Bnum: 5
+EVA: 4 time: 2.518283401872892 S_num: 2 Bnum: 5
+EVA: 5 time: 2.518283401872892 S_num: 1 Bnum: 4
+EVA: 0 time: 2.5188043204135773 S_num: 1 Bnum: 2
+EVA: 1 time: 2.5188043204135773 S_num: 1 Bnum: 2
+EVA: 2 time: 2.5188043204135773 S_num: 3 Bnum: 3
+EVA: 3 time: 2.5188043204135773 S_num: 2 Bnum: 5
+EVA: 4 time: 2.5188043204135773 S_num: 2 Bnum: 5
+EVA: 5 time: 2.5188043204135773 S_num: 1 Bnum: 3
+EVA: 0 time: 2.5544143068046585 S_num: 1 Bnum: 2
+EVA: 1 time: 2.5544143068046585 S_num: 1 Bnum: 2
+EVA: 2 time: 2.5544143068046585 S_num: 3 Bnum: 2
+EVA: 3 time: 2.5544143068046585 S_num: 2 Bnum: 5
+EVA: 4 time: 2.5544143068046585 S_num: 2 Bnum: 5
+EVA: 5 time: 2.5544143068046585 S_num: 1 Bnum: 3
+EVA: 0 time: 2.5900477125888033 S_num: 1 Bnum: 2
+EVA: 1 time: 2.5900477125888033 S_num: 1 Bnum: 1
+EVA: 2 time: 2.5900477125888033 S_num: 3 Bnum: 2
+EVA: 3 time: 2.5900477125888033 S_num: 2 Bnum: 5
+EVA: 4 time: 2.5900477125888033 S_num: 2 Bnum: 5
+EVA: 5 time: 2.5900477125888033 S_num: 1 Bnum: 3
+EVA: 0 time: 2.6183450265862693 S_num: 1 Bnum: 1
+EVA: 1 time: 2.6183450265862693 S_num: 1 Bnum: 1
+EVA: 2 time: 2.6183450265862693 S_num: 3 Bnum: 2
+EVA: 3 time: 2.6183450265862693 S_num: 2 Bnum: 5
+EVA: 4 time: 2.6183450265862693 S_num: 2 Bnum: 5
+EVA: 5 time: 2.6183450265862693 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.163
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.023
+EVA_id: 3 dis: 226 price: 14.863 V: 67.535 pr: 0.207
+EVA_id: 5 dis: 140 price: 14.963 V: 70.615 pr: 0.608
+選択したEVA: 3
+EVA: 0 time: 2.62805417623498 S_num: 1 Bnum: 1
+EVA: 1 time: 2.62805417623498 S_num: 1 Bnum: 1
+EVA: 2 time: 2.62805417623498 S_num: 3 Bnum: 2
+EVA: 3 time: 2.62805417623498 S_num: 3 Bnum: 5
+EVA: 4 time: 2.62805417623498 S_num: 2 Bnum: 5
+EVA: 5 time: 2.62805417623498 S_num: 1 Bnum: 3
+EVA: 0 time: 2.624102613587576 S_num: 1 Bnum: 1
+EVA: 1 time: 2.624102613587576 S_num: 1 Bnum: 1
+EVA: 2 time: 2.624102613587576 S_num: 3 Bnum: 2
+EVA: 3 time: 2.624102613587576 S_num: 2 Bnum: 5
+EVA: 4 time: 2.624102613587576 S_num: 2 Bnum: 5
+EVA: 5 time: 2.624102613587576 S_num: 1 Bnum: 3
+EVA: 0 time: 2.627441423565168 S_num: 1 Bnum: 1
+EVA: 1 time: 2.627441423565168 S_num: 1 Bnum: 1
+EVA: 2 time: 2.627441423565168 S_num: 3 Bnum: 1
+EVA: 3 time: 2.627441423565168 S_num: 2 Bnum: 5
+EVA: 4 time: 2.627441423565168 S_num: 2 Bnum: 5
+EVA: 5 time: 2.627441423565168 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.163
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.023
+EVA_id: 3 dis: 226 price: 14.862 V: 67.528 pr: 0.206
+EVA_id: 5 dis: 140 price: 14.963 V: 70.615 pr: 0.608
+選択したEVA: 5
+EVA: 0 time: 2.630360461978703 S_num: 1 Bnum: 1
+EVA: 1 time: 2.630360461978703 S_num: 1 Bnum: 1
+EVA: 2 time: 2.630360461978703 S_num: 3 Bnum: 1
+EVA: 3 time: 2.630360461978703 S_num: 2 Bnum: 5
+EVA: 4 time: 2.630360461978703 S_num: 2 Bnum: 5
+EVA: 5 time: 2.630360461978703 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.227
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.073
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.291
+EVA_id: 4 dis: 224 price: 14.863 V: 67.593 pr: 0.324
+EVA_id: 5 dis: 352 price: 14.861 V: 63.747 pr: 0.084
+選択したEVA: 4
+EVA: 0 time: 2.6327444748496647 S_num: 1 Bnum: 1
+EVA: 1 time: 2.6327444748496647 S_num: 1 Bnum: 1
+EVA: 2 time: 2.6327444748496647 S_num: 3 Bnum: 1
+EVA: 3 time: 2.6327444748496647 S_num: 2 Bnum: 5
+EVA: 4 time: 2.6327444748496647 S_num: 3 Bnum: 5
+EVA: 5 time: 2.6327444748496647 S_num: 2 Bnum: 3
+EVA: 0 time: 2.6486215898646623 S_num: 1 Bnum: 1
+EVA: 1 time: 2.6486215898646623 S_num: 1 Bnum: 1
+EVA: 2 time: 2.6486215898646623 S_num: 3 Bnum: 1
+EVA: 3 time: 2.6486215898646623 S_num: 2 Bnum: 4
+EVA: 4 time: 2.6486215898646623 S_num: 3 Bnum: 5
+EVA: 5 time: 2.6486215898646623 S_num: 2 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.181
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.025
+EVA_id: 3 dis: 226 price: 14.864 V: 67.542 pr: 0.23
+EVA_id: 5 dis: 140 price: 14.861 V: 70.107 pr: 0.564
+選択したEVA: 3
+EVA: 0 time: 2.701968775938242 S_num: 1 Bnum: 1
+EVA: 1 time: 2.701968775938242 S_num: 1 Bnum: 1
+EVA: 2 time: 2.701968775938242 S_num: 3 Bnum: 1
+EVA: 3 time: 2.701968775938242 S_num: 3 Bnum: 4
+EVA: 4 time: 2.701968775938242 S_num: 3 Bnum: 5
+EVA: 5 time: 2.701968775938242 S_num: 2 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.966 V: 66.852 pr: 0.192
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.027
+EVA_id: 3 dis: 226 price: 14.699 V: 66.715 pr: 0.183
+EVA_id: 5 dis: 140 price: 14.861 V: 70.107 pr: 0.599
+選択したEVA: 1
+EVA: 0 time: 2.71491305748067 S_num: 1 Bnum: 1
+EVA: 1 time: 2.71491305748067 S_num: 2 Bnum: 1
+EVA: 2 time: 2.71491305748067 S_num: 3 Bnum: 1
+EVA: 3 time: 2.71491305748067 S_num: 3 Bnum: 4
+EVA: 4 time: 2.71491305748067 S_num: 3 Bnum: 5
+EVA: 5 time: 2.71491305748067 S_num: 2 Bnum: 3
+EVA: 0 time: 2.7223171987180868 S_num: 1 Bnum: 1
+EVA: 1 time: 2.7223171987180868 S_num: 2 Bnum: 1
+EVA: 2 time: 2.7223171987180868 S_num: 2 Bnum: 1
+EVA: 3 time: 2.7223171987180868 S_num: 3 Bnum: 4
+EVA: 4 time: 2.7223171987180868 S_num: 3 Bnum: 5
+EVA: 5 time: 2.7223171987180868 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.227
+EVA_id: 1 dis: 383 price: 14.862 V: 62.821 pr: 0.061
+EVA_id: 2 dis: 207 price: 14.862 V: 68.101 pr: 0.386
+EVA_id: 4 dis: 224 price: 14.7 V: 66.781 pr: 0.243
+EVA_id: 5 dis: 352 price: 14.861 V: 63.747 pr: 0.084
+選択したEVA: 2
+EVA: 0 time: 2.737445151730159 S_num: 1 Bnum: 1
+EVA: 1 time: 2.737445151730159 S_num: 2 Bnum: 1
+EVA: 2 time: 2.737445151730159 S_num: 3 Bnum: 1
+EVA: 3 time: 2.737445151730159 S_num: 3 Bnum: 4
+EVA: 4 time: 2.737445151730159 S_num: 3 Bnum: 5
+EVA: 5 time: 2.737445151730159 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.245
+EVA_id: 1 dis: 383 price: 16.036 V: -91.671 pr: 0.078
+EVA_id: 2 dis: 207 price: 16.036 V: -86.392 pr: 0.497
+EVA_id: 4 dis: 224 price: 16.788 V: -90.662 pr: 0.111
+EVA_id: 5 dis: 352 price: 16.302 V: -92.069 pr: 0.068
+選択したEVA: 5
+EVA: 0 time: 2.7397826991009504 S_num: 1 Bnum: 1
+EVA: 1 time: 2.7397826991009504 S_num: 2 Bnum: 1
+EVA: 2 time: 2.7397826991009504 S_num: 3 Bnum: 1
+EVA: 3 time: 2.7397826991009504 S_num: 3 Bnum: 4
+EVA: 4 time: 2.7397826991009504 S_num: 3 Bnum: 5
+EVA: 5 time: 2.7397826991009504 S_num: 2 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.25
+EVA_id: 1 dis: 383 price: 14.862 V: 62.821 pr: 0.067
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.32
+EVA_id: 4 dis: 224 price: 14.7 V: 66.781 pr: 0.269
+EVA_id: 5 dis: 352 price: 14.864 V: 63.762 pr: 0.093
+選択したEVA: 1
+EVA: 0 time: 2.7676817574496053 S_num: 1 Bnum: 1
+EVA: 1 time: 2.7676817574496053 S_num: 3 Bnum: 1
+EVA: 2 time: 2.7676817574496053 S_num: 3 Bnum: 1
+EVA: 3 time: 2.7676817574496053 S_num: 3 Bnum: 4
+EVA: 4 time: 2.7676817574496053 S_num: 3 Bnum: 5
+EVA: 5 time: 2.7676817574496053 S_num: 2 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.251
+EVA_id: 1 dis: 383 price: 16.036 V: -91.672 pr: 0.08
+EVA_id: 2 dis: 207 price: 16.036 V: -86.392 pr: 0.508
+EVA_id: 4 dis: 224 price: 16.788 V: -90.662 pr: 0.114
+EVA_id: 5 dis: 352 price: 16.516 V: -93.139 pr: 0.048
+選択したEVA: 0
+EVA: 0 time: 2.7829067679167654 S_num: 1 Bnum: 2
+EVA: 1 time: 2.7829067679167654 S_num: 3 Bnum: 1
+EVA: 2 time: 2.7829067679167654 S_num: 3 Bnum: 1
+EVA: 3 time: 2.7829067679167654 S_num: 3 Bnum: 4
+EVA: 4 time: 2.7829067679167654 S_num: 3 Bnum: 5
+EVA: 5 time: 2.7829067679167654 S_num: 2 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.036 V: -88.162 pr: 0.286
+EVA_id: 2 dis: 408 price: 16.036 V: -92.422 pr: 0.064
+EVA_id: 3 dis: 226 price: 16.519 V: -89.376 pr: 0.187
+EVA_id: 5 dis: 140 price: 16.516 V: -86.779 pr: 0.463
+選択したEVA: 2
+EVA: 0 time: 2.7869900432443893 S_num: 1 Bnum: 2
+EVA: 1 time: 2.7869900432443893 S_num: 3 Bnum: 1
+EVA: 2 time: 2.7869900432443893 S_num: 3 Bnum: 2
+EVA: 3 time: 2.7869900432443893 S_num: 3 Bnum: 4
+EVA: 4 time: 2.7869900432443893 S_num: 3 Bnum: 5
+EVA: 5 time: 2.7869900432443893 S_num: 2 Bnum: 4
+EVA_id: 1 dis: 266 price: 14.699 V: 65.516 pr: 0.129
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.029
+EVA_id: 3 dis: 226 price: 14.699 V: 66.715 pr: 0.196
+EVA_id: 5 dis: 140 price: 14.864 V: 70.122 pr: 0.646
+選択したEVA: 5
+EVA: 0 time: 2.7928064013935634 S_num: 1 Bnum: 2
+EVA: 1 time: 2.7928064013935634 S_num: 3 Bnum: 1
+EVA: 2 time: 2.7928064013935634 S_num: 3 Bnum: 2
+EVA: 3 time: 2.7928064013935634 S_num: 3 Bnum: 4
+EVA: 4 time: 2.7928064013935634 S_num: 3 Bnum: 5
+EVA: 5 time: 2.7928064013935634 S_num: 3 Bnum: 4
+EVA: 0 time: 2.887659259659687 S_num: 1 Bnum: 2
+EVA: 1 time: 2.887659259659687 S_num: 3 Bnum: 1
+EVA: 2 time: 2.887659259659687 S_num: 3 Bnum: 2
+EVA: 3 time: 2.887659259659687 S_num: 3 Bnum: 4
+EVA: 4 time: 2.887659259659687 S_num: 3 Bnum: 4
+EVA: 5 time: 2.887659259659687 S_num: 3 Bnum: 4
+EVA: 0 time: 2.9308250739796518 S_num: 1 Bnum: 2
+EVA: 1 time: 2.9308250739796518 S_num: 3 Bnum: 1
+EVA: 2 time: 2.9308250739796518 S_num: 3 Bnum: 2
+EVA: 3 time: 2.9308250739796518 S_num: 3 Bnum: 3
+EVA: 4 time: 2.9308250739796518 S_num: 3 Bnum: 4
+EVA: 5 time: 2.9308250739796518 S_num: 3 Bnum: 4
+EVA: 0 time: 2.9769130813177194 S_num: 1 Bnum: 2
+EVA: 1 time: 2.9769130813177194 S_num: 3 Bnum: 1
+EVA: 2 time: 2.9769130813177194 S_num: 2 Bnum: 2
+EVA: 3 time: 2.9769130813177194 S_num: 3 Bnum: 3
+EVA: 4 time: 2.9769130813177194 S_num: 3 Bnum: 4
+EVA: 5 time: 2.9769130813177194 S_num: 3 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.036 V: -88.162 pr: 0.266
+EVA_id: 2 dis: 408 price: 16.138 V: -92.932 pr: 0.05
+EVA_id: 3 dis: 226 price: 16.3 V: -88.281 pr: 0.255
+EVA_id: 5 dis: 140 price: 16.519 V: -86.796 pr: 0.429
+選択したEVA: 2
+EVA: 0 time: 3.000545744796627 S_num: 1 Bnum: 2
+EVA: 1 time: 3.000545744796627 S_num: 3 Bnum: 1
+EVA: 2 time: 3.000545744796627 S_num: 2 Bnum: 3
+EVA: 3 time: 3.000545744796627 S_num: 3 Bnum: 3
+EVA: 4 time: 3.000545744796627 S_num: 3 Bnum: 4
+EVA: 5 time: 3.000545744796627 S_num: 3 Bnum: 4
+EVA: 0 time: 3.08714265613211 S_num: 1 Bnum: 2
+EVA: 1 time: 3.08714265613211 S_num: 3 Bnum: 1
+EVA: 2 time: 3.08714265613211 S_num: 2 Bnum: 3
+EVA: 3 time: 3.08714265613211 S_num: 3 Bnum: 3
+EVA: 4 time: 3.08714265613211 S_num: 2 Bnum: 4
+EVA: 5 time: 3.08714265613211 S_num: 3 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.966 V: 66.581 pr: 0.217
+EVA_id: 1 dis: 383 price: 14.699 V: 62.006 pr: 0.044
+EVA_id: 2 dis: 207 price: 14.862 V: 68.098 pr: 0.369
+EVA_id: 4 dis: 224 price: 14.864 V: 67.602 pr: 0.31
+EVA_id: 5 dis: 352 price: 14.698 V: 62.929 pr: 0.06
+選択したEVA: 2
+EVA: 0 time: 3.125439900767261 S_num: 1 Bnum: 2
+EVA: 1 time: 3.125439900767261 S_num: 3 Bnum: 1
+EVA: 2 time: 3.125439900767261 S_num: 3 Bnum: 3
+EVA: 3 time: 3.125439900767261 S_num: 3 Bnum: 3
+EVA: 4 time: 3.125439900767261 S_num: 2 Bnum: 4
+EVA: 5 time: 3.125439900767261 S_num: 3 Bnum: 4
+EVA: 0 time: 3.1738722701165454 S_num: 1 Bnum: 2
+EVA: 1 time: 3.1738722701165454 S_num: 3 Bnum: 1
+EVA: 2 time: 3.1738722701165454 S_num: 3 Bnum: 3
+EVA: 3 time: 3.1738722701165454 S_num: 3 Bnum: 3
+EVA: 4 time: 3.1738722701165454 S_num: 2 Bnum: 4
+EVA: 5 time: 3.1738722701165454 S_num: 3 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.036 V: -88.162 pr: 0.224
+EVA_id: 2 dis: 408 price: 16.298 V: -93.73 pr: 0.032
+EVA_id: 3 dis: 226 price: 16.3 V: -88.281 pr: 0.215
+EVA_id: 5 dis: 140 price: 16.302 V: -85.708 pr: 0.529
+選択したEVA: 5
+EVA: 0 time: 3.182025504136099 S_num: 1 Bnum: 2
+EVA: 1 time: 3.182025504136099 S_num: 3 Bnum: 1
+EVA: 2 time: 3.182025504136099 S_num: 3 Bnum: 3
+EVA: 3 time: 3.182025504136099 S_num: 3 Bnum: 3
+EVA: 4 time: 3.182025504136099 S_num: 2 Bnum: 4
+EVA: 5 time: 3.182025504136099 S_num: 3 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.247
+EVA_id: 1 dis: 383 price: 16.036 V: -91.672 pr: 0.095
+EVA_id: 2 dis: 207 price: 16.298 V: -87.7 pr: 0.383
+EVA_id: 4 dis: 224 price: 16.516 V: -89.299 pr: 0.219
+EVA_id: 5 dis: 352 price: 16.52 V: -93.158 pr: 0.057
+選択したEVA: 2
+EVA: 0 time: 3.1824633922881507 S_num: 1 Bnum: 2
+EVA: 1 time: 3.1824633922881507 S_num: 3 Bnum: 1
+EVA: 2 time: 3.1824633922881507 S_num: 3 Bnum: 4
+EVA: 3 time: 3.1824633922881507 S_num: 3 Bnum: 3
+EVA: 4 time: 3.1824633922881507 S_num: 2 Bnum: 4
+EVA: 5 time: 3.1824633922881507 S_num: 3 Bnum: 4
+EVA_id: 1 dis: 266 price: 14.699 V: 65.516 pr: 0.154
+EVA_id: 2 dis: 408 price: 14.699 V: 61.257 pr: 0.035
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.234
+EVA_id: 5 dis: 140 price: 14.698 V: 69.288 pr: 0.577
+選択したEVA: 5
+EVA: 0 time: 3.219721169359723 S_num: 1 Bnum: 2
+EVA: 1 time: 3.219721169359723 S_num: 3 Bnum: 1
+EVA: 2 time: 3.219721169359723 S_num: 3 Bnum: 4
+EVA: 3 time: 3.219721169359723 S_num: 3 Bnum: 3
+EVA: 4 time: 3.219721169359723 S_num: 2 Bnum: 4
+EVA: 5 time: 3.219721169359723 S_num: 4 Bnum: 4
+EVA_id: 1 dis: 266 price: 14.699 V: 65.516 pr: 0.188
+EVA_id: 2 dis: 408 price: 14.699 V: 61.257 pr: 0.042
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.287
+EVA_id: 5 dis: 140 price: 14.48 V: 68.199 pr: 0.482
+選択したEVA: 3
+EVA: 0 time: 3.2452428626172733 S_num: 1 Bnum: 2
+EVA: 1 time: 3.2452428626172733 S_num: 3 Bnum: 1
+EVA: 2 time: 3.2452428626172733 S_num: 3 Bnum: 4
+EVA: 3 time: 3.2452428626172733 S_num: 4 Bnum: 3
+EVA: 4 time: 3.2452428626172733 S_num: 2 Bnum: 4
+EVA: 5 time: 3.2452428626172733 S_num: 4 Bnum: 4
+EVA: 0 time: 3.272656613193777 S_num: 1 Bnum: 2
+EVA: 1 time: 3.272656613193777 S_num: 3 Bnum: 1
+EVA: 2 time: 3.272656613193777 S_num: 3 Bnum: 4
+EVA: 3 time: 3.272656613193777 S_num: 4 Bnum: 2
+EVA: 4 time: 3.272656613193777 S_num: 2 Bnum: 4
+EVA: 5 time: 3.272656613193777 S_num: 4 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.036 V: -88.162 pr: 0.251
+EVA_id: 2 dis: 408 price: 16.519 V: -94.836 pr: 0.024
+EVA_id: 3 dis: 226 price: 16.139 V: -87.473 pr: 0.32
+EVA_id: 5 dis: 140 price: 16.521 V: -86.805 pr: 0.404
+選択したEVA: 5
+EVA: 0 time: 3.276590827301316 S_num: 1 Bnum: 2
+EVA: 1 time: 3.276590827301316 S_num: 3 Bnum: 1
+EVA: 2 time: 3.276590827301316 S_num: 3 Bnum: 4
+EVA: 3 time: 3.276590827301316 S_num: 4 Bnum: 2
+EVA: 4 time: 3.276590827301316 S_num: 2 Bnum: 4
+EVA: 5 time: 3.276590827301316 S_num: 4 Bnum: 5
+EVA: 0 time: 3.3141570316880986 S_num: 1 Bnum: 1
+EVA: 1 time: 3.3141570316880986 S_num: 3 Bnum: 1
+EVA: 2 time: 3.3141570316880986 S_num: 3 Bnum: 4
+EVA: 3 time: 3.3141570316880986 S_num: 4 Bnum: 2
+EVA: 4 time: 3.3141570316880986 S_num: 2 Bnum: 4
+EVA: 5 time: 3.3141570316880986 S_num: 4 Bnum: 5
+EVA: 0 time: 3.315460561658238 S_num: 1 Bnum: 1
+EVA: 1 time: 3.315460561658238 S_num: 3 Bnum: 1
+EVA: 2 time: 3.315460561658238 S_num: 3 Bnum: 4
+EVA: 3 time: 3.315460561658238 S_num: 4 Bnum: 2
+EVA: 4 time: 3.315460561658238 S_num: 1 Bnum: 4
+EVA: 5 time: 3.315460561658238 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.036 V: -88.162 pr: 0.296
+EVA_id: 2 dis: 408 price: 16.519 V: -94.836 pr: 0.029
+EVA_id: 3 dis: 226 price: 16.139 V: -87.473 pr: 0.377
+EVA_id: 5 dis: 140 price: 16.788 V: -88.138 pr: 0.299
+選択したEVA: 3
+EVA: 0 time: 3.406210532500856 S_num: 1 Bnum: 1
+EVA: 1 time: 3.406210532500856 S_num: 3 Bnum: 1
+EVA: 2 time: 3.406210532500856 S_num: 3 Bnum: 4
+EVA: 3 time: 3.406210532500856 S_num: 4 Bnum: 3
+EVA: 4 time: 3.406210532500856 S_num: 1 Bnum: 4
+EVA: 5 time: 3.406210532500856 S_num: 4 Bnum: 5
+EVA: 0 time: 3.3710676591315196 S_num: 1 Bnum: 1
+EVA: 1 time: 3.3710676591315196 S_num: 3 Bnum: 1
+EVA: 2 time: 3.3710676591315196 S_num: 3 Bnum: 4
+EVA: 3 time: 3.3710676591315196 S_num: 4 Bnum: 2
+EVA: 4 time: 3.3710676591315196 S_num: 1 Bnum: 4
+EVA: 5 time: 3.3710676591315196 S_num: 4 Bnum: 5
+EVA: 0 time: 3.3923699188764886 S_num: 1 Bnum: 1
+EVA: 1 time: 3.3923699188764886 S_num: 3 Bnum: 1
+EVA: 2 time: 3.3923699188764886 S_num: 3 Bnum: 4
+EVA: 3 time: 3.3923699188764886 S_num: 4 Bnum: 2
+EVA: 4 time: 3.3923699188764886 S_num: 1 Bnum: 4
+EVA: 5 time: 3.3923699188764886 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.036 V: -88.162 pr: 0.296
+EVA_id: 2 dis: 408 price: 16.519 V: -94.836 pr: 0.029
+EVA_id: 3 dis: 226 price: 16.138 V: -87.469 pr: 0.377
+EVA_id: 5 dis: 140 price: 16.788 V: -88.142 pr: 0.298
+選択したEVA: 1
+EVA: 0 time: 3.4086001647920394 S_num: 1 Bnum: 1
+EVA: 1 time: 3.4086001647920394 S_num: 3 Bnum: 2
+EVA: 2 time: 3.4086001647920394 S_num: 3 Bnum: 4
+EVA: 3 time: 3.4086001647920394 S_num: 4 Bnum: 2
+EVA: 4 time: 3.4086001647920394 S_num: 1 Bnum: 4
+EVA: 5 time: 3.4086001647920394 S_num: 3 Bnum: 5
+EVA: 0 time: 3.420757084626508 S_num: 1 Bnum: 1
+EVA: 1 time: 3.420757084626508 S_num: 3 Bnum: 2
+EVA: 2 time: 3.420757084626508 S_num: 3 Bnum: 4
+EVA: 3 time: 3.420757084626508 S_num: 3 Bnum: 2
+EVA: 4 time: 3.420757084626508 S_num: 1 Bnum: 4
+EVA: 5 time: 3.420757084626508 S_num: 3 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.224
+EVA_id: 1 dis: 383 price: 14.699 V: 62.006 pr: 0.045
+EVA_id: 2 dis: 207 price: 14.699 V: 67.287 pr: 0.287
+EVA_id: 4 dis: 224 price: 14.964 V: 68.101 pr: 0.381
+EVA_id: 5 dis: 352 price: 14.698 V: 62.931 pr: 0.062
+選択したEVA: 5
+EVA: 0 time: 3.4525179572242832 S_num: 1 Bnum: 1
+EVA: 1 time: 3.4525179572242832 S_num: 3 Bnum: 2
+EVA: 2 time: 3.4525179572242832 S_num: 3 Bnum: 4
+EVA: 3 time: 3.4525179572242832 S_num: 3 Bnum: 2
+EVA: 4 time: 3.4525179572242832 S_num: 1 Bnum: 4
+EVA: 5 time: 3.4525179572242832 S_num: 4 Bnum: 5
+EVA: 0 time: 3.462569453211318 S_num: 1 Bnum: 1
+EVA: 1 time: 3.462569453211318 S_num: 3 Bnum: 2
+EVA: 2 time: 3.462569453211318 S_num: 2 Bnum: 4
+EVA: 3 time: 3.462569453211318 S_num: 3 Bnum: 2
+EVA: 4 time: 3.462569453211318 S_num: 1 Bnum: 4
+EVA: 5 time: 3.462569453211318 S_num: 4 Bnum: 5
+EVA: 0 time: 3.4777921981988436 S_num: 1 Bnum: 1
+EVA: 1 time: 3.4777921981988436 S_num: 2 Bnum: 2
+EVA: 2 time: 3.4777921981988436 S_num: 2 Bnum: 4
+EVA: 3 time: 3.4777921981988436 S_num: 3 Bnum: 2
+EVA: 4 time: 3.4777921981988436 S_num: 1 Bnum: 4
+EVA: 5 time: 3.4777921981988436 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.138 V: -88.672 pr: 0.26
+EVA_id: 2 dis: 408 price: 16.516 V: -94.819 pr: 0.03
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.397
+EVA_id: 5 dis: 140 price: 16.787 V: -88.137 pr: 0.313
+選択したEVA: 5
+EVA: 0 time: 3.4814468021999447 S_num: 1 Bnum: 1
+EVA: 1 time: 3.4814468021999447 S_num: 2 Bnum: 2
+EVA: 2 time: 3.4814468021999447 S_num: 2 Bnum: 4
+EVA: 3 time: 3.4814468021999447 S_num: 3 Bnum: 2
+EVA: 4 time: 3.4814468021999447 S_num: 1 Bnum: 4
+EVA: 5 time: 3.4814468021999447 S_num: 4 Bnum: 6
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.341
+EVA_id: 1 dis: 383 price: 16.138 V: -92.182 pr: 0.091
+EVA_id: 2 dis: 207 price: 16.516 V: -88.789 pr: 0.298
+EVA_id: 4 dis: 224 price: 16.521 V: -89.323 pr: 0.247
+EVA_id: 5 dis: 352 price: 17.101 V: -96.066 pr: 0.023
+選択したEVA: 2
+EVA: 0 time: 3.5197820141497935 S_num: 1 Bnum: 1
+EVA: 1 time: 3.5197820141497935 S_num: 2 Bnum: 2
+EVA: 2 time: 3.5197820141497935 S_num: 2 Bnum: 5
+EVA: 3 time: 3.5197820141497935 S_num: 3 Bnum: 2
+EVA: 4 time: 3.5197820141497935 S_num: 1 Bnum: 4
+EVA: 5 time: 3.5197820141497935 S_num: 4 Bnum: 6
+EVA: 0 time: 3.5350755896606496 S_num: 1 Bnum: 1
+EVA: 1 time: 3.5350755896606496 S_num: 2 Bnum: 2
+EVA: 2 time: 3.5350755896606496 S_num: 2 Bnum: 5
+EVA: 3 time: 3.5350755896606496 S_num: 2 Bnum: 2
+EVA: 4 time: 3.5350755896606496 S_num: 1 Bnum: 4
+EVA: 5 time: 3.5350755896606496 S_num: 4 Bnum: 6
+EVA: 0 time: 3.535635196337662 S_num: 1 Bnum: 1
+EVA: 1 time: 3.535635196337662 S_num: 1 Bnum: 2
+EVA: 2 time: 3.535635196337662 S_num: 2 Bnum: 5
+EVA: 3 time: 3.535635196337662 S_num: 2 Bnum: 2
+EVA: 4 time: 3.535635196337662 S_num: 1 Bnum: 4
+EVA: 5 time: 3.535635196337662 S_num: 4 Bnum: 6
+EVA: 0 time: 3.542993882457467 S_num: 1 Bnum: 1
+EVA: 1 time: 3.542993882457467 S_num: 1 Bnum: 2
+EVA: 2 time: 3.542993882457467 S_num: 2 Bnum: 5
+EVA: 3 time: 3.542993882457467 S_num: 2 Bnum: 2
+EVA: 4 time: 3.542993882457467 S_num: 1 Bnum: 4
+EVA: 5 time: 3.542993882457467 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.246
+EVA_id: 2 dis: 408 price: 14.863 V: 62.075 pr: 0.046
+EVA_id: 3 dis: 226 price: 14.86 V: 67.521 pr: 0.312
+EVA_id: 5 dis: 140 price: 14.481 V: 68.203 pr: 0.396
+選択したEVA: 5
+EVA: 0 time: 3.5720609327247415 S_num: 1 Bnum: 1
+EVA: 1 time: 3.5720609327247415 S_num: 1 Bnum: 2
+EVA: 2 time: 3.5720609327247415 S_num: 2 Bnum: 5
+EVA: 3 time: 3.5720609327247415 S_num: 2 Bnum: 2
+EVA: 4 time: 3.5720609327247415 S_num: 1 Bnum: 4
+EVA: 5 time: 3.5720609327247415 S_num: 5 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.377
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.1
+EVA_id: 2 dis: 207 price: 16.788 V: -90.152 pr: 0.205
+EVA_id: 4 dis: 224 price: 16.521 V: -89.323 pr: 0.274
+EVA_id: 5 dis: 352 price: 16.788 V: -94.5 pr: 0.045
+選択したEVA: 4
+EVA: 0 time: 3.5809831248420494 S_num: 1 Bnum: 1
+EVA: 1 time: 3.5809831248420494 S_num: 1 Bnum: 2
+EVA: 2 time: 3.5809831248420494 S_num: 2 Bnum: 5
+EVA: 3 time: 3.5809831248420494 S_num: 2 Bnum: 2
+EVA: 4 time: 3.5809831248420494 S_num: 1 Bnum: 5
+EVA: 5 time: 3.5809831248420494 S_num: 5 Bnum: 5
+EVA: 0 time: 3.5891731291979654 S_num: 1 Bnum: 1
+EVA: 1 time: 3.5891731291979654 S_num: 1 Bnum: 2
+EVA: 2 time: 3.5891731291979654 S_num: 2 Bnum: 4
+EVA: 3 time: 3.5891731291979654 S_num: 2 Bnum: 2
+EVA: 4 time: 3.5891731291979654 S_num: 1 Bnum: 5
+EVA: 5 time: 3.5891731291979654 S_num: 5 Bnum: 5
+EVA: 0 time: 3.6161664838837764 S_num: 1 Bnum: 1
+EVA: 1 time: 3.6161664838837764 S_num: 1 Bnum: 2
+EVA: 2 time: 3.6161664838837764 S_num: 2 Bnum: 4
+EVA: 3 time: 3.6161664838837764 S_num: 2 Bnum: 2
+EVA: 4 time: 3.6161664838837764 S_num: 1 Bnum: 4
+EVA: 5 time: 3.6161664838837764 S_num: 5 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.335
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.089
+EVA_id: 2 dis: 207 price: 16.516 V: -88.789 pr: 0.293
+EVA_id: 4 dis: 224 price: 16.521 V: -89.323 pr: 0.243
+EVA_id: 5 dis: 352 price: 16.788 V: -94.5 pr: 0.04
+選択したEVA: 0
+EVA: 0 time: 3.6295689468925656 S_num: 1 Bnum: 2
+EVA: 1 time: 3.6295689468925656 S_num: 1 Bnum: 2
+EVA: 2 time: 3.6295689468925656 S_num: 2 Bnum: 4
+EVA: 3 time: 3.6295689468925656 S_num: 2 Bnum: 2
+EVA: 4 time: 3.6295689468925656 S_num: 1 Bnum: 4
+EVA: 5 time: 3.6295689468925656 S_num: 5 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.294
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.095
+EVA_id: 2 dis: 207 price: 16.516 V: -88.789 pr: 0.311
+EVA_id: 4 dis: 224 price: 16.521 V: -89.323 pr: 0.258
+EVA_id: 5 dis: 352 price: 16.788 V: -94.5 pr: 0.042
+選択したEVA: 0
+EVA: 0 time: 3.631803039588315 S_num: 1 Bnum: 3
+EVA: 1 time: 3.631803039588315 S_num: 1 Bnum: 2
+EVA: 2 time: 3.631803039588315 S_num: 2 Bnum: 4
+EVA: 3 time: 3.631803039588315 S_num: 2 Bnum: 2
+EVA: 4 time: 3.631803039588315 S_num: 1 Bnum: 4
+EVA: 5 time: 3.631803039588315 S_num: 5 Bnum: 5
+EVA: 0 time: 3.6339586608526906 S_num: 1 Bnum: 3
+EVA: 1 time: 3.6339586608526906 S_num: 1 Bnum: 2
+EVA: 2 time: 3.6339586608526906 S_num: 2 Bnum: 4
+EVA: 3 time: 3.6339586608526906 S_num: 2 Bnum: 2
+EVA: 4 time: 3.6339586608526906 S_num: 1 Bnum: 3
+EVA: 5 time: 3.6339586608526906 S_num: 5 Bnum: 5
+EVA: 0 time: 3.6519329852483247 S_num: 1 Bnum: 3
+EVA: 1 time: 3.6519329852483247 S_num: 1 Bnum: 2
+EVA: 2 time: 3.6519329852483247 S_num: 2 Bnum: 4
+EVA: 3 time: 3.6519329852483247 S_num: 2 Bnum: 2
+EVA: 4 time: 3.6519329852483247 S_num: 1 Bnum: 2
+EVA: 5 time: 3.6519329852483247 S_num: 5 Bnum: 5
+EVA: 0 time: 3.7231748155785285 S_num: 1 Bnum: 3
+EVA: 1 time: 3.7231748155785285 S_num: 1 Bnum: 2
+EVA: 2 time: 3.7231748155785285 S_num: 2 Bnum: 4
+EVA: 3 time: 3.7231748155785285 S_num: 2 Bnum: 2
+EVA: 4 time: 3.7231748155785285 S_num: 1 Bnum: 2
+EVA: 5 time: 3.7231748155785285 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.202
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.065
+EVA_id: 2 dis: 207 price: 14.864 V: 68.112 pr: 0.347
+EVA_id: 4 dis: 224 price: 14.966 V: 68.111 pr: 0.347
+EVA_id: 5 dis: 352 price: 14.481 V: 61.843 pr: 0.039
+選択したEVA: 5
+EVA: 0 time: 3.735003530565091 S_num: 1 Bnum: 3
+EVA: 1 time: 3.735003530565091 S_num: 1 Bnum: 2
+EVA: 2 time: 3.735003530565091 S_num: 2 Bnum: 4
+EVA: 3 time: 3.735003530565091 S_num: 2 Bnum: 2
+EVA: 4 time: 3.735003530565091 S_num: 1 Bnum: 2
+EVA: 5 time: 3.735003530565091 S_num: 5 Bnum: 5
+EVA: 0 time: 3.803129419913658 S_num: 1 Bnum: 3
+EVA: 1 time: 3.803129419913658 S_num: 1 Bnum: 2
+EVA: 2 time: 3.803129419913658 S_num: 1 Bnum: 4
+EVA: 3 time: 3.803129419913658 S_num: 2 Bnum: 2
+EVA: 4 time: 3.803129419913658 S_num: 1 Bnum: 2
+EVA: 5 time: 3.803129419913658 S_num: 5 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.192
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.062
+EVA_id: 2 dis: 207 price: 14.964 V: 68.611 pr: 0.393
+EVA_id: 4 dis: 224 price: 14.966 V: 68.111 pr: 0.33
+EVA_id: 5 dis: 352 price: 14.213 V: 60.503 pr: 0.023
+選択したEVA: 4
+EVA: 0 time: 3.863534072489271 S_num: 1 Bnum: 3
+EVA: 1 time: 3.863534072489271 S_num: 1 Bnum: 2
+EVA: 2 time: 3.863534072489271 S_num: 1 Bnum: 4
+EVA: 3 time: 3.863534072489271 S_num: 2 Bnum: 2
+EVA: 4 time: 3.863534072489271 S_num: 2 Bnum: 2
+EVA: 5 time: 3.863534072489271 S_num: 5 Bnum: 5
+EVA: 0 time: 3.9023560111032167 S_num: 1 Bnum: 3
+EVA: 1 time: 3.9023560111032167 S_num: 1 Bnum: 2
+EVA: 2 time: 3.9023560111032167 S_num: 1 Bnum: 4
+EVA: 3 time: 3.9023560111032167 S_num: 1 Bnum: 2
+EVA: 4 time: 3.9023560111032167 S_num: 2 Bnum: 2
+EVA: 5 time: 3.9023560111032167 S_num: 5 Bnum: 5
+EVA: 0 time: 3.925746138247479 S_num: 1 Bnum: 3
+EVA: 1 time: 3.925746138247479 S_num: 1 Bnum: 2
+EVA: 2 time: 3.925746138247479 S_num: 1 Bnum: 4
+EVA: 3 time: 3.925746138247479 S_num: 1 Bnum: 1
+EVA: 4 time: 3.925746138247479 S_num: 2 Bnum: 2
+EVA: 5 time: 3.925746138247479 S_num: 5 Bnum: 5
+EVA: 0 time: 3.939850335384905 S_num: 1 Bnum: 3
+EVA: 1 time: 3.939850335384905 S_num: 1 Bnum: 1
+EVA: 2 time: 3.939850335384905 S_num: 1 Bnum: 4
+EVA: 3 time: 3.939850335384905 S_num: 1 Bnum: 1
+EVA: 4 time: 3.939850335384905 S_num: 2 Bnum: 2
+EVA: 5 time: 3.939850335384905 S_num: 5 Bnum: 5
+EVA: 0 time: 3.9405662150349223 S_num: 1 Bnum: 3
+EVA: 1 time: 3.9405662150349223 S_num: 1 Bnum: 1
+EVA: 2 time: 3.9405662150349223 S_num: 1 Bnum: 4
+EVA: 3 time: 3.9405662150349223 S_num: 1 Bnum: 1
+EVA: 4 time: 3.9405662150349223 S_num: 2 Bnum: 2
+EVA: 5 time: 3.9405662150349223 S_num: 5 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.203
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.066
+EVA_id: 2 dis: 207 price: 14.964 V: 68.611 pr: 0.416
+EVA_id: 4 dis: 224 price: 14.862 V: 67.589 pr: 0.291
+EVA_id: 5 dis: 352 price: 14.212 V: 60.501 pr: 0.024
+選択したEVA: 2
+EVA: 0 time: 3.94232201527659 S_num: 1 Bnum: 3
+EVA: 1 time: 3.94232201527659 S_num: 1 Bnum: 1
+EVA: 2 time: 3.94232201527659 S_num: 2 Bnum: 4
+EVA: 3 time: 3.94232201527659 S_num: 1 Bnum: 1
+EVA: 4 time: 3.94232201527659 S_num: 2 Bnum: 2
+EVA: 5 time: 3.94232201527659 S_num: 5 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.218
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.07
+EVA_id: 2 dis: 207 price: 14.864 V: 68.112 pr: 0.374
+EVA_id: 4 dis: 224 price: 14.862 V: 67.589 pr: 0.312
+EVA_id: 5 dis: 352 price: 14.212 V: 60.501 pr: 0.026
+選択したEVA: 2
+EVA: 0 time: 3.978888260034705 S_num: 1 Bnum: 3
+EVA: 1 time: 3.978888260034705 S_num: 1 Bnum: 1
+EVA: 2 time: 3.978888260034705 S_num: 3 Bnum: 4
+EVA: 3 time: 3.978888260034705 S_num: 1 Bnum: 1
+EVA: 4 time: 3.978888260034705 S_num: 2 Bnum: 2
+EVA: 5 time: 3.978888260034705 S_num: 5 Bnum: 4
+EVA: 0 time: 4.006935548025211 S_num: 1 Bnum: 3
+EVA: 1 time: 4.006935548025211 S_num: 1 Bnum: 1
+EVA: 2 time: 4.006935548025211 S_num: 3 Bnum: 3
+EVA: 3 time: 4.006935548025211 S_num: 1 Bnum: 1
+EVA: 4 time: 4.006935548025211 S_num: 2 Bnum: 2
+EVA: 5 time: 4.006935548025211 S_num: 5 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.24
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.078
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.309
+EVA_id: 4 dis: 224 price: 14.862 V: 67.589 pr: 0.344
+EVA_id: 5 dis: 352 price: 14.212 V: 60.501 pr: 0.029
+選択したEVA: 0
+EVA: 0 time: 4.0847735998250245 S_num: 2 Bnum: 3
+EVA: 1 time: 4.0847735998250245 S_num: 1 Bnum: 1
+EVA: 2 time: 4.0847735998250245 S_num: 3 Bnum: 3
+EVA: 3 time: 4.0847735998250245 S_num: 1 Bnum: 1
+EVA: 4 time: 4.0847735998250245 S_num: 2 Bnum: 2
+EVA: 5 time: 4.0847735998250245 S_num: 5 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.235
+EVA_id: 2 dis: 408 price: 16.3 V: -93.741 pr: 0.033
+EVA_id: 3 dis: 226 price: 16.031 V: -86.937 pr: 0.357
+EVA_id: 5 dis: 140 price: 16.52 V: -86.799 pr: 0.375
+選択したEVA: 1
+EVA: 0 time: 4.124049026587936 S_num: 2 Bnum: 3
+EVA: 1 time: 4.124049026587936 S_num: 1 Bnum: 2
+EVA: 2 time: 4.124049026587936 S_num: 3 Bnum: 3
+EVA: 3 time: 4.124049026587936 S_num: 1 Bnum: 1
+EVA: 4 time: 4.124049026587936 S_num: 2 Bnum: 2
+EVA: 5 time: 4.124049026587936 S_num: 5 Bnum: 4
+EVA: 0 time: 4.148230857513276 S_num: 2 Bnum: 3
+EVA: 1 time: 4.148230857513276 S_num: 1 Bnum: 2
+EVA: 2 time: 4.148230857513276 S_num: 3 Bnum: 3
+EVA: 3 time: 4.148230857513276 S_num: 1 Bnum: 1
+EVA: 4 time: 4.148230857513276 S_num: 2 Bnum: 1
+EVA: 5 time: 4.148230857513276 S_num: 5 Bnum: 4
+EVA: 0 time: 4.195865130148156 S_num: 2 Bnum: 3
+EVA: 1 time: 4.195865130148156 S_num: 1 Bnum: 2
+EVA: 2 time: 4.195865130148156 S_num: 3 Bnum: 2
+EVA: 3 time: 4.195865130148156 S_num: 1 Bnum: 1
+EVA: 4 time: 4.195865130148156 S_num: 2 Bnum: 1
+EVA: 5 time: 4.195865130148156 S_num: 5 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.861 V: 66.057 pr: 0.209
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.081
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.322
+EVA_id: 4 dis: 224 price: 14.862 V: 67.591 pr: 0.358
+EVA_id: 5 dis: 352 price: 14.212 V: 60.501 pr: 0.03
+選択したEVA: 0
+EVA: 0 time: 4.2831476372642205 S_num: 3 Bnum: 3
+EVA: 1 time: 4.2831476372642205 S_num: 1 Bnum: 2
+EVA: 2 time: 4.2831476372642205 S_num: 3 Bnum: 2
+EVA: 3 time: 4.2831476372642205 S_num: 1 Bnum: 1
+EVA: 4 time: 4.2831476372642205 S_num: 2 Bnum: 1
+EVA: 5 time: 4.2831476372642205 S_num: 5 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.3 V: -89.751 pr: 0.14
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.059
+EVA_id: 2 dis: 207 price: 16.137 V: -86.893 pr: 0.38
+EVA_id: 4 dis: 224 price: 16.036 V: -86.901 pr: 0.379
+EVA_id: 5 dis: 352 price: 16.52 V: -93.159 pr: 0.042
+選択したEVA: 4
+EVA: 0 time: 4.290713596930592 S_num: 3 Bnum: 3
+EVA: 1 time: 4.290713596930592 S_num: 1 Bnum: 2
+EVA: 2 time: 4.290713596930592 S_num: 3 Bnum: 2
+EVA: 3 time: 4.290713596930592 S_num: 1 Bnum: 1
+EVA: 4 time: 4.290713596930592 S_num: 2 Bnum: 2
+EVA: 5 time: 4.290713596930592 S_num: 5 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.3 V: -89.751 pr: 0.149
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.063
+EVA_id: 2 dis: 207 price: 16.137 V: -86.893 pr: 0.405
+EVA_id: 4 dis: 224 price: 16.138 V: -87.412 pr: 0.338
+EVA_id: 5 dis: 352 price: 16.52 V: -93.159 pr: 0.045
+選択したEVA: 2
+EVA: 0 time: 4.292746671886508 S_num: 3 Bnum: 3
+EVA: 1 time: 4.292746671886508 S_num: 1 Bnum: 2
+EVA: 2 time: 4.292746671886508 S_num: 3 Bnum: 3
+EVA: 3 time: 4.292746671886508 S_num: 1 Bnum: 1
+EVA: 4 time: 4.292746671886508 S_num: 2 Bnum: 2
+EVA: 5 time: 4.292746671886508 S_num: 5 Bnum: 4
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.273
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.038
+EVA_id: 3 dis: 226 price: 14.966 V: 68.052 pr: 0.415
+EVA_id: 5 dis: 140 price: 14.212 V: 66.861 pr: 0.274
+選択したEVA: 1
+EVA: 0 time: 4.362911980334509 S_num: 3 Bnum: 3
+EVA: 1 time: 4.362911980334509 S_num: 2 Bnum: 2
+EVA: 2 time: 4.362911980334509 S_num: 3 Bnum: 3
+EVA: 3 time: 4.362911980334509 S_num: 1 Bnum: 1
+EVA: 4 time: 4.362911980334509 S_num: 2 Bnum: 2
+EVA: 5 time: 4.362911980334509 S_num: 5 Bnum: 4
+EVA: 0 time: 4.391180367705153 S_num: 3 Bnum: 3
+EVA: 1 time: 4.391180367705153 S_num: 2 Bnum: 2
+EVA: 2 time: 4.391180367705153 S_num: 3 Bnum: 3
+EVA: 3 time: 4.391180367705153 S_num: 1 Bnum: 1
+EVA: 4 time: 4.391180367705153 S_num: 2 Bnum: 2
+EVA: 5 time: 4.391180367705153 S_num: 5 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.142 V: -88.689 pr: 0.171
+EVA_id: 2 dis: 408 price: 16.3 V: -93.741 pr: 0.029
+EVA_id: 3 dis: 226 price: 16.031 V: -86.937 pr: 0.315
+EVA_id: 5 dis: 140 price: 16.302 V: -85.708 pr: 0.485
+選択したEVA: 1
+EVA: 0 time: 4.392332377441176 S_num: 3 Bnum: 3
+EVA: 1 time: 4.392332377441176 S_num: 2 Bnum: 3
+EVA: 2 time: 4.392332377441176 S_num: 3 Bnum: 3
+EVA: 3 time: 4.392332377441176 S_num: 1 Bnum: 1
+EVA: 4 time: 4.392332377441176 S_num: 2 Bnum: 2
+EVA: 5 time: 4.392332377441176 S_num: 5 Bnum: 3
+EVA: 0 time: 4.394784106032997 S_num: 3 Bnum: 3
+EVA: 1 time: 4.394784106032997 S_num: 2 Bnum: 3
+EVA: 2 time: 4.394784106032997 S_num: 3 Bnum: 3
+EVA: 3 time: 4.394784106032997 S_num: 1 Bnum: 1
+EVA: 4 time: 4.394784106032997 S_num: 1 Bnum: 2
+EVA: 5 time: 4.394784106032997 S_num: 5 Bnum: 3
+EVA: 0 time: 4.4004134248815046 S_num: 3 Bnum: 3
+EVA: 1 time: 4.4004134248815046 S_num: 2 Bnum: 3
+EVA: 2 time: 4.4004134248815046 S_num: 3 Bnum: 2
+EVA: 3 time: 4.4004134248815046 S_num: 1 Bnum: 1
+EVA: 4 time: 4.4004134248815046 S_num: 1 Bnum: 2
+EVA: 5 time: 4.4004134248815046 S_num: 5 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.862 V: 66.328 pr: 0.238
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.04
+EVA_id: 3 dis: 226 price: 14.966 V: 68.052 pr: 0.435
+EVA_id: 5 dis: 140 price: 14.211 V: 66.856 pr: 0.286
+選択したEVA: 1
+EVA: 0 time: 4.4014506745386575 S_num: 3 Bnum: 3
+EVA: 1 time: 4.4014506745386575 S_num: 3 Bnum: 3
+EVA: 2 time: 4.4014506745386575 S_num: 3 Bnum: 2
+EVA: 3 time: 4.4014506745386575 S_num: 1 Bnum: 1
+EVA: 4 time: 4.4014506745386575 S_num: 1 Bnum: 2
+EVA: 5 time: 4.4014506745386575 S_num: 5 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.3 V: -89.751 pr: 0.148
+EVA_id: 1 dis: 383 price: 16.302 V: -92.998 pr: 0.048
+EVA_id: 2 dis: 207 price: 16.137 V: -86.893 pr: 0.403
+EVA_id: 4 dis: 224 price: 16.14 V: -87.419 pr: 0.335
+EVA_id: 5 dis: 352 price: 16.302 V: -92.068 pr: 0.066
+選択したEVA: 4
+EVA: 0 time: 4.42509899789915 S_num: 3 Bnum: 3
+EVA: 1 time: 4.42509899789915 S_num: 3 Bnum: 3
+EVA: 2 time: 4.42509899789915 S_num: 3 Bnum: 2
+EVA: 3 time: 4.42509899789915 S_num: 1 Bnum: 1
+EVA: 4 time: 4.42509899789915 S_num: 1 Bnum: 3
+EVA: 5 time: 4.42509899789915 S_num: 5 Bnum: 3
+EVA: 0 time: 4.425326969394802 S_num: 3 Bnum: 2
+EVA: 1 time: 4.425326969394802 S_num: 3 Bnum: 3
+EVA: 2 time: 4.425326969394802 S_num: 3 Bnum: 2
+EVA: 3 time: 4.425326969394802 S_num: 1 Bnum: 1
+EVA: 4 time: 4.425326969394802 S_num: 1 Bnum: 3
+EVA: 5 time: 4.425326969394802 S_num: 5 Bnum: 3
+EVA: 0 time: 4.428678101780662 S_num: 3 Bnum: 1
+EVA: 1 time: 4.428678101780662 S_num: 3 Bnum: 3
+EVA: 2 time: 4.428678101780662 S_num: 3 Bnum: 2
+EVA: 3 time: 4.428678101780662 S_num: 1 Bnum: 1
+EVA: 4 time: 4.428678101780662 S_num: 1 Bnum: 3
+EVA: 5 time: 4.428678101780662 S_num: 5 Bnum: 3
+EVA: 0 time: 4.431742222201869 S_num: 3 Bnum: 1
+EVA: 1 time: 4.431742222201869 S_num: 3 Bnum: 3
+EVA: 2 time: 4.431742222201869 S_num: 3 Bnum: 2
+EVA: 3 time: 4.431742222201869 S_num: 1 Bnum: 1
+EVA: 4 time: 4.431742222201869 S_num: 1 Bnum: 3
+EVA: 5 time: 4.431742222201869 S_num: 4 Bnum: 3
+EVA: 0 time: 4.466571396439966 S_num: 3 Bnum: 1
+EVA: 1 time: 4.466571396439966 S_num: 3 Bnum: 3
+EVA: 2 time: 4.466571396439966 S_num: 3 Bnum: 2
+EVA: 3 time: 4.466571396439966 S_num: 1 Bnum: 1
+EVA: 4 time: 4.466571396439966 S_num: 1 Bnum: 3
+EVA: 5 time: 4.466571396439966 S_num: 4 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.302 V: -89.488 pr: 0.114
+EVA_id: 2 dis: 408 price: 16.137 V: -92.923 pr: 0.034
+EVA_id: 3 dis: 226 price: 16.031 V: -86.937 pr: 0.28
+EVA_id: 5 dis: 140 price: 16.139 V: -84.893 pr: 0.572
+選択したEVA: 5
+EVA: 0 time: 4.5434856085089015 S_num: 3 Bnum: 1
+EVA: 1 time: 4.5434856085089015 S_num: 3 Bnum: 3
+EVA: 2 time: 4.5434856085089015 S_num: 3 Bnum: 2
+EVA: 3 time: 4.5434856085089015 S_num: 1 Bnum: 1
+EVA: 4 time: 4.5434856085089015 S_num: 1 Bnum: 3
+EVA: 5 time: 4.5434856085089015 S_num: 4 Bnum: 3
+EVA: 0 time: 4.542320627953 S_num: 3 Bnum: 1
+EVA: 1 time: 4.542320627953 S_num: 3 Bnum: 3
+EVA: 2 time: 4.542320627953 S_num: 3 Bnum: 2
+EVA: 3 time: 4.542320627953 S_num: 1 Bnum: 1
+EVA: 4 time: 4.542320627953 S_num: 1 Bnum: 3
+EVA: 5 time: 4.542320627953 S_num: 4 Bnum: 2
+EVA: 0 time: 4.613454553544549 S_num: 3 Bnum: 1
+EVA: 1 time: 4.613454553544549 S_num: 3 Bnum: 3
+EVA: 2 time: 4.613454553544549 S_num: 3 Bnum: 2
+EVA: 3 time: 4.613454553544549 S_num: 1 Bnum: 1
+EVA: 4 time: 4.613454553544549 S_num: 1 Bnum: 3
+EVA: 5 time: 4.613454553544549 S_num: 3 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.699 V: 65.246 pr: 0.153
+EVA_id: 1 dis: 383 price: 14.7 V: 62.01 pr: 0.049
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.313
+EVA_id: 4 dis: 224 price: 14.963 V: 68.095 pr: 0.416
+EVA_id: 5 dis: 352 price: 14.699 V: 62.936 pr: 0.068
+選択したEVA: 4
+EVA: 0 time: 4.629810314616781 S_num: 3 Bnum: 1
+EVA: 1 time: 4.629810314616781 S_num: 3 Bnum: 3
+EVA: 2 time: 4.629810314616781 S_num: 3 Bnum: 2
+EVA: 3 time: 4.629810314616781 S_num: 1 Bnum: 1
+EVA: 4 time: 4.629810314616781 S_num: 2 Bnum: 3
+EVA: 5 time: 4.629810314616781 S_num: 3 Bnum: 2
+EVA: 0 time: 4.690546032656875 S_num: 3 Bnum: 1
+EVA: 1 time: 4.690546032656875 S_num: 3 Bnum: 3
+EVA: 2 time: 4.690546032656875 S_num: 2 Bnum: 2
+EVA: 3 time: 4.690546032656875 S_num: 1 Bnum: 1
+EVA: 4 time: 4.690546032656875 S_num: 2 Bnum: 3
+EVA: 5 time: 4.690546032656875 S_num: 3 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.699 V: 65.246 pr: 0.148
+EVA_id: 1 dis: 383 price: 14.7 V: 62.01 pr: 0.048
+EVA_id: 2 dis: 207 price: 14.86 V: 68.091 pr: 0.401
+EVA_id: 4 dis: 224 price: 14.861 V: 67.587 pr: 0.336
+EVA_id: 5 dis: 352 price: 14.699 V: 62.936 pr: 0.066
+選択したEVA: 4
+EVA: 0 time: 4.693287224862188 S_num: 3 Bnum: 1
+EVA: 1 time: 4.693287224862188 S_num: 3 Bnum: 3
+EVA: 2 time: 4.693287224862188 S_num: 2 Bnum: 2
+EVA: 3 time: 4.693287224862188 S_num: 1 Bnum: 1
+EVA: 4 time: 4.693287224862188 S_num: 3 Bnum: 3
+EVA: 5 time: 4.693287224862188 S_num: 3 Bnum: 2
+EVA: 0 time: 4.7354038512757715 S_num: 3 Bnum: 1
+EVA: 1 time: 4.7354038512757715 S_num: 3 Bnum: 3
+EVA: 2 time: 4.7354038512757715 S_num: 2 Bnum: 2
+EVA: 3 time: 4.7354038512757715 S_num: 1 Bnum: 1
+EVA: 4 time: 4.7354038512757715 S_num: 3 Bnum: 3
+EVA: 5 time: 4.7354038512757715 S_num: 2 Bnum: 2
+EVA: 0 time: 4.747357496337763 S_num: 3 Bnum: 1
+EVA: 1 time: 4.747357496337763 S_num: 3 Bnum: 3
+EVA: 2 time: 4.747357496337763 S_num: 1 Bnum: 2
+EVA: 3 time: 4.747357496337763 S_num: 1 Bnum: 1
+EVA: 4 time: 4.747357496337763 S_num: 3 Bnum: 3
+EVA: 5 time: 4.747357496337763 S_num: 2 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.302 V: -89.488 pr: 0.114
+EVA_id: 2 dis: 408 price: 16.14 V: -92.939 pr: 0.034
+EVA_id: 3 dis: 226 price: 16.031 V: -86.937 pr: 0.279
+EVA_id: 5 dis: 140 price: 16.138 V: -84.892 pr: 0.572
+選択したEVA: 5
+EVA: 0 time: 4.77794187913354 S_num: 3 Bnum: 1
+EVA: 1 time: 4.77794187913354 S_num: 3 Bnum: 3
+EVA: 2 time: 4.77794187913354 S_num: 1 Bnum: 2
+EVA: 3 time: 4.77794187913354 S_num: 1 Bnum: 1
+EVA: 4 time: 4.77794187913354 S_num: 3 Bnum: 3
+EVA: 5 time: 4.77794187913354 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.699 V: 65.246 pr: 0.145
+EVA_id: 1 dis: 383 price: 14.7 V: 62.01 pr: 0.047
+EVA_id: 2 dis: 207 price: 14.966 V: 68.621 pr: 0.474
+EVA_id: 4 dis: 224 price: 14.699 V: 66.776 pr: 0.248
+EVA_id: 5 dis: 352 price: 14.862 V: 63.748 pr: 0.086
+選択したEVA: 2
+EVA: 0 time: 4.780478989906598 S_num: 3 Bnum: 1
+EVA: 1 time: 4.780478989906598 S_num: 3 Bnum: 3
+EVA: 2 time: 4.780478989906598 S_num: 2 Bnum: 2
+EVA: 3 time: 4.780478989906598 S_num: 1 Bnum: 1
+EVA: 4 time: 4.780478989906598 S_num: 3 Bnum: 3
+EVA: 5 time: 4.780478989906598 S_num: 2 Bnum: 3
+EVA: 0 time: 4.782461454860413 S_num: 2 Bnum: 1
+EVA: 1 time: 4.782461454860413 S_num: 3 Bnum: 3
+EVA: 2 time: 4.782461454860413 S_num: 2 Bnum: 2
+EVA: 3 time: 4.782461454860413 S_num: 1 Bnum: 1
+EVA: 4 time: 4.782461454860413 S_num: 3 Bnum: 3
+EVA: 5 time: 4.782461454860413 S_num: 2 Bnum: 3
+EVA: 0 time: 4.786782478844889 S_num: 2 Bnum: 1
+EVA: 1 time: 4.786782478844889 S_num: 3 Bnum: 2
+EVA: 2 time: 4.786782478844889 S_num: 2 Bnum: 2
+EVA: 3 time: 4.786782478844889 S_num: 1 Bnum: 1
+EVA: 4 time: 4.786782478844889 S_num: 3 Bnum: 3
+EVA: 5 time: 4.786782478844889 S_num: 2 Bnum: 3
+EVA: 0 time: 4.830312672145344 S_num: 2 Bnum: 1
+EVA: 1 time: 4.830312672145344 S_num: 3 Bnum: 2
+EVA: 2 time: 4.830312672145344 S_num: 2 Bnum: 2
+EVA: 3 time: 4.830312672145344 S_num: 1 Bnum: 1
+EVA: 4 time: 4.830312672145344 S_num: 3 Bnum: 3
+EVA: 5 time: 4.830312672145344 S_num: 1 Bnum: 3
+EVA: 0 time: 4.859885577572928 S_num: 2 Bnum: 1
+EVA: 1 time: 4.859885577572928 S_num: 3 Bnum: 2
+EVA: 2 time: 4.859885577572928 S_num: 2 Bnum: 1
+EVA: 3 time: 4.859885577572928 S_num: 1 Bnum: 1
+EVA: 4 time: 4.859885577572928 S_num: 3 Bnum: 3
+EVA: 5 time: 4.859885577572928 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.699 V: 65.515 pr: 0.103
+EVA_id: 2 dis: 408 price: 14.862 V: 62.071 pr: 0.031
+EVA_id: 3 dis: 226 price: 14.966 V: 68.052 pr: 0.251
+EVA_id: 5 dis: 140 price: 14.963 V: 70.615 pr: 0.615
+選択したEVA: 5
+EVA: 0 time: 4.9413950434501785 S_num: 2 Bnum: 1
+EVA: 1 time: 4.9413950434501785 S_num: 3 Bnum: 2
+EVA: 2 time: 4.9413950434501785 S_num: 2 Bnum: 1
+EVA: 3 time: 4.9413950434501785 S_num: 1 Bnum: 1
+EVA: 4 time: 4.9413950434501785 S_num: 3 Bnum: 3
+EVA: 5 time: 4.9413950434501785 S_num: 2 Bnum: 3
+EVA: 0 time: 4.980835615326714 S_num: 1 Bnum: 1
+EVA: 1 time: 4.980835615326714 S_num: 3 Bnum: 2
+EVA: 2 time: 4.980835615326714 S_num: 2 Bnum: 1
+EVA: 3 time: 4.980835615326714 S_num: 1 Bnum: 1
+EVA: 4 time: 4.980835615326714 S_num: 3 Bnum: 3
+EVA: 5 time: 4.980835615326714 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.216
+EVA_id: 1 dis: 383 price: 16.137 V: -92.173 pr: 0.058
+EVA_id: 2 dis: 207 price: 16.036 V: -86.391 pr: 0.437
+EVA_id: 4 dis: 224 price: 16.3 V: -88.221 pr: 0.23
+EVA_id: 5 dis: 352 price: 16.302 V: -92.069 pr: 0.06
+選択したEVA: 0
+EVA: 0 time: 5.008005784095126 S_num: 1 Bnum: 2
+EVA: 1 time: 5.008005784095126 S_num: 3 Bnum: 2
+EVA: 2 time: 5.008005784095126 S_num: 2 Bnum: 1
+EVA: 3 time: 5.008005784095126 S_num: 1 Bnum: 1
+EVA: 4 time: 5.008005784095126 S_num: 3 Bnum: 3
+EVA: 5 time: 5.008005784095126 S_num: 2 Bnum: 3
+EVA: 0 time: 5.020396015028999 S_num: 1 Bnum: 2
+EVA: 1 time: 5.020396015028999 S_num: 3 Bnum: 2
+EVA: 2 time: 5.020396015028999 S_num: 2 Bnum: 1
+EVA: 3 time: 5.020396015028999 S_num: 1 Bnum: 1
+EVA: 4 time: 5.020396015028999 S_num: 3 Bnum: 2
+EVA: 5 time: 5.020396015028999 S_num: 2 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.699 V: 65.515 pr: 0.115
+EVA_id: 2 dis: 408 price: 14.862 V: 62.071 pr: 0.034
+EVA_id: 3 dis: 226 price: 14.966 V: 68.052 pr: 0.279
+EVA_id: 5 dis: 140 price: 14.861 V: 70.107 pr: 0.572
+選択したEVA: 3
+EVA: 0 time: 5.054380264090052 S_num: 1 Bnum: 2
+EVA: 1 time: 5.054380264090052 S_num: 3 Bnum: 2
+EVA: 2 time: 5.054380264090052 S_num: 2 Bnum: 1
+EVA: 3 time: 5.054380264090052 S_num: 2 Bnum: 1
+EVA: 4 time: 5.054380264090052 S_num: 3 Bnum: 2
+EVA: 5 time: 5.054380264090052 S_num: 2 Bnum: 3
+EVA: 0 time: 5.055408376401821 S_num: 1 Bnum: 2
+EVA: 1 time: 5.055408376401821 S_num: 3 Bnum: 1
+EVA: 2 time: 5.055408376401821 S_num: 2 Bnum: 1
+EVA: 3 time: 5.055408376401821 S_num: 2 Bnum: 1
+EVA: 4 time: 5.055408376401821 S_num: 3 Bnum: 2
+EVA: 5 time: 5.055408376401821 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.17
+EVA_id: 1 dis: 383 price: 16.036 V: -91.672 pr: 0.065
+EVA_id: 2 dis: 207 price: 16.036 V: -86.391 pr: 0.416
+EVA_id: 4 dis: 224 price: 16.137 V: -87.403 pr: 0.292
+EVA_id: 5 dis: 352 price: 16.302 V: -92.069 pr: 0.057
+選択したEVA: 2
+EVA: 0 time: 5.13695907145031 S_num: 1 Bnum: 2
+EVA: 1 time: 5.13695907145031 S_num: 3 Bnum: 1
+EVA: 2 time: 5.13695907145031 S_num: 2 Bnum: 2
+EVA: 3 time: 5.13695907145031 S_num: 2 Bnum: 1
+EVA: 4 time: 5.13695907145031 S_num: 3 Bnum: 2
+EVA: 5 time: 5.13695907145031 S_num: 2 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.699 V: 65.516 pr: 0.12
+EVA_id: 2 dis: 408 price: 14.86 V: 62.061 pr: 0.036
+EVA_id: 3 dis: 226 price: 14.862 V: 67.531 pr: 0.244
+EVA_id: 5 dis: 140 price: 14.861 V: 70.107 pr: 0.6
+選択したEVA: 5
+EVA: 0 time: 5.138658938294605 S_num: 1 Bnum: 2
+EVA: 1 time: 5.138658938294605 S_num: 3 Bnum: 1
+EVA: 2 time: 5.138658938294605 S_num: 2 Bnum: 2
+EVA: 3 time: 5.138658938294605 S_num: 2 Bnum: 1
+EVA: 4 time: 5.138658938294605 S_num: 3 Bnum: 2
+EVA: 5 time: 5.138658938294605 S_num: 3 Bnum: 3
+EVA: 0 time: 5.140517487857132 S_num: 1 Bnum: 2
+EVA: 1 time: 5.140517487857132 S_num: 2 Bnum: 1
+EVA: 2 time: 5.140517487857132 S_num: 2 Bnum: 2
+EVA: 3 time: 5.140517487857132 S_num: 2 Bnum: 1
+EVA: 4 time: 5.140517487857132 S_num: 3 Bnum: 2
+EVA: 5 time: 5.140517487857132 S_num: 3 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.036 V: -88.161 pr: 0.197
+EVA_id: 2 dis: 408 price: 16.138 V: -92.932 pr: 0.037
+EVA_id: 3 dis: 226 price: 16.036 V: -86.961 pr: 0.3
+EVA_id: 5 dis: 140 price: 16.3 V: -85.701 pr: 0.466
+選択したEVA: 1
+EVA: 0 time: 5.143203067488132 S_num: 1 Bnum: 2
+EVA: 1 time: 5.143203067488132 S_num: 2 Bnum: 2
+EVA: 2 time: 5.143203067488132 S_num: 2 Bnum: 2
+EVA: 3 time: 5.143203067488132 S_num: 2 Bnum: 1
+EVA: 4 time: 5.143203067488132 S_num: 3 Bnum: 2
+EVA: 5 time: 5.143203067488132 S_num: 3 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.966 V: 66.581 pr: 0.232
+EVA_id: 1 dis: 383 price: 14.86 V: 62.811 pr: 0.062
+EVA_id: 2 dis: 207 price: 14.86 V: 68.091 pr: 0.393
+EVA_id: 4 dis: 224 price: 14.699 V: 66.776 pr: 0.248
+EVA_id: 5 dis: 352 price: 14.699 V: 62.936 pr: 0.065
+選択したEVA: 4
+EVA: 0 time: 5.143759412855905 S_num: 1 Bnum: 2
+EVA: 1 time: 5.143759412855905 S_num: 2 Bnum: 2
+EVA: 2 time: 5.143759412855905 S_num: 2 Bnum: 2
+EVA: 3 time: 5.143759412855905 S_num: 2 Bnum: 1
+EVA: 4 time: 5.143759412855905 S_num: 4 Bnum: 2
+EVA: 5 time: 5.143759412855905 S_num: 3 Bnum: 3
+EVA: 0 time: 5.165803380403417 S_num: 1 Bnum: 2
+EVA: 1 time: 5.165803380403417 S_num: 2 Bnum: 2
+EVA: 2 time: 5.165803380403417 S_num: 2 Bnum: 2
+EVA: 3 time: 5.165803380403417 S_num: 2 Bnum: 1
+EVA: 4 time: 5.165803380403417 S_num: 4 Bnum: 1
+EVA: 5 time: 5.165803380403417 S_num: 3 Bnum: 3
+EVA: 0 time: 5.179056201608274 S_num: 1 Bnum: 2
+EVA: 1 time: 5.179056201608274 S_num: 1 Bnum: 2
+EVA: 2 time: 5.179056201608274 S_num: 2 Bnum: 2
+EVA: 3 time: 5.179056201608274 S_num: 2 Bnum: 1
+EVA: 4 time: 5.179056201608274 S_num: 4 Bnum: 1
+EVA: 5 time: 5.179056201608274 S_num: 3 Bnum: 3
+EVA: 0 time: 5.222549927096314 S_num: 1 Bnum: 2
+EVA: 1 time: 5.222549927096314 S_num: 1 Bnum: 2
+EVA: 2 time: 5.222549927096314 S_num: 2 Bnum: 2
+EVA: 3 time: 5.222549927096314 S_num: 2 Bnum: 1
+EVA: 4 time: 5.222549927096314 S_num: 4 Bnum: 1
+EVA: 5 time: 5.222549927096314 S_num: 3 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.208
+EVA_id: 2 dis: 408 price: 14.86 V: 62.061 pr: 0.039
+EVA_id: 3 dis: 226 price: 14.862 V: 67.531 pr: 0.264
+EVA_id: 5 dis: 140 price: 14.699 V: 69.296 pr: 0.489
+選択したEVA: 1
+EVA: 0 time: 5.268148358037266 S_num: 1 Bnum: 2
+EVA: 1 time: 5.268148358037266 S_num: 2 Bnum: 2
+EVA: 2 time: 5.268148358037266 S_num: 2 Bnum: 2
+EVA: 3 time: 5.268148358037266 S_num: 2 Bnum: 1
+EVA: 4 time: 5.268148358037266 S_num: 4 Bnum: 1
+EVA: 5 time: 5.268148358037266 S_num: 3 Bnum: 2
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.17
+EVA_id: 1 dis: 383 price: 16.142 V: -92.199 pr: 0.055
+EVA_id: 2 dis: 207 price: 16.138 V: -86.902 pr: 0.349
+EVA_id: 4 dis: 224 price: 16.034 V: -86.892 pr: 0.35
+EVA_id: 5 dis: 352 price: 16.137 V: -91.243 pr: 0.076
+選択したEVA: 4
+EVA: 0 time: 5.293740340989182 S_num: 1 Bnum: 2
+EVA: 1 time: 5.293740340989182 S_num: 2 Bnum: 2
+EVA: 2 time: 5.293740340989182 S_num: 2 Bnum: 2
+EVA: 3 time: 5.293740340989182 S_num: 2 Bnum: 1
+EVA: 4 time: 5.293740340989182 S_num: 4 Bnum: 2
+EVA: 5 time: 5.293740340989182 S_num: 3 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.142 V: -88.689 pr: 0.146
+EVA_id: 2 dis: 408 price: 16.138 V: -92.932 pr: 0.033
+EVA_id: 3 dis: 226 price: 16.036 V: -86.961 pr: 0.267
+EVA_id: 5 dis: 140 price: 16.137 V: -84.883 pr: 0.553
+選択したEVA: 3
+EVA: 0 time: 5.305241116731652 S_num: 1 Bnum: 2
+EVA: 1 time: 5.305241116731652 S_num: 2 Bnum: 2
+EVA: 2 time: 5.305241116731652 S_num: 2 Bnum: 2
+EVA: 3 time: 5.305241116731652 S_num: 2 Bnum: 2
+EVA: 4 time: 5.305241116731652 S_num: 4 Bnum: 2
+EVA: 5 time: 5.305241116731652 S_num: 3 Bnum: 2
+EVA: 0 time: 5.311728971303893 S_num: 1 Bnum: 2
+EVA: 1 time: 5.311728971303893 S_num: 2 Bnum: 2
+EVA: 2 time: 5.311728971303893 S_num: 1 Bnum: 2
+EVA: 3 time: 5.311728971303893 S_num: 2 Bnum: 2
+EVA: 4 time: 5.311728971303893 S_num: 4 Bnum: 2
+EVA: 5 time: 5.311728971303893 S_num: 3 Bnum: 2
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.181
+EVA_id: 1 dis: 383 price: 16.142 V: -92.199 pr: 0.058
+EVA_id: 2 dis: 207 price: 16.14 V: -86.909 pr: 0.37
+EVA_id: 4 dis: 224 price: 16.138 V: -87.409 pr: 0.31
+EVA_id: 5 dis: 352 price: 16.137 V: -91.243 pr: 0.081
+選択したEVA: 2
+EVA: 0 time: 5.312987969049804 S_num: 1 Bnum: 2
+EVA: 1 time: 5.312987969049804 S_num: 2 Bnum: 2
+EVA: 2 time: 5.312987969049804 S_num: 1 Bnum: 3
+EVA: 3 time: 5.312987969049804 S_num: 2 Bnum: 2
+EVA: 4 time: 5.312987969049804 S_num: 4 Bnum: 2
+EVA: 5 time: 5.312987969049804 S_num: 3 Bnum: 2
+EVA: 0 time: 5.395832068131687 S_num: 1 Bnum: 2
+EVA: 1 time: 5.395832068131687 S_num: 2 Bnum: 2
+EVA: 2 time: 5.395832068131687 S_num: 1 Bnum: 3
+EVA: 3 time: 5.395832068131687 S_num: 2 Bnum: 2
+EVA: 4 time: 5.395832068131687 S_num: 3 Bnum: 2
+EVA: 5 time: 5.395832068131687 S_num: 3 Bnum: 2
+EVA_id: 0 dis: 275 price: 14.966 V: 66.581 pr: 0.215
+EVA_id: 1 dis: 383 price: 14.862 V: 62.819 pr: 0.058
+EVA_id: 2 dis: 207 price: 14.963 V: 68.605 pr: 0.437
+EVA_id: 4 dis: 224 price: 14.699 V: 66.776 pr: 0.23
+EVA_id: 5 dis: 352 price: 14.699 V: 62.936 pr: 0.06
+選択したEVA: 0
+EVA: 0 time: 5.466689968074869 S_num: 2 Bnum: 2
+EVA: 1 time: 5.466689968074869 S_num: 2 Bnum: 2
+EVA: 2 time: 5.466689968074869 S_num: 1 Bnum: 3
+EVA: 3 time: 5.466689968074869 S_num: 2 Bnum: 2
+EVA: 4 time: 5.466689968074869 S_num: 3 Bnum: 2
+EVA: 5 time: 5.466689968074869 S_num: 3 Bnum: 2
+EVA: 0 time: 5.452746753539789 S_num: 2 Bnum: 2
+EVA: 1 time: 5.452746753539789 S_num: 2 Bnum: 2
+EVA: 2 time: 5.452746753539789 S_num: 1 Bnum: 3
+EVA: 3 time: 5.452746753539789 S_num: 2 Bnum: 2
+EVA: 4 time: 5.452746753539789 S_num: 3 Bnum: 2
+EVA: 5 time: 5.452746753539789 S_num: 3 Bnum: 1
+EVA_id: 0 dis: 275 price: 16.142 V: -88.959 pr: 0.194
+EVA_id: 1 dis: 383 price: 16.142 V: -92.199 pr: 0.063
+EVA_id: 2 dis: 207 price: 16.296 V: -87.688 pr: 0.304
+EVA_id: 4 dis: 224 price: 16.137 V: -87.403 pr: 0.335
+EVA_id: 5 dis: 352 price: 16.036 V: -90.742 pr: 0.104
+選択したEVA: 5
+EVA: 0 time: 5.472702845234451 S_num: 2 Bnum: 2
+EVA: 1 time: 5.472702845234451 S_num: 2 Bnum: 2
+EVA: 2 time: 5.472702845234451 S_num: 1 Bnum: 3
+EVA: 3 time: 5.472702845234451 S_num: 2 Bnum: 2
+EVA: 4 time: 5.472702845234451 S_num: 3 Bnum: 2
+EVA: 5 time: 5.472702845234451 S_num: 3 Bnum: 2
+EVA: 0 time: 5.5263546000472346 S_num: 2 Bnum: 2
+EVA: 1 time: 5.5263546000472346 S_num: 2 Bnum: 2
+EVA: 2 time: 5.5263546000472346 S_num: 1 Bnum: 3
+EVA: 3 time: 5.5263546000472346 S_num: 2 Bnum: 2
+EVA: 4 time: 5.5263546000472346 S_num: 2 Bnum: 2
+EVA: 5 time: 5.5263546000472346 S_num: 3 Bnum: 2
+EVA: 0 time: 5.539256029323876 S_num: 2 Bnum: 1
+EVA: 1 time: 5.539256029323876 S_num: 2 Bnum: 2
+EVA: 2 time: 5.539256029323876 S_num: 1 Bnum: 3
+EVA: 3 time: 5.539256029323876 S_num: 2 Bnum: 2
+EVA: 4 time: 5.539256029323876 S_num: 2 Bnum: 2
+EVA: 5 time: 5.539256029323876 S_num: 3 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.862 V: 66.329 pr: 0.178
+EVA_id: 2 dis: 408 price: 14.963 V: 62.575 pr: 0.048
+EVA_id: 3 dis: 226 price: 14.86 V: 67.521 pr: 0.27
+EVA_id: 5 dis: 140 price: 14.699 V: 69.296 pr: 0.503
+選択したEVA: 3
+EVA: 0 time: 5.5633491742002885 S_num: 2 Bnum: 1
+EVA: 1 time: 5.5633491742002885 S_num: 2 Bnum: 2
+EVA: 2 time: 5.5633491742002885 S_num: 1 Bnum: 3
+EVA: 3 time: 5.5633491742002885 S_num: 3 Bnum: 2
+EVA: 4 time: 5.5633491742002885 S_num: 2 Bnum: 2
+EVA: 5 time: 5.5633491742002885 S_num: 3 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.142 V: -88.689 pr: 0.154
+EVA_id: 2 dis: 408 price: 16.296 V: -93.718 pr: 0.026
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.236
+EVA_id: 5 dis: 140 price: 16.137 V: -84.883 pr: 0.583
+選択したEVA: 1
+EVA: 0 time: 5.565980265788771 S_num: 2 Bnum: 1
+EVA: 1 time: 5.565980265788771 S_num: 2 Bnum: 3
+EVA: 2 time: 5.565980265788771 S_num: 1 Bnum: 3
+EVA: 3 time: 5.565980265788771 S_num: 3 Bnum: 2
+EVA: 4 time: 5.565980265788771 S_num: 2 Bnum: 2
+EVA: 5 time: 5.565980265788771 S_num: 3 Bnum: 2
+EVA_id: 0 dis: 275 price: 16.036 V: -88.431 pr: 0.232
+EVA_id: 1 dis: 383 price: 16.302 V: -93.0 pr: 0.047
+EVA_id: 2 dis: 207 price: 16.296 V: -87.688 pr: 0.302
+EVA_id: 4 dis: 224 price: 16.138 V: -87.412 pr: 0.332
+EVA_id: 5 dis: 352 price: 16.137 V: -91.243 pr: 0.087
+選択したEVA: 2
+EVA: 0 time: 5.570204127813996 S_num: 2 Bnum: 1
+EVA: 1 time: 5.570204127813996 S_num: 2 Bnum: 3
+EVA: 2 time: 5.570204127813996 S_num: 1 Bnum: 4
+EVA: 3 time: 5.570204127813996 S_num: 3 Bnum: 2
+EVA: 4 time: 5.570204127813996 S_num: 2 Bnum: 2
+EVA: 5 time: 5.570204127813996 S_num: 3 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.302 V: -89.49 pr: 0.122
+EVA_id: 2 dis: 408 price: 16.521 V: -94.843 pr: 0.019
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.248
+EVA_id: 5 dis: 140 price: 16.137 V: -84.883 pr: 0.611
+選択したEVA: 5
+EVA: 0 time: 5.578730884657241 S_num: 2 Bnum: 1
+EVA: 1 time: 5.578730884657241 S_num: 2 Bnum: 3
+EVA: 2 time: 5.578730884657241 S_num: 1 Bnum: 4
+EVA: 3 time: 5.578730884657241 S_num: 3 Bnum: 2
+EVA: 4 time: 5.578730884657241 S_num: 2 Bnum: 2
+EVA: 5 time: 5.578730884657241 S_num: 3 Bnum: 3
+EVA: 0 time: 5.596770708264864 S_num: 2 Bnum: 1
+EVA: 1 time: 5.596770708264864 S_num: 2 Bnum: 3
+EVA: 2 time: 5.596770708264864 S_num: 1 Bnum: 4
+EVA: 3 time: 5.596770708264864 S_num: 2 Bnum: 2
+EVA: 4 time: 5.596770708264864 S_num: 2 Bnum: 2
+EVA: 5 time: 5.596770708264864 S_num: 3 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.862 V: 66.328 pr: 0.178
+EVA_id: 2 dis: 408 price: 14.964 V: 62.581 pr: 0.048
+EVA_id: 3 dis: 226 price: 14.862 V: 67.529 pr: 0.271
+EVA_id: 5 dis: 140 price: 14.701 V: 69.304 pr: 0.504
+選択したEVA: 1
+EVA: 0 time: 5.611422382552436 S_num: 2 Bnum: 1
+EVA: 1 time: 5.611422382552436 S_num: 3 Bnum: 3
+EVA: 2 time: 5.611422382552436 S_num: 1 Bnum: 4
+EVA: 3 time: 5.611422382552436 S_num: 2 Bnum: 2
+EVA: 4 time: 5.611422382552436 S_num: 2 Bnum: 2
+EVA: 5 time: 5.611422382552436 S_num: 3 Bnum: 3
+EVA: 0 time: 5.639637954471599 S_num: 2 Bnum: 1
+EVA: 1 time: 5.639637954471599 S_num: 3 Bnum: 3
+EVA: 2 time: 5.639637954471599 S_num: 1 Bnum: 4
+EVA: 3 time: 5.639637954471599 S_num: 2 Bnum: 2
+EVA: 4 time: 5.639637954471599 S_num: 2 Bnum: 2
+EVA: 5 time: 5.639637954471599 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.036 V: -88.431 pr: 0.264
+EVA_id: 1 dis: 383 price: 16.302 V: -92.998 pr: 0.053
+EVA_id: 2 dis: 207 price: 16.521 V: -88.813 pr: 0.231
+EVA_id: 4 dis: 224 price: 16.138 V: -87.412 pr: 0.377
+EVA_id: 5 dis: 352 price: 16.302 V: -92.07 pr: 0.074
+選択したEVA: 0
+EVA: 0 time: 5.641419878399085 S_num: 2 Bnum: 2
+EVA: 1 time: 5.641419878399085 S_num: 3 Bnum: 3
+EVA: 2 time: 5.641419878399085 S_num: 1 Bnum: 4
+EVA: 3 time: 5.641419878399085 S_num: 2 Bnum: 2
+EVA: 4 time: 5.641419878399085 S_num: 2 Bnum: 2
+EVA: 5 time: 5.641419878399085 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.86 V: 66.051 pr: 0.171
+EVA_id: 1 dis: 383 price: 14.7 V: 62.01 pr: 0.042
+EVA_id: 2 dis: 207 price: 14.964 V: 68.611 pr: 0.419
+EVA_id: 4 dis: 224 price: 14.86 V: 67.581 pr: 0.292
+EVA_id: 5 dis: 352 price: 14.862 V: 63.748 pr: 0.076
+選択したEVA: 4
+EVA: 0 time: 5.6767840053188054 S_num: 2 Bnum: 2
+EVA: 1 time: 5.6767840053188054 S_num: 3 Bnum: 3
+EVA: 2 time: 5.6767840053188054 S_num: 1 Bnum: 4
+EVA: 3 time: 5.6767840053188054 S_num: 2 Bnum: 2
+EVA: 4 time: 5.6767840053188054 S_num: 3 Bnum: 2
+EVA: 5 time: 5.6767840053188054 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.86 V: 66.051 pr: 0.184
+EVA_id: 1 dis: 383 price: 14.7 V: 62.01 pr: 0.045
+EVA_id: 2 dis: 207 price: 14.964 V: 68.611 pr: 0.451
+EVA_id: 4 dis: 224 price: 14.699 V: 66.775 pr: 0.237
+EVA_id: 5 dis: 352 price: 14.862 V: 63.748 pr: 0.082
+選択したEVA: 4
+EVA: 0 time: 5.72216491169592 S_num: 2 Bnum: 2
+EVA: 1 time: 5.72216491169592 S_num: 3 Bnum: 3
+EVA: 2 time: 5.72216491169592 S_num: 1 Bnum: 4
+EVA: 3 time: 5.72216491169592 S_num: 2 Bnum: 2
+EVA: 4 time: 5.72216491169592 S_num: 4 Bnum: 2
+EVA: 5 time: 5.72216491169592 S_num: 2 Bnum: 3
+EVA: 0 time: 5.728689597388716 S_num: 2 Bnum: 2
+EVA: 1 time: 5.728689597388716 S_num: 3 Bnum: 2
+EVA: 2 time: 5.728689597388716 S_num: 1 Bnum: 4
+EVA: 3 time: 5.728689597388716 S_num: 2 Bnum: 2
+EVA: 4 time: 5.728689597388716 S_num: 4 Bnum: 2
+EVA: 5 time: 5.728689597388716 S_num: 2 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.137 V: -88.663 pr: 0.184
+EVA_id: 2 dis: 408 price: 16.521 V: -94.843 pr: 0.021
+EVA_id: 3 dis: 226 price: 16.142 V: -87.489 pr: 0.277
+EVA_id: 5 dis: 140 price: 16.302 V: -85.71 pr: 0.517
+選択したEVA: 3
+EVA: 0 time: 5.750430978763692 S_num: 2 Bnum: 2
+EVA: 1 time: 5.750430978763692 S_num: 3 Bnum: 2
+EVA: 2 time: 5.750430978763692 S_num: 1 Bnum: 4
+EVA: 3 time: 5.750430978763692 S_num: 2 Bnum: 3
+EVA: 4 time: 5.750430978763692 S_num: 4 Bnum: 2
+EVA: 5 time: 5.750430978763692 S_num: 2 Bnum: 3
+EVA: 0 time: 5.879521077720697 S_num: 2 Bnum: 2
+EVA: 1 time: 5.879521077720697 S_num: 3 Bnum: 2
+EVA: 2 time: 5.879521077720697 S_num: 1 Bnum: 4
+EVA: 3 time: 5.879521077720697 S_num: 2 Bnum: 2
+EVA: 4 time: 5.879521077720697 S_num: 4 Bnum: 2
+EVA: 5 time: 5.879521077720697 S_num: 2 Bnum: 3
+EVA: 0 time: 5.77045955019016 S_num: 2 Bnum: 2
+EVA: 1 time: 5.77045955019016 S_num: 3 Bnum: 2
+EVA: 2 time: 5.77045955019016 S_num: 1 Bnum: 4
+EVA: 3 time: 5.77045955019016 S_num: 2 Bnum: 2
+EVA: 4 time: 5.77045955019016 S_num: 4 Bnum: 1
+EVA: 5 time: 5.77045955019016 S_num: 2 Bnum: 3
+EVA: 0 time: 5.870122991224494 S_num: 2 Bnum: 2
+EVA: 1 time: 5.870122991224494 S_num: 3 Bnum: 2
+EVA: 2 time: 5.870122991224494 S_num: 1 Bnum: 4
+EVA: 3 time: 5.870122991224494 S_num: 2 Bnum: 2
+EVA: 4 time: 5.870122991224494 S_num: 4 Bnum: 1
+EVA: 5 time: 5.870122991224494 S_num: 1 Bnum: 3
+EVA: 0 time: 5.893386349821824 S_num: 2 Bnum: 2
+EVA: 1 time: 5.893386349821824 S_num: 2 Bnum: 2
+EVA: 2 time: 5.893386349821824 S_num: 1 Bnum: 4
+EVA: 3 time: 5.893386349821824 S_num: 2 Bnum: 2
+EVA: 4 time: 5.893386349821824 S_num: 4 Bnum: 1
+EVA: 5 time: 5.893386349821824 S_num: 1 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.138 V: -88.942 pr: 0.21
+EVA_id: 1 dis: 383 price: 16.142 V: -92.199 pr: 0.067
+EVA_id: 2 dis: 207 price: 16.521 V: -88.813 pr: 0.22
+EVA_id: 4 dis: 224 price: 16.034 V: -86.892 pr: 0.431
+EVA_id: 5 dis: 352 price: 16.296 V: -92.038 pr: 0.071
+選択したEVA: 0
+EVA: 0 time: 5.904113366869075 S_num: 2 Bnum: 3
+EVA: 1 time: 5.904113366869075 S_num: 2 Bnum: 2
+EVA: 2 time: 5.904113366869075 S_num: 1 Bnum: 4
+EVA: 3 time: 5.904113366869075 S_num: 2 Bnum: 2
+EVA: 4 time: 5.904113366869075 S_num: 4 Bnum: 1
+EVA: 5 time: 5.904113366869075 S_num: 1 Bnum: 3
+EVA: 0 time: 5.937691475376953 S_num: 2 Bnum: 3
+EVA: 1 time: 5.937691475376953 S_num: 2 Bnum: 2
+EVA: 2 time: 5.937691475376953 S_num: 1 Bnum: 3
+EVA: 3 time: 5.937691475376953 S_num: 2 Bnum: 2
+EVA: 4 time: 5.937691475376953 S_num: 4 Bnum: 1
+EVA: 5 time: 5.937691475376953 S_num: 1 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.302 V: -89.76 pr: 0.15
+EVA_id: 1 dis: 383 price: 16.142 V: -92.199 pr: 0.064
+EVA_id: 2 dis: 207 price: 16.296 V: -87.688 pr: 0.31
+EVA_id: 4 dis: 224 price: 16.034 V: -86.892 pr: 0.409
+EVA_id: 5 dis: 352 price: 16.296 V: -92.038 pr: 0.068
+選択したEVA: 4
+EVA: 0 time: 5.95768347610628 S_num: 2 Bnum: 3
+EVA: 1 time: 5.95768347610628 S_num: 2 Bnum: 2
+EVA: 2 time: 5.95768347610628 S_num: 1 Bnum: 3
+EVA: 3 time: 5.95768347610628 S_num: 2 Bnum: 2
+EVA: 4 time: 5.95768347610628 S_num: 4 Bnum: 2
+EVA: 5 time: 5.95768347610628 S_num: 1 Bnum: 3
+EVA: 0 time: 5.977439451852952 S_num: 2 Bnum: 3
+EVA: 1 time: 5.977439451852952 S_num: 2 Bnum: 2
+EVA: 2 time: 5.977439451852952 S_num: 1 Bnum: 3
+EVA: 3 time: 5.977439451852952 S_num: 2 Bnum: 2
+EVA: 4 time: 5.977439451852952 S_num: 3 Bnum: 2
+EVA: 5 time: 5.977439451852952 S_num: 1 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.862 V: 66.058 pr: 0.179
+EVA_id: 1 dis: 383 price: 14.862 V: 62.819 pr: 0.058
+EVA_id: 2 dis: 207 price: 14.963 V: 68.605 pr: 0.437
+EVA_id: 4 dis: 224 price: 14.699 V: 66.776 pr: 0.231
+EVA_id: 5 dis: 352 price: 14.963 V: 64.255 pr: 0.095
+選択したEVA: 2
+EVA: 0 time: 6.001456551792306 S_num: 2 Bnum: 3
+EVA: 1 time: 6.001456551792306 S_num: 2 Bnum: 2
+EVA: 2 time: 6.001456551792306 S_num: 2 Bnum: 3
+EVA: 3 time: 6.001456551792306 S_num: 2 Bnum: 2
+EVA: 4 time: 6.001456551792306 S_num: 3 Bnum: 2
+EVA: 5 time: 6.001456551792306 S_num: 1 Bnum: 3
+EVA: 0 time: 5.996181533785217 S_num: 1 Bnum: 3
+EVA: 1 time: 5.996181533785217 S_num: 2 Bnum: 2
+EVA: 2 time: 5.996181533785217 S_num: 2 Bnum: 3
+EVA: 3 time: 5.996181533785217 S_num: 2 Bnum: 2
+EVA: 4 time: 5.996181533785217 S_num: 3 Bnum: 2
+EVA: 5 time: 5.996181533785217 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.862 V: 66.329 pr: 0.138
+EVA_id: 2 dis: 408 price: 14.861 V: 62.067 pr: 0.031
+EVA_id: 3 dis: 226 price: 14.86 V: 67.521 pr: 0.21
+EVA_id: 5 dis: 140 price: 14.963 V: 70.615 pr: 0.62
+選択したEVA: 3
+EVA: 0 time: 6.080761593203221 S_num: 1 Bnum: 3
+EVA: 1 time: 6.080761593203221 S_num: 2 Bnum: 2
+EVA: 2 time: 6.080761593203221 S_num: 2 Bnum: 3
+EVA: 3 time: 6.080761593203221 S_num: 3 Bnum: 2
+EVA: 4 time: 6.080761593203221 S_num: 3 Bnum: 2
+EVA: 5 time: 6.080761593203221 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.862 V: 66.329 pr: 0.146
+EVA_id: 2 dis: 408 price: 14.861 V: 62.067 pr: 0.033
+EVA_id: 3 dis: 226 price: 14.699 V: 66.715 pr: 0.167
+EVA_id: 5 dis: 140 price: 14.963 V: 70.615 pr: 0.654
+選択したEVA: 1
+EVA: 0 time: 6.087915972679366 S_num: 1 Bnum: 3
+EVA: 1 time: 6.087915972679366 S_num: 3 Bnum: 2
+EVA: 2 time: 6.087915972679366 S_num: 2 Bnum: 3
+EVA: 3 time: 6.087915972679366 S_num: 3 Bnum: 2
+EVA: 4 time: 6.087915972679366 S_num: 3 Bnum: 2
+EVA: 5 time: 6.087915972679366 S_num: 1 Bnum: 3
+EVA: 0 time: 6.118228602346473 S_num: 1 Bnum: 3
+EVA: 1 time: 6.118228602346473 S_num: 3 Bnum: 2
+EVA: 2 time: 6.118228602346473 S_num: 2 Bnum: 3
+EVA: 3 time: 6.118228602346473 S_num: 2 Bnum: 2
+EVA: 4 time: 6.118228602346473 S_num: 3 Bnum: 2
+EVA: 5 time: 6.118228602346473 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.137 V: -88.663 pr: 0.181
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.031
+EVA_id: 3 dis: 226 price: 16.142 V: -87.489 pr: 0.273
+EVA_id: 5 dis: 140 price: 16.296 V: -85.678 pr: 0.515
+選択したEVA: 1
+EVA: 0 time: 6.129402804778893 S_num: 1 Bnum: 3
+EVA: 1 time: 6.129402804778893 S_num: 3 Bnum: 3
+EVA: 2 time: 6.129402804778893 S_num: 2 Bnum: 3
+EVA: 3 time: 6.129402804778893 S_num: 2 Bnum: 2
+EVA: 4 time: 6.129402804778893 S_num: 3 Bnum: 2
+EVA: 5 time: 6.129402804778893 S_num: 1 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.225
+EVA_id: 1 dis: 383 price: 14.699 V: 62.006 pr: 0.046
+EVA_id: 2 dis: 207 price: 14.861 V: 68.097 pr: 0.386
+EVA_id: 4 dis: 224 price: 14.699 V: 66.776 pr: 0.243
+EVA_id: 5 dis: 352 price: 14.963 V: 64.255 pr: 0.1
+選択したEVA: 5
+EVA: 0 time: 6.147915726741957 S_num: 1 Bnum: 3
+EVA: 1 time: 6.147915726741957 S_num: 3 Bnum: 3
+EVA: 2 time: 6.147915726741957 S_num: 2 Bnum: 3
+EVA: 3 time: 6.147915726741957 S_num: 2 Bnum: 2
+EVA: 4 time: 6.147915726741957 S_num: 3 Bnum: 2
+EVA: 5 time: 6.147915726741957 S_num: 2 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.699 V: 65.516 pr: 0.12
+EVA_id: 2 dis: 408 price: 14.861 V: 62.067 pr: 0.036
+EVA_id: 3 dis: 226 price: 14.862 V: 67.529 pr: 0.243
+EVA_id: 5 dis: 140 price: 14.861 V: 70.107 pr: 0.6
+選択したEVA: 3
+EVA: 0 time: 6.149920982788163 S_num: 1 Bnum: 3
+EVA: 1 time: 6.149920982788163 S_num: 3 Bnum: 3
+EVA: 2 time: 6.149920982788163 S_num: 2 Bnum: 3
+EVA: 3 time: 6.149920982788163 S_num: 3 Bnum: 2
+EVA: 4 time: 6.149920982788163 S_num: 3 Bnum: 2
+EVA: 5 time: 6.149920982788163 S_num: 2 Bnum: 3
+EVA: 0 time: 6.162498671028665 S_num: 1 Bnum: 3
+EVA: 1 time: 6.162498671028665 S_num: 3 Bnum: 2
+EVA: 2 time: 6.162498671028665 S_num: 2 Bnum: 3
+EVA: 3 time: 6.162498671028665 S_num: 3 Bnum: 2
+EVA: 4 time: 6.162498671028665 S_num: 3 Bnum: 2
+EVA: 5 time: 6.162498671028665 S_num: 2 Bnum: 3
+EVA: 0 time: 6.188656118700205 S_num: 1 Bnum: 3
+EVA: 1 time: 6.188656118700205 S_num: 3 Bnum: 2
+EVA: 2 time: 6.188656118700205 S_num: 2 Bnum: 2
+EVA: 3 time: 6.188656118700205 S_num: 3 Bnum: 2
+EVA: 4 time: 6.188656118700205 S_num: 3 Bnum: 2
+EVA: 5 time: 6.188656118700205 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.296 V: -89.728 pr: 0.147
+EVA_id: 1 dis: 383 price: 16.137 V: -92.173 pr: 0.063
+EVA_id: 2 dis: 207 price: 16.142 V: -86.919 pr: 0.393
+EVA_id: 4 dis: 224 price: 16.137 V: -87.403 pr: 0.332
+EVA_id: 5 dis: 352 price: 16.302 V: -92.069 pr: 0.065
+選択したEVA: 2
+EVA: 0 time: 6.191888605583406 S_num: 1 Bnum: 3
+EVA: 1 time: 6.191888605583406 S_num: 3 Bnum: 2
+EVA: 2 time: 6.191888605583406 S_num: 2 Bnum: 3
+EVA: 3 time: 6.191888605583406 S_num: 3 Bnum: 2
+EVA: 4 time: 6.191888605583406 S_num: 3 Bnum: 2
+EVA: 5 time: 6.191888605583406 S_num: 2 Bnum: 3
+EVA: 0 time: 6.208338713575718 S_num: 1 Bnum: 3
+EVA: 1 time: 6.208338713575718 S_num: 3 Bnum: 2
+EVA: 2 time: 6.208338713575718 S_num: 2 Bnum: 3
+EVA: 3 time: 6.208338713575718 S_num: 3 Bnum: 2
+EVA: 4 time: 6.208338713575718 S_num: 3 Bnum: 2
+EVA: 5 time: 6.208338713575718 S_num: 2 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.699 V: 65.516 pr: 0.128
+EVA_id: 2 dis: 408 price: 14.862 V: 62.068 pr: 0.038
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.195
+EVA_id: 5 dis: 140 price: 14.862 V: 70.109 pr: 0.639
+選択したEVA: 5
+EVA: 0 time: 6.232645473048954 S_num: 1 Bnum: 3
+EVA: 1 time: 6.232645473048954 S_num: 3 Bnum: 2
+EVA: 2 time: 6.232645473048954 S_num: 2 Bnum: 3
+EVA: 3 time: 6.232645473048954 S_num: 3 Bnum: 2
+EVA: 4 time: 6.232645473048954 S_num: 3 Bnum: 2
+EVA: 5 time: 6.232645473048954 S_num: 3 Bnum: 2
+EVA: 0 time: 6.284903519859357 S_num: 1 Bnum: 3
+EVA: 1 time: 6.284903519859357 S_num: 2 Bnum: 2
+EVA: 2 time: 6.284903519859357 S_num: 2 Bnum: 3
+EVA: 3 time: 6.284903519859357 S_num: 3 Bnum: 2
+EVA: 4 time: 6.284903519859357 S_num: 3 Bnum: 2
+EVA: 5 time: 6.284903519859357 S_num: 3 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.86 V: 66.321 pr: 0.192
+EVA_id: 2 dis: 408 price: 14.862 V: 62.068 pr: 0.043
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.221
+EVA_id: 5 dis: 140 price: 14.699 V: 69.296 pr: 0.544
+選択したEVA: 5
+EVA: 0 time: 6.288575820197968 S_num: 1 Bnum: 3
+EVA: 1 time: 6.288575820197968 S_num: 2 Bnum: 2
+EVA: 2 time: 6.288575820197968 S_num: 2 Bnum: 3
+EVA: 3 time: 6.288575820197968 S_num: 3 Bnum: 2
+EVA: 4 time: 6.288575820197968 S_num: 3 Bnum: 2
+EVA: 5 time: 6.288575820197968 S_num: 4 Bnum: 2
+EVA: 0 time: 6.306948045243979 S_num: 1 Bnum: 2
+EVA: 1 time: 6.306948045243979 S_num: 2 Bnum: 2
+EVA: 2 time: 6.306948045243979 S_num: 2 Bnum: 3
+EVA: 3 time: 6.306948045243979 S_num: 3 Bnum: 2
+EVA: 4 time: 6.306948045243979 S_num: 3 Bnum: 2
+EVA: 5 time: 6.306948045243979 S_num: 4 Bnum: 2
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.199
+EVA_id: 1 dis: 383 price: 16.138 V: -92.182 pr: 0.064
+EVA_id: 2 dis: 207 price: 16.302 V: -87.72 pr: 0.306
+EVA_id: 4 dis: 224 price: 16.137 V: -87.403 pr: 0.342
+EVA_id: 5 dis: 352 price: 16.139 V: -91.253 pr: 0.089
+選択したEVA: 4
+EVA: 0 time: 6.314403796550877 S_num: 1 Bnum: 2
+EVA: 1 time: 6.314403796550877 S_num: 2 Bnum: 2
+EVA: 2 time: 6.314403796550877 S_num: 2 Bnum: 3
+EVA: 3 time: 6.314403796550877 S_num: 3 Bnum: 2
+EVA: 4 time: 6.314403796550877 S_num: 3 Bnum: 3
+EVA: 5 time: 6.314403796550877 S_num: 4 Bnum: 2
+EVA: 0 time: 6.325296489539141 S_num: 1 Bnum: 2
+EVA: 1 time: 6.325296489539141 S_num: 2 Bnum: 2
+EVA: 2 time: 6.325296489539141 S_num: 2 Bnum: 3
+EVA: 3 time: 6.325296489539141 S_num: 3 Bnum: 2
+EVA: 4 time: 6.325296489539141 S_num: 3 Bnum: 3
+EVA: 5 time: 6.325296489539141 S_num: 4 Bnum: 1
+EVA: 0 time: 6.324418097255266 S_num: 1 Bnum: 2
+EVA: 1 time: 6.324418097255266 S_num: 2 Bnum: 2
+EVA: 2 time: 6.324418097255266 S_num: 2 Bnum: 3
+EVA: 3 time: 6.324418097255266 S_num: 3 Bnum: 1
+EVA: 4 time: 6.324418097255266 S_num: 3 Bnum: 3
+EVA: 5 time: 6.324418097255266 S_num: 4 Bnum: 1
+EVA_id: 1 dis: 266 price: 16.138 V: -88.672 pr: 0.133
+EVA_id: 2 dis: 408 price: 16.302 V: -93.75 pr: 0.023
+EVA_id: 3 dis: 226 price: 16.036 V: -86.962 pr: 0.243
+EVA_id: 5 dis: 140 price: 16.034 V: -84.372 pr: 0.601
+選択したEVA: 5
+EVA: 0 time: 6.364081179029985 S_num: 1 Bnum: 2
+EVA: 1 time: 6.364081179029985 S_num: 2 Bnum: 2
+EVA: 2 time: 6.364081179029985 S_num: 2 Bnum: 3
+EVA: 3 time: 6.364081179029985 S_num: 3 Bnum: 1
+EVA: 4 time: 6.364081179029985 S_num: 3 Bnum: 3
+EVA: 5 time: 6.364081179029985 S_num: 4 Bnum: 2
+EVA_id: 1 dis: 266 price: 14.86 V: 66.321 pr: 0.232
+EVA_id: 2 dis: 408 price: 14.862 V: 62.068 pr: 0.052
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.266
+EVA_id: 5 dis: 140 price: 14.482 V: 68.208 pr: 0.449
+選択したEVA: 3
+EVA: 0 time: 6.400060595928918 S_num: 1 Bnum: 2
+EVA: 1 time: 6.400060595928918 S_num: 2 Bnum: 2
+EVA: 2 time: 6.400060595928918 S_num: 2 Bnum: 3
+EVA: 3 time: 6.400060595928918 S_num: 4 Bnum: 1
+EVA: 4 time: 6.400060595928918 S_num: 3 Bnum: 3
+EVA: 5 time: 6.400060595928918 S_num: 4 Bnum: 2
+EVA_id: 1 dis: 266 price: 16.138 V: -88.672 pr: 0.148
+EVA_id: 2 dis: 408 price: 16.302 V: -93.75 pr: 0.025
+EVA_id: 3 dis: 226 price: 16.034 V: -86.952 pr: 0.27
+EVA_id: 5 dis: 140 price: 16.138 V: -84.889 pr: 0.557
+選択したEVA: 5
+EVA: 0 time: 6.403511246829575 S_num: 1 Bnum: 2
+EVA: 1 time: 6.403511246829575 S_num: 2 Bnum: 2
+EVA: 2 time: 6.403511246829575 S_num: 2 Bnum: 3
+EVA: 3 time: 6.403511246829575 S_num: 4 Bnum: 1
+EVA: 4 time: 6.403511246829575 S_num: 3 Bnum: 3
+EVA: 5 time: 6.403511246829575 S_num: 4 Bnum: 3
+EVA: 0 time: 6.45733472538086 S_num: 1 Bnum: 2
+EVA: 1 time: 6.45733472538086 S_num: 2 Bnum: 2
+EVA: 2 time: 6.45733472538086 S_num: 2 Bnum: 2
+EVA: 3 time: 6.45733472538086 S_num: 4 Bnum: 1
+EVA: 4 time: 6.45733472538086 S_num: 3 Bnum: 3
+EVA: 5 time: 6.45733472538086 S_num: 4 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.2
+EVA_id: 1 dis: 383 price: 16.138 V: -92.182 pr: 0.065
+EVA_id: 2 dis: 207 price: 16.138 V: -86.902 pr: 0.41
+EVA_id: 4 dis: 224 price: 16.299 V: -88.214 pr: 0.259
+EVA_id: 5 dis: 352 price: 16.303 V: -92.077 pr: 0.067
+選択したEVA: 4
+EVA: 0 time: 6.457433154037388 S_num: 1 Bnum: 2
+EVA: 1 time: 6.457433154037388 S_num: 2 Bnum: 2
+EVA: 2 time: 6.457433154037388 S_num: 2 Bnum: 2
+EVA: 3 time: 6.457433154037388 S_num: 4 Bnum: 1
+EVA: 4 time: 6.457433154037388 S_num: 3 Bnum: 4
+EVA: 5 time: 6.457433154037388 S_num: 4 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.218
+EVA_id: 1 dis: 383 price: 16.138 V: -92.182 pr: 0.07
+EVA_id: 2 dis: 207 price: 16.138 V: -86.902 pr: 0.447
+EVA_id: 4 dis: 224 price: 16.519 V: -89.315 pr: 0.192
+EVA_id: 5 dis: 352 price: 16.303 V: -92.077 pr: 0.073
+選択したEVA: 4
+EVA: 0 time: 6.499005174252731 S_num: 1 Bnum: 2
+EVA: 1 time: 6.499005174252731 S_num: 2 Bnum: 2
+EVA: 2 time: 6.499005174252731 S_num: 2 Bnum: 2
+EVA: 3 time: 6.499005174252731 S_num: 4 Bnum: 1
+EVA: 4 time: 6.499005174252731 S_num: 3 Bnum: 5
+EVA: 5 time: 6.499005174252731 S_num: 4 Bnum: 3
+EVA: 0 time: 6.532706376072685 S_num: 1 Bnum: 2
+EVA: 1 time: 6.532706376072685 S_num: 2 Bnum: 2
+EVA: 2 time: 6.532706376072685 S_num: 1 Bnum: 2
+EVA: 3 time: 6.532706376072685 S_num: 4 Bnum: 1
+EVA: 4 time: 6.532706376072685 S_num: 3 Bnum: 5
+EVA: 5 time: 6.532706376072685 S_num: 4 Bnum: 3
+EVA: 0 time: 6.54065845217991 S_num: 1 Bnum: 2
+EVA: 1 time: 6.54065845217991 S_num: 2 Bnum: 2
+EVA: 2 time: 6.54065845217991 S_num: 1 Bnum: 2
+EVA: 3 time: 6.54065845217991 S_num: 4 Bnum: 1
+EVA: 4 time: 6.54065845217991 S_num: 2 Bnum: 5
+EVA: 5 time: 6.54065845217991 S_num: 4 Bnum: 3
+EVA: 0 time: 6.569641743223836 S_num: 1 Bnum: 1
+EVA: 1 time: 6.569641743223836 S_num: 2 Bnum: 2
+EVA: 2 time: 6.569641743223836 S_num: 1 Bnum: 2
+EVA: 3 time: 6.569641743223836 S_num: 4 Bnum: 1
+EVA: 4 time: 6.569641743223836 S_num: 2 Bnum: 5
+EVA: 5 time: 6.569641743223836 S_num: 4 Bnum: 3
+EVA: 0 time: 6.567516902804236 S_num: 1 Bnum: 1
+EVA: 1 time: 6.567516902804236 S_num: 2 Bnum: 2
+EVA: 2 time: 6.567516902804236 S_num: 1 Bnum: 2
+EVA: 3 time: 6.567516902804236 S_num: 4 Bnum: 1
+EVA: 4 time: 6.567516902804236 S_num: 1 Bnum: 5
+EVA: 5 time: 6.567516902804236 S_num: 4 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.192
+EVA_id: 1 dis: 383 price: 14.86 V: 62.811 pr: 0.051
+EVA_id: 2 dis: 207 price: 14.966 V: 68.621 pr: 0.393
+EVA_id: 4 dis: 224 price: 14.964 V: 68.101 pr: 0.327
+EVA_id: 5 dis: 352 price: 14.48 V: 61.84 pr: 0.037
+選択したEVA: 4
+EVA: 0 time: 6.574261666473859 S_num: 1 Bnum: 1
+EVA: 1 time: 6.574261666473859 S_num: 2 Bnum: 2
+EVA: 2 time: 6.574261666473859 S_num: 1 Bnum: 2
+EVA: 3 time: 6.574261666473859 S_num: 4 Bnum: 1
+EVA: 4 time: 6.574261666473859 S_num: 2 Bnum: 5
+EVA: 5 time: 6.574261666473859 S_num: 4 Bnum: 3
+EVA: 0 time: 6.602549823221134 S_num: 1 Bnum: 1
+EVA: 1 time: 6.602549823221134 S_num: 2 Bnum: 2
+EVA: 2 time: 6.602549823221134 S_num: 1 Bnum: 2
+EVA: 3 time: 6.602549823221134 S_num: 4 Bnum: 1
+EVA: 4 time: 6.602549823221134 S_num: 2 Bnum: 4
+EVA: 5 time: 6.602549823221134 S_num: 4 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.86 V: 66.321 pr: 0.251
+EVA_id: 2 dis: 408 price: 14.966 V: 62.591 pr: 0.068
+EVA_id: 3 dis: 226 price: 14.481 V: 65.626 pr: 0.197
+EVA_id: 5 dis: 140 price: 14.48 V: 68.2 pr: 0.484
+選択したEVA: 2
+EVA: 0 time: 6.646408871138426 S_num: 1 Bnum: 1
+EVA: 1 time: 6.646408871138426 S_num: 2 Bnum: 2
+EVA: 2 time: 6.646408871138426 S_num: 2 Bnum: 2
+EVA: 3 time: 6.646408871138426 S_num: 4 Bnum: 1
+EVA: 4 time: 6.646408871138426 S_num: 2 Bnum: 4
+EVA: 5 time: 6.646408871138426 S_num: 4 Bnum: 3
+EVA: 0 time: 6.671684630833115 S_num: 1 Bnum: 1
+EVA: 1 time: 6.671684630833115 S_num: 2 Bnum: 1
+EVA: 2 time: 6.671684630833115 S_num: 2 Bnum: 2
+EVA: 3 time: 6.671684630833115 S_num: 4 Bnum: 1
+EVA: 4 time: 6.671684630833115 S_num: 2 Bnum: 4
+EVA: 5 time: 6.671684630833115 S_num: 4 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.036 V: -88.161 pr: 0.197
+EVA_id: 2 dis: 408 price: 16.142 V: -92.949 pr: 0.037
+EVA_id: 3 dis: 226 price: 16.034 V: -86.952 pr: 0.301
+EVA_id: 5 dis: 140 price: 16.303 V: -85.717 pr: 0.464
+選択したEVA: 3
+EVA: 0 time: 6.680733578246702 S_num: 1 Bnum: 1
+EVA: 1 time: 6.680733578246702 S_num: 2 Bnum: 1
+EVA: 2 time: 6.680733578246702 S_num: 2 Bnum: 2
+EVA: 3 time: 6.680733578246702 S_num: 4 Bnum: 2
+EVA: 4 time: 6.680733578246702 S_num: 2 Bnum: 4
+EVA: 5 time: 6.680733578246702 S_num: 4 Bnum: 3
+EVA: 0 time: 6.684828348758707 S_num: 1 Bnum: 1
+EVA: 1 time: 6.684828348758707 S_num: 1 Bnum: 1
+EVA: 2 time: 6.684828348758707 S_num: 2 Bnum: 2
+EVA: 3 time: 6.684828348758707 S_num: 4 Bnum: 2
+EVA: 4 time: 6.684828348758707 S_num: 2 Bnum: 4
+EVA: 5 time: 6.684828348758707 S_num: 4 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.215
+EVA_id: 1 dis: 383 price: 14.966 V: 63.342 pr: 0.069
+EVA_id: 2 dis: 207 price: 14.862 V: 68.099 pr: 0.366
+EVA_id: 4 dis: 224 price: 14.864 V: 67.602 pr: 0.308
+EVA_id: 5 dis: 352 price: 14.48 V: 61.84 pr: 0.041
+選択したEVA: 2
+EVA: 0 time: 6.712478468363703 S_num: 1 Bnum: 1
+EVA: 1 time: 6.712478468363703 S_num: 1 Bnum: 1
+EVA: 2 time: 6.712478468363703 S_num: 3 Bnum: 2
+EVA: 3 time: 6.712478468363703 S_num: 4 Bnum: 2
+EVA: 4 time: 6.712478468363703 S_num: 2 Bnum: 4
+EVA: 5 time: 6.712478468363703 S_num: 4 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.209
+EVA_id: 2 dis: 408 price: 16.137 V: -92.923 pr: 0.039
+EVA_id: 3 dis: 226 price: 16.138 V: -87.469 pr: 0.264
+EVA_id: 5 dis: 140 price: 16.303 V: -85.717 pr: 0.488
+選択したEVA: 5
+EVA: 0 time: 6.846495974683764 S_num: 1 Bnum: 1
+EVA: 1 time: 6.846495974683764 S_num: 1 Bnum: 1
+EVA: 2 time: 6.846495974683764 S_num: 3 Bnum: 2
+EVA: 3 time: 6.846495974683764 S_num: 4 Bnum: 2
+EVA: 4 time: 6.846495974683764 S_num: 2 Bnum: 4
+EVA: 5 time: 6.846495974683764 S_num: 4 Bnum: 4
+EVA: 0 time: 6.794182942182678 S_num: 1 Bnum: 1
+EVA: 1 time: 6.794182942182678 S_num: 1 Bnum: 1
+EVA: 2 time: 6.794182942182678 S_num: 3 Bnum: 1
+EVA: 3 time: 6.794182942182678 S_num: 4 Bnum: 2
+EVA: 4 time: 6.794182942182678 S_num: 2 Bnum: 4
+EVA: 5 time: 6.794182942182678 S_num: 4 Bnum: 4
+EVA: 0 time: 6.904941695079835 S_num: 1 Bnum: 1
+EVA: 1 time: 6.904941695079835 S_num: 1 Bnum: 1
+EVA: 2 time: 6.904941695079835 S_num: 3 Bnum: 1
+EVA: 3 time: 6.904941695079835 S_num: 3 Bnum: 2
+EVA: 4 time: 6.904941695079835 S_num: 2 Bnum: 4
+EVA: 5 time: 6.904941695079835 S_num: 4 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.245
+EVA_id: 2 dis: 408 price: 16.036 V: -92.422 pr: 0.055
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.31
+EVA_id: 5 dis: 140 price: 16.52 V: -86.801 pr: 0.391
+選択したEVA: 5
+EVA: 0 time: 6.937844173474307 S_num: 1 Bnum: 1
+EVA: 1 time: 6.937844173474307 S_num: 1 Bnum: 1
+EVA: 2 time: 6.937844173474307 S_num: 3 Bnum: 1
+EVA: 3 time: 6.937844173474307 S_num: 3 Bnum: 2
+EVA: 4 time: 6.937844173474307 S_num: 2 Bnum: 4
+EVA: 5 time: 6.937844173474307 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.287
+EVA_id: 2 dis: 408 price: 16.036 V: -92.422 pr: 0.064
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.363
+EVA_id: 5 dis: 140 price: 16.789 V: -88.147 pr: 0.286
+選択したEVA: 1
+EVA: 0 time: 6.940681712492878 S_num: 1 Bnum: 1
+EVA: 1 time: 6.940681712492878 S_num: 1 Bnum: 2
+EVA: 2 time: 6.940681712492878 S_num: 3 Bnum: 1
+EVA: 3 time: 6.940681712492878 S_num: 3 Bnum: 2
+EVA: 4 time: 6.940681712492878 S_num: 2 Bnum: 4
+EVA: 5 time: 6.940681712492878 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.25
+EVA_id: 2 dis: 408 price: 16.036 V: -92.422 pr: 0.067
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.382
+EVA_id: 5 dis: 140 price: 16.789 V: -88.147 pr: 0.301
+選択したEVA: 3
+EVA: 0 time: 6.952166375258947 S_num: 1 Bnum: 1
+EVA: 1 time: 6.952166375258947 S_num: 1 Bnum: 2
+EVA: 2 time: 6.952166375258947 S_num: 3 Bnum: 1
+EVA: 3 time: 6.952166375258947 S_num: 3 Bnum: 3
+EVA: 4 time: 6.952166375258947 S_num: 2 Bnum: 4
+EVA: 5 time: 6.952166375258947 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.237
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.076
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.303
+EVA_id: 4 dis: 224 price: 14.864 V: 67.602 pr: 0.339
+EVA_id: 5 dis: 352 price: 14.48 V: 61.841 pr: 0.045
+選択したEVA: 4
+EVA: 0 time: 7.004589165512778 S_num: 1 Bnum: 1
+EVA: 1 time: 7.004589165512778 S_num: 1 Bnum: 2
+EVA: 2 time: 7.004589165512778 S_num: 3 Bnum: 1
+EVA: 3 time: 7.004589165512778 S_num: 3 Bnum: 3
+EVA: 4 time: 7.004589165512778 S_num: 3 Bnum: 4
+EVA: 5 time: 7.004589165512778 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.27
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.038
+EVA_id: 3 dis: 226 price: 14.701 V: 66.724 pr: 0.258
+EVA_id: 5 dis: 140 price: 14.48 V: 68.201 pr: 0.433
+選択したEVA: 3
+EVA: 0 time: 7.0231818017734815 S_num: 1 Bnum: 1
+EVA: 1 time: 7.0231818017734815 S_num: 1 Bnum: 2
+EVA: 2 time: 7.0231818017734815 S_num: 3 Bnum: 1
+EVA: 3 time: 7.0231818017734815 S_num: 4 Bnum: 3
+EVA: 4 time: 7.0231818017734815 S_num: 3 Bnum: 4
+EVA: 5 time: 7.0231818017734815 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.259
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.083
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.331
+EVA_id: 4 dis: 224 price: 14.699 V: 66.775 pr: 0.277
+EVA_id: 5 dis: 352 price: 14.48 V: 61.841 pr: 0.049
+選択したEVA: 5
+EVA: 0 time: 7.078700955290459 S_num: 1 Bnum: 1
+EVA: 1 time: 7.078700955290459 S_num: 1 Bnum: 2
+EVA: 2 time: 7.078700955290459 S_num: 3 Bnum: 1
+EVA: 3 time: 7.078700955290459 S_num: 4 Bnum: 3
+EVA: 4 time: 7.078700955290459 S_num: 3 Bnum: 4
+EVA: 5 time: 7.078700955290459 S_num: 5 Bnum: 5
+EVA: 0 time: 7.089627849790015 S_num: 1 Bnum: 1
+EVA: 1 time: 7.089627849790015 S_num: 1 Bnum: 2
+EVA: 2 time: 7.089627849790015 S_num: 3 Bnum: 1
+EVA: 3 time: 7.089627849790015 S_num: 3 Bnum: 3
+EVA: 4 time: 7.089627849790015 S_num: 3 Bnum: 4
+EVA: 5 time: 7.089627849790015 S_num: 5 Bnum: 5
+EVA: 0 time: 7.114127922819253 S_num: 1 Bnum: 1
+EVA: 1 time: 7.114127922819253 S_num: 1 Bnum: 2
+EVA: 2 time: 7.114127922819253 S_num: 3 Bnum: 1
+EVA: 3 time: 7.114127922819253 S_num: 3 Bnum: 3
+EVA: 4 time: 7.114127922819253 S_num: 3 Bnum: 4
+EVA: 5 time: 7.114127922819253 S_num: 4 Bnum: 5
+EVA: 0 time: 7.155973071297212 S_num: 1 Bnum: 1
+EVA: 1 time: 7.155973071297212 S_num: 1 Bnum: 2
+EVA: 2 time: 7.155973071297212 S_num: 3 Bnum: 1
+EVA: 3 time: 7.155973071297212 S_num: 3 Bnum: 3
+EVA: 4 time: 7.155973071297212 S_num: 2 Bnum: 4
+EVA: 5 time: 7.155973071297212 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.966 V: 66.582 pr: 0.237
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.076
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.303
+EVA_id: 4 dis: 224 price: 14.864 V: 67.602 pr: 0.339
+EVA_id: 5 dis: 352 price: 14.481 V: 61.843 pr: 0.045
+選択したEVA: 0
+EVA: 0 time: 7.226247355445935 S_num: 2 Bnum: 1
+EVA: 1 time: 7.226247355445935 S_num: 1 Bnum: 2
+EVA: 2 time: 7.226247355445935 S_num: 3 Bnum: 1
+EVA: 3 time: 7.226247355445935 S_num: 3 Bnum: 3
+EVA: 4 time: 7.226247355445935 S_num: 2 Bnum: 4
+EVA: 5 time: 7.226247355445935 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.036 V: -88.431 pr: 0.24
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.064
+EVA_id: 2 dis: 207 price: 16.036 V: -86.392 pr: 0.49
+EVA_id: 4 dis: 224 price: 16.516 V: -89.299 pr: 0.177
+EVA_id: 5 dis: 352 price: 16.788 V: -94.499 pr: 0.029
+選択したEVA: 0
+EVA: 0 time: 7.228736009263391 S_num: 2 Bnum: 2
+EVA: 1 time: 7.228736009263391 S_num: 1 Bnum: 2
+EVA: 2 time: 7.228736009263391 S_num: 3 Bnum: 1
+EVA: 3 time: 7.228736009263391 S_num: 3 Bnum: 3
+EVA: 4 time: 7.228736009263391 S_num: 2 Bnum: 4
+EVA: 5 time: 7.228736009263391 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.86 V: 66.051 pr: 0.205
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.079
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.316
+EVA_id: 4 dis: 224 price: 14.864 V: 67.602 pr: 0.353
+EVA_id: 5 dis: 352 price: 14.481 V: 61.843 pr: 0.047
+選択したEVA: 4
+EVA: 0 time: 7.237141356197512 S_num: 2 Bnum: 2
+EVA: 1 time: 7.237141356197512 S_num: 1 Bnum: 2
+EVA: 2 time: 7.237141356197512 S_num: 3 Bnum: 1
+EVA: 3 time: 7.237141356197512 S_num: 3 Bnum: 3
+EVA: 4 time: 7.237141356197512 S_num: 3 Bnum: 4
+EVA: 5 time: 7.237141356197512 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.27
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.038
+EVA_id: 3 dis: 226 price: 14.701 V: 66.725 pr: 0.258
+EVA_id: 5 dis: 140 price: 14.481 V: 68.203 pr: 0.433
+選択したEVA: 3
+EVA: 0 time: 7.265198758621065 S_num: 2 Bnum: 2
+EVA: 1 time: 7.265198758621065 S_num: 1 Bnum: 2
+EVA: 2 time: 7.265198758621065 S_num: 3 Bnum: 1
+EVA: 3 time: 7.265198758621065 S_num: 4 Bnum: 3
+EVA: 4 time: 7.265198758621065 S_num: 3 Bnum: 4
+EVA: 5 time: 7.265198758621065 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.294
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.042
+EVA_id: 3 dis: 226 price: 14.48 V: 65.62 pr: 0.191
+EVA_id: 5 dis: 140 price: 14.481 V: 68.203 pr: 0.473
+選択したEVA: 5
+EVA: 0 time: 7.2711966832103885 S_num: 2 Bnum: 2
+EVA: 1 time: 7.2711966832103885 S_num: 1 Bnum: 2
+EVA: 2 time: 7.2711966832103885 S_num: 3 Bnum: 1
+EVA: 3 time: 7.2711966832103885 S_num: 4 Bnum: 3
+EVA: 4 time: 7.2711966832103885 S_num: 3 Bnum: 4
+EVA: 5 time: 7.2711966832103885 S_num: 5 Bnum: 5
+EVA: 0 time: 7.28668507211122 S_num: 2 Bnum: 2
+EVA: 1 time: 7.28668507211122 S_num: 1 Bnum: 2
+EVA: 2 time: 7.28668507211122 S_num: 3 Bnum: 1
+EVA: 3 time: 7.28668507211122 S_num: 4 Bnum: 3
+EVA: 4 time: 7.28668507211122 S_num: 3 Bnum: 4
+EVA: 5 time: 7.28668507211122 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.276
+EVA_id: 2 dis: 408 price: 16.036 V: -92.422 pr: 0.075
+EVA_id: 3 dis: 226 price: 16.303 V: -88.297 pr: 0.316
+EVA_id: 5 dis: 140 price: 16.788 V: -88.14 pr: 0.334
+選択したEVA: 1
+EVA: 0 time: 7.304993142201173 S_num: 2 Bnum: 2
+EVA: 1 time: 7.304993142201173 S_num: 1 Bnum: 3
+EVA: 2 time: 7.304993142201173 S_num: 3 Bnum: 1
+EVA: 3 time: 7.304993142201173 S_num: 4 Bnum: 3
+EVA: 4 time: 7.304993142201173 S_num: 3 Bnum: 4
+EVA: 5 time: 7.304993142201173 S_num: 4 Bnum: 5
+EVA: 0 time: 7.312919377954798 S_num: 2 Bnum: 2
+EVA: 1 time: 7.312919377954798 S_num: 1 Bnum: 3
+EVA: 2 time: 7.312919377954798 S_num: 3 Bnum: 1
+EVA: 3 time: 7.312919377954798 S_num: 4 Bnum: 3
+EVA: 4 time: 7.312919377954798 S_num: 3 Bnum: 4
+EVA: 5 time: 7.312919377954798 S_num: 4 Bnum: 4
+EVA_id: 0 dis: 275 price: 16.138 V: -88.942 pr: 0.209
+EVA_id: 1 dis: 383 price: 16.296 V: -92.968 pr: 0.051
+EVA_id: 2 dis: 207 price: 16.036 V: -86.392 pr: 0.509
+EVA_id: 4 dis: 224 price: 16.519 V: -89.316 pr: 0.183
+EVA_id: 5 dis: 352 price: 16.52 V: -93.158 pr: 0.048
+選択したEVA: 0
+EVA: 0 time: 7.318060095596267 S_num: 2 Bnum: 3
+EVA: 1 time: 7.318060095596267 S_num: 1 Bnum: 3
+EVA: 2 time: 7.318060095596267 S_num: 3 Bnum: 1
+EVA: 3 time: 7.318060095596267 S_num: 4 Bnum: 3
+EVA: 4 time: 7.318060095596267 S_num: 3 Bnum: 4
+EVA: 5 time: 7.318060095596267 S_num: 4 Bnum: 4
+EVA: 0 time: 7.341967261009126 S_num: 2 Bnum: 3
+EVA: 1 time: 7.341967261009126 S_num: 1 Bnum: 3
+EVA: 2 time: 7.341967261009126 S_num: 3 Bnum: 1
+EVA: 3 time: 7.341967261009126 S_num: 4 Bnum: 3
+EVA: 4 time: 7.341967261009126 S_num: 3 Bnum: 3
+EVA: 5 time: 7.341967261009126 S_num: 4 Bnum: 4
+EVA: 0 time: 7.341867397181756 S_num: 2 Bnum: 3
+EVA: 1 time: 7.341867397181756 S_num: 1 Bnum: 3
+EVA: 2 time: 7.341867397181756 S_num: 3 Bnum: 1
+EVA: 3 time: 7.341867397181756 S_num: 4 Bnum: 2
+EVA: 4 time: 7.341867397181756 S_num: 3 Bnum: 3
+EVA: 5 time: 7.341867397181756 S_num: 4 Bnum: 4
+EVA: 0 time: 7.361258811384157 S_num: 2 Bnum: 3
+EVA: 1 time: 7.361258811384157 S_num: 1 Bnum: 3
+EVA: 2 time: 7.361258811384157 S_num: 3 Bnum: 1
+EVA: 3 time: 7.361258811384157 S_num: 4 Bnum: 2
+EVA: 4 time: 7.361258811384157 S_num: 3 Bnum: 3
+EVA: 5 time: 7.361258811384157 S_num: 3 Bnum: 4
+EVA: 0 time: 7.36462364431442 S_num: 2 Bnum: 3
+EVA: 1 time: 7.36462364431442 S_num: 1 Bnum: 3
+EVA: 2 time: 7.36462364431442 S_num: 3 Bnum: 1
+EVA: 3 time: 7.36462364431442 S_num: 3 Bnum: 2
+EVA: 4 time: 7.36462364431442 S_num: 3 Bnum: 3
+EVA: 5 time: 7.36462364431442 S_num: 3 Bnum: 4
+EVA: 0 time: 7.3861794822499975 S_num: 2 Bnum: 3
+EVA: 1 time: 7.3861794822499975 S_num: 1 Bnum: 3
+EVA: 2 time: 7.3861794822499975 S_num: 3 Bnum: 1
+EVA: 3 time: 7.3861794822499975 S_num: 3 Bnum: 2
+EVA: 4 time: 7.3861794822499975 S_num: 3 Bnum: 3
+EVA: 5 time: 7.3861794822499975 S_num: 3 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.296 V: -89.458 pr: 0.141
+EVA_id: 2 dis: 408 price: 16.036 V: -92.422 pr: 0.05
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.284
+EVA_id: 5 dis: 140 price: 16.3 V: -85.701 pr: 0.525
+選択したEVA: 5
+EVA: 0 time: 7.391965774447478 S_num: 2 Bnum: 3
+EVA: 1 time: 7.391965774447478 S_num: 1 Bnum: 3
+EVA: 2 time: 7.391965774447478 S_num: 3 Bnum: 1
+EVA: 3 time: 7.391965774447478 S_num: 3 Bnum: 2
+EVA: 4 time: 7.391965774447478 S_num: 3 Bnum: 3
+EVA: 5 time: 7.391965774447478 S_num: 3 Bnum: 4
+EVA: 0 time: 7.410248956046248 S_num: 2 Bnum: 3
+EVA: 1 time: 7.410248956046248 S_num: 1 Bnum: 3
+EVA: 2 time: 7.410248956046248 S_num: 2 Bnum: 1
+EVA: 3 time: 7.410248956046248 S_num: 3 Bnum: 2
+EVA: 4 time: 7.410248956046248 S_num: 3 Bnum: 3
+EVA: 5 time: 7.410248956046248 S_num: 3 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.296 V: -89.458 pr: 0.169
+EVA_id: 2 dis: 408 price: 16.036 V: -92.421 pr: 0.06
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.341
+EVA_id: 5 dis: 140 price: 16.52 V: -86.798 pr: 0.43
+選択したEVA: 5
+EVA: 0 time: 7.426294208378428 S_num: 2 Bnum: 3
+EVA: 1 time: 7.426294208378428 S_num: 1 Bnum: 3
+EVA: 2 time: 7.426294208378428 S_num: 2 Bnum: 1
+EVA: 3 time: 7.426294208378428 S_num: 3 Bnum: 2
+EVA: 4 time: 7.426294208378428 S_num: 3 Bnum: 3
+EVA: 5 time: 7.426294208378428 S_num: 3 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.302 V: -89.76 pr: 0.154
+EVA_id: 1 dis: 383 price: 16.296 V: -92.968 pr: 0.05
+EVA_id: 2 dis: 207 price: 16.036 V: -86.391 pr: 0.502
+EVA_id: 4 dis: 224 price: 16.3 V: -88.221 pr: 0.264
+EVA_id: 5 dis: 352 price: 16.786 V: -94.491 pr: 0.029
+選択したEVA: 0
+EVA: 0 time: 7.46057943786953 S_num: 2 Bnum: 4
+EVA: 1 time: 7.46057943786953 S_num: 1 Bnum: 3
+EVA: 2 time: 7.46057943786953 S_num: 2 Bnum: 1
+EVA: 3 time: 7.46057943786953 S_num: 3 Bnum: 2
+EVA: 4 time: 7.46057943786953 S_num: 3 Bnum: 3
+EVA: 5 time: 7.46057943786953 S_num: 3 Bnum: 5
+EVA: 0 time: 7.47631861158213 S_num: 2 Bnum: 4
+EVA: 1 time: 7.47631861158213 S_num: 1 Bnum: 3
+EVA: 2 time: 7.47631861158213 S_num: 1 Bnum: 1
+EVA: 3 time: 7.47631861158213 S_num: 3 Bnum: 2
+EVA: 4 time: 7.47631861158213 S_num: 3 Bnum: 3
+EVA: 5 time: 7.47631861158213 S_num: 3 Bnum: 5
+EVA: 0 time: 7.490973401015581 S_num: 2 Bnum: 4
+EVA: 1 time: 7.490973401015581 S_num: 1 Bnum: 3
+EVA: 2 time: 7.490973401015581 S_num: 1 Bnum: 1
+EVA: 3 time: 7.490973401015581 S_num: 3 Bnum: 2
+EVA: 4 time: 7.490973401015581 S_num: 3 Bnum: 2
+EVA: 5 time: 7.490973401015581 S_num: 3 Bnum: 5
+EVA: 0 time: 7.522152414964878 S_num: 2 Bnum: 4
+EVA: 1 time: 7.522152414964878 S_num: 1 Bnum: 3
+EVA: 2 time: 7.522152414964878 S_num: 1 Bnum: 1
+EVA: 3 time: 7.522152414964878 S_num: 3 Bnum: 2
+EVA: 4 time: 7.522152414964878 S_num: 3 Bnum: 1
+EVA: 5 time: 7.522152414964878 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.296 V: -89.458 pr: 0.202
+EVA_id: 2 dis: 408 price: 16.031 V: -92.397 pr: 0.072
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.405
+EVA_id: 5 dis: 140 price: 16.786 V: -88.131 pr: 0.321
+選択したEVA: 3
+EVA: 0 time: 7.541137755572814 S_num: 2 Bnum: 4
+EVA: 1 time: 7.541137755572814 S_num: 1 Bnum: 3
+EVA: 2 time: 7.541137755572814 S_num: 1 Bnum: 1
+EVA: 3 time: 7.541137755572814 S_num: 3 Bnum: 3
+EVA: 4 time: 7.541137755572814 S_num: 3 Bnum: 1
+EVA: 5 time: 7.541137755572814 S_num: 3 Bnum: 5
+EVA: 0 time: 7.555401317715197 S_num: 2 Bnum: 4
+EVA: 1 time: 7.555401317715197 S_num: 1 Bnum: 2
+EVA: 2 time: 7.555401317715197 S_num: 1 Bnum: 1
+EVA: 3 time: 7.555401317715197 S_num: 3 Bnum: 3
+EVA: 4 time: 7.555401317715197 S_num: 3 Bnum: 1
+EVA: 5 time: 7.555401317715197 S_num: 3 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.52 V: -90.848 pr: 0.094
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.059
+EVA_id: 2 dis: 207 price: 16.031 V: -86.367 pr: 0.449
+EVA_id: 4 dis: 224 price: 16.036 V: -86.902 pr: 0.372
+EVA_id: 5 dis: 352 price: 16.786 V: -94.491 pr: 0.026
+選択したEVA: 2
+EVA: 0 time: 7.639364021565122 S_num: 2 Bnum: 4
+EVA: 1 time: 7.639364021565122 S_num: 1 Bnum: 2
+EVA: 2 time: 7.639364021565122 S_num: 1 Bnum: 2
+EVA: 3 time: 7.639364021565122 S_num: 3 Bnum: 3
+EVA: 4 time: 7.639364021565122 S_num: 3 Bnum: 1
+EVA: 5 time: 7.639364021565122 S_num: 3 Bnum: 5
+EVA: 0 time: 7.649406271604714 S_num: 2 Bnum: 4
+EVA: 1 time: 7.649406271604714 S_num: 1 Bnum: 2
+EVA: 2 time: 7.649406271604714 S_num: 1 Bnum: 2
+EVA: 3 time: 7.649406271604714 S_num: 3 Bnum: 2
+EVA: 4 time: 7.649406271604714 S_num: 3 Bnum: 1
+EVA: 5 time: 7.649406271604714 S_num: 3 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.52 V: -90.848 pr: 0.101
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.063
+EVA_id: 2 dis: 207 price: 16.14 V: -86.909 pr: 0.403
+EVA_id: 4 dis: 224 price: 16.036 V: -86.902 pr: 0.404
+EVA_id: 5 dis: 352 price: 16.786 V: -94.491 pr: 0.028
+選択したEVA: 2
+EVA: 0 time: 7.7531785375210935 S_num: 2 Bnum: 4
+EVA: 1 time: 7.7531785375210935 S_num: 1 Bnum: 2
+EVA: 2 time: 7.7531785375210935 S_num: 1 Bnum: 3
+EVA: 3 time: 7.7531785375210935 S_num: 3 Bnum: 2
+EVA: 4 time: 7.7531785375210935 S_num: 3 Bnum: 1
+EVA: 5 time: 7.7531785375210935 S_num: 3 Bnum: 5
+EVA: 0 time: 7.7608800157230435 S_num: 2 Bnum: 4
+EVA: 1 time: 7.7608800157230435 S_num: 1 Bnum: 2
+EVA: 2 time: 7.7608800157230435 S_num: 1 Bnum: 3
+EVA: 3 time: 7.7608800157230435 S_num: 3 Bnum: 2
+EVA: 4 time: 7.7608800157230435 S_num: 2 Bnum: 1
+EVA: 5 time: 7.7608800157230435 S_num: 3 Bnum: 5
+EVA: 0 time: 7.754114553525528 S_num: 1 Bnum: 4
+EVA: 1 time: 7.754114553525528 S_num: 1 Bnum: 2
+EVA: 2 time: 7.754114553525528 S_num: 1 Bnum: 3
+EVA: 3 time: 7.754114553525528 S_num: 3 Bnum: 2
+EVA: 4 time: 7.754114553525528 S_num: 2 Bnum: 1
+EVA: 5 time: 7.754114553525528 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.256
+EVA_id: 2 dis: 408 price: 16.296 V: -93.718 pr: 0.044
+EVA_id: 3 dis: 226 price: 16.137 V: -87.463 pr: 0.391
+EVA_id: 5 dis: 140 price: 16.786 V: -88.131 pr: 0.31
+選択したEVA: 3
+EVA: 0 time: 7.771855225672791 S_num: 1 Bnum: 4
+EVA: 1 time: 7.771855225672791 S_num: 1 Bnum: 2
+EVA: 2 time: 7.771855225672791 S_num: 1 Bnum: 3
+EVA: 3 time: 7.771855225672791 S_num: 3 Bnum: 3
+EVA: 4 time: 7.771855225672791 S_num: 2 Bnum: 1
+EVA: 5 time: 7.771855225672791 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.283
+EVA_id: 2 dis: 408 price: 16.296 V: -93.718 pr: 0.048
+EVA_id: 3 dis: 226 price: 16.299 V: -88.274 pr: 0.326
+EVA_id: 5 dis: 140 price: 16.786 V: -88.131 pr: 0.343
+選択したEVA: 1
+EVA: 0 time: 7.814534472877591 S_num: 1 Bnum: 4
+EVA: 1 time: 7.814534472877591 S_num: 1 Bnum: 3
+EVA: 2 time: 7.814534472877591 S_num: 1 Bnum: 3
+EVA: 3 time: 7.814534472877591 S_num: 3 Bnum: 3
+EVA: 4 time: 7.814534472877591 S_num: 2 Bnum: 1
+EVA: 5 time: 7.814534472877591 S_num: 3 Bnum: 5
+EVA: 0 time: 7.861524550795002 S_num: 1 Bnum: 4
+EVA: 1 time: 7.861524550795002 S_num: 1 Bnum: 3
+EVA: 2 time: 7.861524550795002 S_num: 1 Bnum: 3
+EVA: 3 time: 7.861524550795002 S_num: 2 Bnum: 3
+EVA: 4 time: 7.861524550795002 S_num: 2 Bnum: 1
+EVA: 5 time: 7.861524550795002 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.963 V: 66.835 pr: 0.205
+EVA_id: 2 dis: 408 price: 14.963 V: 62.575 pr: 0.046
+EVA_id: 3 dis: 226 price: 14.862 V: 67.528 pr: 0.262
+EVA_id: 5 dis: 140 price: 14.699 V: 69.297 pr: 0.486
+選択したEVA: 2
+EVA: 0 time: 7.899541991575059 S_num: 1 Bnum: 4
+EVA: 1 time: 7.899541991575059 S_num: 1 Bnum: 3
+EVA: 2 time: 7.899541991575059 S_num: 2 Bnum: 3
+EVA: 3 time: 7.899541991575059 S_num: 2 Bnum: 3
+EVA: 4 time: 7.899541991575059 S_num: 2 Bnum: 1
+EVA: 5 time: 7.899541991575059 S_num: 3 Bnum: 5
+EVA: 0 time: 7.942970935832185 S_num: 1 Bnum: 4
+EVA: 1 time: 7.942970935832185 S_num: 1 Bnum: 3
+EVA: 2 time: 7.942970935832185 S_num: 2 Bnum: 3
+EVA: 3 time: 7.942970935832185 S_num: 2 Bnum: 3
+EVA: 4 time: 7.942970935832185 S_num: 1 Bnum: 1
+EVA: 5 time: 7.942970935832185 S_num: 3 Bnum: 5
+EVA: 0 time: 7.9611072273083945 S_num: 1 Bnum: 4
+EVA: 1 time: 7.9611072273083945 S_num: 1 Bnum: 3
+EVA: 2 time: 7.9611072273083945 S_num: 2 Bnum: 3
+EVA: 3 time: 7.9611072273083945 S_num: 2 Bnum: 3
+EVA: 4 time: 7.9611072273083945 S_num: 1 Bnum: 1
+EVA: 5 time: 7.9611072273083945 S_num: 2 Bnum: 5
+EVA: 0 time: 7.972301839458873 S_num: 1 Bnum: 4
+EVA: 1 time: 7.972301839458873 S_num: 1 Bnum: 2
+EVA: 2 time: 7.972301839458873 S_num: 2 Bnum: 3
+EVA: 3 time: 7.972301839458873 S_num: 2 Bnum: 3
+EVA: 4 time: 7.972301839458873 S_num: 1 Bnum: 1
+EVA: 5 time: 7.972301839458873 S_num: 2 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.964 V: 66.571 pr: 0.195
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.063
+EVA_id: 2 dis: 207 price: 14.861 V: 68.097 pr: 0.333
+EVA_id: 4 dis: 224 price: 14.966 V: 68.112 pr: 0.335
+EVA_id: 5 dis: 352 price: 14.863 V: 63.755 pr: 0.073
+選択したEVA: 0
+EVA: 0 time: 7.973548783792666 S_num: 2 Bnum: 4
+EVA: 1 time: 7.973548783792666 S_num: 1 Bnum: 2
+EVA: 2 time: 7.973548783792666 S_num: 2 Bnum: 3
+EVA: 3 time: 7.973548783792666 S_num: 2 Bnum: 3
+EVA: 4 time: 7.973548783792666 S_num: 1 Bnum: 1
+EVA: 5 time: 7.973548783792666 S_num: 2 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.864 V: 66.072 pr: 0.169
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.065
+EVA_id: 2 dis: 207 price: 14.861 V: 68.097 pr: 0.344
+EVA_id: 4 dis: 224 price: 14.966 V: 68.112 pr: 0.346
+EVA_id: 5 dis: 352 price: 14.863 V: 63.755 pr: 0.075
+選択したEVA: 2
+EVA: 0 time: 7.980539909327828 S_num: 2 Bnum: 4
+EVA: 1 time: 7.980539909327828 S_num: 1 Bnum: 2
+EVA: 2 time: 7.980539909327828 S_num: 3 Bnum: 3
+EVA: 3 time: 7.980539909327828 S_num: 2 Bnum: 3
+EVA: 4 time: 7.980539909327828 S_num: 1 Bnum: 1
+EVA: 5 time: 7.980539909327828 S_num: 2 Bnum: 5
+EVA: 0 time: 8.02742220839844 S_num: 2 Bnum: 4
+EVA: 1 time: 8.02742220839844 S_num: 1 Bnum: 2
+EVA: 2 time: 8.02742220839844 S_num: 3 Bnum: 3
+EVA: 3 time: 8.02742220839844 S_num: 1 Bnum: 3
+EVA: 4 time: 8.02742220839844 S_num: 1 Bnum: 1
+EVA: 5 time: 8.02742220839844 S_num: 2 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.516 V: -90.829 pr: 0.113
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.07
+EVA_id: 2 dis: 207 price: 16.3 V: -87.711 pr: 0.336
+EVA_id: 4 dis: 224 price: 16.031 V: -86.877 pr: 0.45
+EVA_id: 5 dis: 352 price: 16.788 V: -94.502 pr: 0.031
+選択したEVA: 4
+EVA: 0 time: 8.048076231948974 S_num: 2 Bnum: 4
+EVA: 1 time: 8.048076231948974 S_num: 1 Bnum: 2
+EVA: 2 time: 8.048076231948974 S_num: 3 Bnum: 3
+EVA: 3 time: 8.048076231948974 S_num: 1 Bnum: 3
+EVA: 4 time: 8.048076231948974 S_num: 1 Bnum: 2
+EVA: 5 time: 8.048076231948974 S_num: 2 Bnum: 5
+EVA: 0 time: 8.050325927854898 S_num: 2 Bnum: 4
+EVA: 1 time: 8.050325927854898 S_num: 1 Bnum: 2
+EVA: 2 time: 8.050325927854898 S_num: 3 Bnum: 3
+EVA: 3 time: 8.050325927854898 S_num: 1 Bnum: 3
+EVA: 4 time: 8.050325927854898 S_num: 1 Bnum: 2
+EVA: 5 time: 8.050325927854898 S_num: 1 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.516 V: -90.829 pr: 0.122
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.076
+EVA_id: 2 dis: 207 price: 16.3 V: -87.711 pr: 0.364
+EVA_id: 4 dis: 224 price: 16.14 V: -87.419 pr: 0.403
+EVA_id: 5 dis: 352 price: 16.788 V: -94.501 pr: 0.034
+選択したEVA: 4
+EVA: 0 time: 8.08863896858935 S_num: 2 Bnum: 4
+EVA: 1 time: 8.08863896858935 S_num: 1 Bnum: 2
+EVA: 2 time: 8.08863896858935 S_num: 3 Bnum: 3
+EVA: 3 time: 8.08863896858935 S_num: 1 Bnum: 3
+EVA: 4 time: 8.08863896858935 S_num: 1 Bnum: 3
+EVA: 5 time: 8.08863896858935 S_num: 1 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.156
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.022
+EVA_id: 3 dis: 226 price: 14.963 V: 68.035 pr: 0.237
+EVA_id: 5 dis: 140 price: 14.964 V: 70.621 pr: 0.585
+選択したEVA: 5
+EVA: 0 time: 8.099083217481322 S_num: 2 Bnum: 4
+EVA: 1 time: 8.099083217481322 S_num: 1 Bnum: 2
+EVA: 2 time: 8.099083217481322 S_num: 3 Bnum: 3
+EVA: 3 time: 8.099083217481322 S_num: 1 Bnum: 3
+EVA: 4 time: 8.099083217481322 S_num: 1 Bnum: 3
+EVA: 5 time: 8.099083217481322 S_num: 2 Bnum: 5
+EVA: 0 time: 8.107861529412384 S_num: 2 Bnum: 4
+EVA: 1 time: 8.107861529412384 S_num: 1 Bnum: 2
+EVA: 2 time: 8.107861529412384 S_num: 3 Bnum: 3
+EVA: 3 time: 8.107861529412384 S_num: 1 Bnum: 3
+EVA: 4 time: 8.107861529412384 S_num: 1 Bnum: 3
+EVA: 5 time: 8.107861529412384 S_num: 2 Bnum: 4
+EVA: 0 time: 8.131133487306762 S_num: 2 Bnum: 3
+EVA: 1 time: 8.131133487306762 S_num: 1 Bnum: 2
+EVA: 2 time: 8.131133487306762 S_num: 3 Bnum: 3
+EVA: 3 time: 8.131133487306762 S_num: 1 Bnum: 3
+EVA: 4 time: 8.131133487306762 S_num: 1 Bnum: 3
+EVA: 5 time: 8.131133487306762 S_num: 2 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.234
+EVA_id: 2 dis: 408 price: 16.3 V: -93.741 pr: 0.04
+EVA_id: 3 dis: 226 price: 16.296 V: -88.258 pr: 0.271
+EVA_id: 5 dis: 140 price: 16.516 V: -86.779 pr: 0.455
+選択したEVA: 5
+EVA: 0 time: 8.1480007577753 S_num: 2 Bnum: 3
+EVA: 1 time: 8.1480007577753 S_num: 1 Bnum: 2
+EVA: 2 time: 8.1480007577753 S_num: 3 Bnum: 3
+EVA: 3 time: 8.1480007577753 S_num: 1 Bnum: 3
+EVA: 4 time: 8.1480007577753 S_num: 1 Bnum: 3
+EVA: 5 time: 8.1480007577753 S_num: 2 Bnum: 5
+EVA_id: 0 dis: 275 price: 14.861 V: 66.057 pr: 0.185
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.071
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.284
+EVA_id: 4 dis: 224 price: 14.963 V: 68.095 pr: 0.377
+EVA_id: 5 dis: 352 price: 14.862 V: 63.751 pr: 0.082
+選択したEVA: 4
+EVA: 0 time: 8.152419483202625 S_num: 2 Bnum: 3
+EVA: 1 time: 8.152419483202625 S_num: 1 Bnum: 2
+EVA: 2 time: 8.152419483202625 S_num: 3 Bnum: 3
+EVA: 3 time: 8.152419483202625 S_num: 1 Bnum: 3
+EVA: 4 time: 8.152419483202625 S_num: 2 Bnum: 3
+EVA: 5 time: 8.152419483202625 S_num: 2 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.173
+EVA_id: 2 dis: 408 price: 14.699 V: 61.256 pr: 0.024
+EVA_id: 3 dis: 226 price: 14.963 V: 68.035 pr: 0.262
+EVA_id: 5 dis: 140 price: 14.862 V: 70.111 pr: 0.541
+選択したEVA: 3
+EVA: 0 time: 8.199241894188448 S_num: 2 Bnum: 3
+EVA: 1 time: 8.199241894188448 S_num: 1 Bnum: 2
+EVA: 2 time: 8.199241894188448 S_num: 3 Bnum: 3
+EVA: 3 time: 8.199241894188448 S_num: 2 Bnum: 3
+EVA: 4 time: 8.199241894188448 S_num: 2 Bnum: 3
+EVA: 5 time: 8.199241894188448 S_num: 2 Bnum: 5
+EVA: 0 time: 8.225179507084238 S_num: 2 Bnum: 3
+EVA: 1 time: 8.225179507084238 S_num: 1 Bnum: 2
+EVA: 2 time: 8.225179507084238 S_num: 3 Bnum: 3
+EVA: 3 time: 8.225179507084238 S_num: 2 Bnum: 3
+EVA: 4 time: 8.225179507084238 S_num: 2 Bnum: 3
+EVA: 5 time: 8.225179507084238 S_num: 2 Bnum: 4
+EVA: 0 time: 8.25958534680398 S_num: 2 Bnum: 3
+EVA: 1 time: 8.25958534680398 S_num: 1 Bnum: 2
+EVA: 2 time: 8.25958534680398 S_num: 3 Bnum: 3
+EVA: 3 time: 8.25958534680398 S_num: 2 Bnum: 2
+EVA: 4 time: 8.25958534680398 S_num: 2 Bnum: 3
+EVA: 5 time: 8.25958534680398 S_num: 2 Bnum: 4
+EVA: 0 time: 8.274910829641255 S_num: 2 Bnum: 2
+EVA: 1 time: 8.274910829641255 S_num: 1 Bnum: 2
+EVA: 2 time: 8.274910829641255 S_num: 3 Bnum: 3
+EVA: 3 time: 8.274910829641255 S_num: 2 Bnum: 2
+EVA: 4 time: 8.274910829641255 S_num: 2 Bnum: 3
+EVA: 5 time: 8.274910829641255 S_num: 2 Bnum: 4
+EVA_id: 0 dis: 275 price: 14.862 V: 66.059 pr: 0.197
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.076
+EVA_id: 2 dis: 207 price: 14.699 V: 67.286 pr: 0.303
+EVA_id: 4 dis: 224 price: 14.861 V: 67.587 pr: 0.336
+EVA_id: 5 dis: 352 price: 14.864 V: 63.762 pr: 0.088
+選択したEVA: 4
+EVA: 0 time: 8.29333998041608 S_num: 2 Bnum: 2
+EVA: 1 time: 8.29333998041608 S_num: 1 Bnum: 2
+EVA: 2 time: 8.29333998041608 S_num: 3 Bnum: 3
+EVA: 3 time: 8.29333998041608 S_num: 2 Bnum: 2
+EVA: 4 time: 8.29333998041608 S_num: 3 Bnum: 3
+EVA: 5 time: 8.29333998041608 S_num: 2 Bnum: 4
+EVA: 0 time: 8.375032320408815 S_num: 2 Bnum: 1
+EVA: 1 time: 8.375032320408815 S_num: 1 Bnum: 2
+EVA: 2 time: 8.375032320408815 S_num: 3 Bnum: 3
+EVA: 3 time: 8.375032320408815 S_num: 2 Bnum: 2
+EVA: 4 time: 8.375032320408815 S_num: 3 Bnum: 3
+EVA: 5 time: 8.375032320408815 S_num: 2 Bnum: 4
+EVA: 0 time: 8.37933200063656 S_num: 2 Bnum: 1
+EVA: 1 time: 8.37933200063656 S_num: 1 Bnum: 2
+EVA: 2 time: 8.37933200063656 S_num: 3 Bnum: 2
+EVA: 3 time: 8.37933200063656 S_num: 2 Bnum: 2
+EVA: 4 time: 8.37933200063656 S_num: 3 Bnum: 3
+EVA: 5 time: 8.37933200063656 S_num: 2 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.213
+EVA_id: 2 dis: 408 price: 16.137 V: -92.923 pr: 0.048
+EVA_id: 3 dis: 226 price: 16.142 V: -87.489 pr: 0.324
+EVA_id: 5 dis: 140 price: 16.516 V: -86.779 pr: 0.415
+選択したEVA: 1
+EVA: 0 time: 8.393082680383447 S_num: 2 Bnum: 1
+EVA: 1 time: 8.393082680383447 S_num: 1 Bnum: 3
+EVA: 2 time: 8.393082680383447 S_num: 3 Bnum: 2
+EVA: 3 time: 8.393082680383447 S_num: 2 Bnum: 2
+EVA: 4 time: 8.393082680383447 S_num: 3 Bnum: 3
+EVA: 5 time: 8.393082680383447 S_num: 2 Bnum: 4
+EVA: 0 time: 8.401019399619111 S_num: 2 Bnum: 1
+EVA: 1 time: 8.401019399619111 S_num: 1 Bnum: 2
+EVA: 2 time: 8.401019399619111 S_num: 3 Bnum: 2
+EVA: 3 time: 8.401019399619111 S_num: 2 Bnum: 2
+EVA: 4 time: 8.401019399619111 S_num: 3 Bnum: 3
+EVA: 5 time: 8.401019399619111 S_num: 2 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.213
+EVA_id: 2 dis: 408 price: 16.137 V: -92.923 pr: 0.048
+EVA_id: 3 dis: 226 price: 16.142 V: -87.489 pr: 0.324
+EVA_id: 5 dis: 140 price: 16.516 V: -86.779 pr: 0.415
+選択したEVA: 5
+EVA: 0 time: 8.451846510650036 S_num: 2 Bnum: 1
+EVA: 1 time: 8.451846510650036 S_num: 1 Bnum: 2
+EVA: 2 time: 8.451846510650036 S_num: 3 Bnum: 2
+EVA: 3 time: 8.451846510650036 S_num: 2 Bnum: 2
+EVA: 4 time: 8.451846510650036 S_num: 3 Bnum: 3
+EVA: 5 time: 8.451846510650036 S_num: 2 Bnum: 5
+EVA: 0 time: 8.465681978185222 S_num: 2 Bnum: 1
+EVA: 1 time: 8.465681978185222 S_num: 1 Bnum: 2
+EVA: 2 time: 8.465681978185222 S_num: 3 Bnum: 2
+EVA: 3 time: 8.465681978185222 S_num: 2 Bnum: 1
+EVA: 4 time: 8.465681978185222 S_num: 3 Bnum: 3
+EVA: 5 time: 8.465681978185222 S_num: 2 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.235
+EVA_id: 2 dis: 408 price: 16.137 V: -92.923 pr: 0.053
+EVA_id: 3 dis: 226 price: 16.036 V: -86.961 pr: 0.429
+EVA_id: 5 dis: 140 price: 16.788 V: -88.142 pr: 0.283
+選択したEVA: 3
+EVA: 0 time: 8.472779595410396 S_num: 2 Bnum: 1
+EVA: 1 time: 8.472779595410396 S_num: 1 Bnum: 2
+EVA: 2 time: 8.472779595410396 S_num: 3 Bnum: 2
+EVA: 3 time: 8.472779595410396 S_num: 2 Bnum: 2
+EVA: 4 time: 8.472779595410396 S_num: 3 Bnum: 3
+EVA: 5 time: 8.472779595410396 S_num: 2 Bnum: 5
+EVA: 0 time: 8.503329835047245 S_num: 2 Bnum: 1
+EVA: 1 time: 8.503329835047245 S_num: 1 Bnum: 2
+EVA: 2 time: 8.503329835047245 S_num: 3 Bnum: 1
+EVA: 3 time: 8.503329835047245 S_num: 2 Bnum: 2
+EVA: 4 time: 8.503329835047245 S_num: 3 Bnum: 3
+EVA: 5 time: 8.503329835047245 S_num: 2 Bnum: 5
+EVA: 0 time: 8.504798803364636 S_num: 1 Bnum: 1
+EVA: 1 time: 8.504798803364636 S_num: 1 Bnum: 2
+EVA: 2 time: 8.504798803364636 S_num: 3 Bnum: 1
+EVA: 3 time: 8.504798803364636 S_num: 2 Bnum: 2
+EVA: 4 time: 8.504798803364636 S_num: 3 Bnum: 3
+EVA: 5 time: 8.504798803364636 S_num: 2 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.223
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.059
+EVA_id: 2 dis: 207 price: 16.036 V: -86.392 pr: 0.452
+EVA_id: 4 dis: 224 price: 16.3 V: -88.221 pr: 0.238
+EVA_id: 5 dis: 352 price: 16.788 V: -94.502 pr: 0.026
+選択したEVA: 0
+EVA: 0 time: 8.568572206268673 S_num: 1 Bnum: 2
+EVA: 1 time: 8.568572206268673 S_num: 1 Bnum: 2
+EVA: 2 time: 8.568572206268673 S_num: 3 Bnum: 1
+EVA: 3 time: 8.568572206268673 S_num: 2 Bnum: 2
+EVA: 4 time: 8.568572206268673 S_num: 3 Bnum: 3
+EVA: 5 time: 8.568572206268673 S_num: 2 Bnum: 5
+EVA: 0 time: 8.644806923040758 S_num: 1 Bnum: 2
+EVA: 1 time: 8.644806923040758 S_num: 1 Bnum: 2
+EVA: 2 time: 8.644806923040758 S_num: 3 Bnum: 1
+EVA: 3 time: 8.644806923040758 S_num: 2 Bnum: 2
+EVA: 4 time: 8.644806923040758 S_num: 3 Bnum: 3
+EVA: 5 time: 8.644806923040758 S_num: 2 Bnum: 4
+EVA: 0 time: 8.615859747637728 S_num: 1 Bnum: 2
+EVA: 1 time: 8.615859747637728 S_num: 1 Bnum: 2
+EVA: 2 time: 8.615859747637728 S_num: 3 Bnum: 1
+EVA: 3 time: 8.615859747637728 S_num: 2 Bnum: 2
+EVA: 4 time: 8.615859747637728 S_num: 3 Bnum: 3
+EVA: 5 time: 8.615859747637728 S_num: 1 Bnum: 4
+EVA: 0 time: 8.655918068663302 S_num: 1 Bnum: 2
+EVA: 1 time: 8.655918068663302 S_num: 1 Bnum: 2
+EVA: 2 time: 8.655918068663302 S_num: 2 Bnum: 1
+EVA: 3 time: 8.655918068663302 S_num: 2 Bnum: 2
+EVA: 4 time: 8.655918068663302 S_num: 3 Bnum: 3
+EVA: 5 time: 8.655918068663302 S_num: 1 Bnum: 4
+EVA: 0 time: 8.679135375817381 S_num: 1 Bnum: 2
+EVA: 1 time: 8.679135375817381 S_num: 1 Bnum: 2
+EVA: 2 time: 8.679135375817381 S_num: 2 Bnum: 1
+EVA: 3 time: 8.679135375817381 S_num: 2 Bnum: 2
+EVA: 4 time: 8.679135375817381 S_num: 3 Bnum: 3
+EVA: 5 time: 8.679135375817381 S_num: 1 Bnum: 3
+EVA: 0 time: 8.730491834652444 S_num: 1 Bnum: 2
+EVA: 1 time: 8.730491834652444 S_num: 1 Bnum: 2
+EVA: 2 time: 8.730491834652444 S_num: 2 Bnum: 1
+EVA: 3 time: 8.730491834652444 S_num: 1 Bnum: 2
+EVA: 4 time: 8.730491834652444 S_num: 3 Bnum: 3
+EVA: 5 time: 8.730491834652444 S_num: 1 Bnum: 3
+EVA: 0 time: 8.736916033495714 S_num: 1 Bnum: 2
+EVA: 1 time: 8.736916033495714 S_num: 1 Bnum: 2
+EVA: 2 time: 8.736916033495714 S_num: 1 Bnum: 1
+EVA: 3 time: 8.736916033495714 S_num: 1 Bnum: 2
+EVA: 4 time: 8.736916033495714 S_num: 3 Bnum: 3
+EVA: 5 time: 8.736916033495714 S_num: 1 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.184
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.059
+EVA_id: 2 dis: 207 price: 16.031 V: -86.367 pr: 0.455
+EVA_id: 4 dis: 224 price: 16.3 V: -88.221 pr: 0.238
+EVA_id: 5 dis: 352 price: 16.296 V: -92.038 pr: 0.063
+選択したEVA: 2
+EVA: 0 time: 8.7497988940225 S_num: 1 Bnum: 2
+EVA: 1 time: 8.7497988940225 S_num: 1 Bnum: 2
+EVA: 2 time: 8.7497988940225 S_num: 1 Bnum: 2
+EVA: 3 time: 8.7497988940225 S_num: 1 Bnum: 2
+EVA: 4 time: 8.7497988940225 S_num: 3 Bnum: 3
+EVA: 5 time: 8.7497988940225 S_num: 1 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.2
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.064
+EVA_id: 2 dis: 207 price: 16.14 V: -86.909 pr: 0.409
+EVA_id: 4 dis: 224 price: 16.3 V: -88.221 pr: 0.258
+EVA_id: 5 dis: 352 price: 16.296 V: -92.038 pr: 0.068
+選択したEVA: 0
+EVA: 0 time: 8.823017781211995 S_num: 1 Bnum: 3
+EVA: 1 time: 8.823017781211995 S_num: 1 Bnum: 2
+EVA: 2 time: 8.823017781211995 S_num: 1 Bnum: 2
+EVA: 3 time: 8.823017781211995 S_num: 1 Bnum: 2
+EVA: 4 time: 8.823017781211995 S_num: 3 Bnum: 3
+EVA: 5 time: 8.823017781211995 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.178
+EVA_id: 2 dis: 408 price: 16.14 V: -92.939 pr: 0.04
+EVA_id: 3 dis: 226 price: 16.14 V: -87.479 pr: 0.271
+EVA_id: 5 dis: 140 price: 16.296 V: -85.678 pr: 0.51
+選択したEVA: 3
+EVA: 0 time: 8.824399526951247 S_num: 1 Bnum: 3
+EVA: 1 time: 8.824399526951247 S_num: 1 Bnum: 2
+EVA: 2 time: 8.824399526951247 S_num: 1 Bnum: 2
+EVA: 3 time: 8.824399526951247 S_num: 1 Bnum: 3
+EVA: 4 time: 8.824399526951247 S_num: 3 Bnum: 3
+EVA: 5 time: 8.824399526951247 S_num: 1 Bnum: 3
+EVA: 0 time: 8.824670058925822 S_num: 1 Bnum: 3
+EVA: 1 time: 8.824670058925822 S_num: 1 Bnum: 2
+EVA: 2 time: 8.824670058925822 S_num: 1 Bnum: 2
+EVA: 3 time: 8.824670058925822 S_num: 1 Bnum: 3
+EVA: 4 time: 8.824670058925822 S_num: 3 Bnum: 2
+EVA: 5 time: 8.824670058925822 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.155
+EVA_id: 2 dis: 408 price: 14.966 V: 62.591 pr: 0.035
+EVA_id: 3 dis: 226 price: 14.963 V: 68.035 pr: 0.234
+EVA_id: 5 dis: 140 price: 14.963 V: 70.615 pr: 0.577
+選択したEVA: 3
+EVA: 0 time: 8.828225228478459 S_num: 1 Bnum: 3
+EVA: 1 time: 8.828225228478459 S_num: 1 Bnum: 2
+EVA: 2 time: 8.828225228478459 S_num: 1 Bnum: 2
+EVA: 3 time: 8.828225228478459 S_num: 2 Bnum: 3
+EVA: 4 time: 8.828225228478459 S_num: 3 Bnum: 2
+EVA: 5 time: 8.828225228478459 S_num: 1 Bnum: 3
+EVA_id: 0 dis: 275 price: 16.296 V: -89.728 pr: 0.147
+EVA_id: 1 dis: 383 price: 16.14 V: -92.189 pr: 0.062
+EVA_id: 2 dis: 207 price: 16.14 V: -86.909 pr: 0.394
+EVA_id: 4 dis: 224 price: 16.137 V: -87.403 pr: 0.331
+EVA_id: 5 dis: 352 price: 16.296 V: -92.038 pr: 0.065
+選択したEVA: 2
+EVA: 0 time: 8.841781629137495 S_num: 1 Bnum: 3
+EVA: 1 time: 8.841781629137495 S_num: 1 Bnum: 2
+EVA: 2 time: 8.841781629137495 S_num: 1 Bnum: 3
+EVA: 3 time: 8.841781629137495 S_num: 2 Bnum: 3
+EVA: 4 time: 8.841781629137495 S_num: 3 Bnum: 2
+EVA: 5 time: 8.841781629137495 S_num: 1 Bnum: 3
+EVA_id: 1 dis: 266 price: 14.966 V: 66.851 pr: 0.161
+EVA_id: 2 dis: 408 price: 14.963 V: 62.575 pr: 0.036
+EVA_id: 3 dis: 226 price: 14.861 V: 67.527 pr: 0.204
+EVA_id: 5 dis: 140 price: 14.963 V: 70.615 pr: 0.6
+選択したEVA: 5
+EVA: 0 time: 8.863932060752145 S_num: 1 Bnum: 3
+EVA: 1 time: 8.863932060752145 S_num: 1 Bnum: 2
+EVA: 2 time: 8.863932060752145 S_num: 1 Bnum: 3
+EVA: 3 time: 8.863932060752145 S_num: 2 Bnum: 3
+EVA: 4 time: 8.863932060752145 S_num: 3 Bnum: 2
+EVA: 5 time: 8.863932060752145 S_num: 2 Bnum: 3
+EVA: 0 time: 8.865883086746729 S_num: 1 Bnum: 3
+EVA: 1 time: 8.865883086746729 S_num: 1 Bnum: 2
+EVA: 2 time: 8.865883086746729 S_num: 1 Bnum: 3
+EVA: 3 time: 8.865883086746729 S_num: 2 Bnum: 3
+EVA: 4 time: 8.865883086746729 S_num: 3 Bnum: 1
+EVA: 5 time: 8.865883086746729 S_num: 2 Bnum: 3
+EVA: 0 time: 8.878834325639248 S_num: 1 Bnum: 3
+EVA: 1 time: 8.878834325639248 S_num: 1 Bnum: 2
+EVA: 2 time: 8.878834325639248 S_num: 1 Bnum: 3
+EVA: 3 time: 8.878834325639248 S_num: 2 Bnum: 3
+EVA: 4 time: 8.878834325639248 S_num: 2 Bnum: 1
+EVA: 5 time: 8.878834325639248 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.193
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.063
+EVA_id: 2 dis: 207 price: 14.963 V: 68.605 pr: 0.395
+EVA_id: 4 dis: 224 price: 14.862 V: 67.591 pr: 0.277
+EVA_id: 5 dis: 352 price: 14.861 V: 63.747 pr: 0.072
+選択したEVA: 4
+EVA: 0 time: 8.893177652635876 S_num: 1 Bnum: 3
+EVA: 1 time: 8.893177652635876 S_num: 1 Bnum: 2
+EVA: 2 time: 8.893177652635876 S_num: 1 Bnum: 3
+EVA: 3 time: 8.893177652635876 S_num: 2 Bnum: 3
+EVA: 4 time: 8.893177652635876 S_num: 3 Bnum: 1
+EVA: 5 time: 8.893177652635876 S_num: 2 Bnum: 3
+EVA_id: 0 dis: 275 price: 14.963 V: 66.565 pr: 0.208
+EVA_id: 1 dis: 383 price: 14.966 V: 63.341 pr: 0.067
+EVA_id: 2 dis: 207 price: 14.963 V: 68.605 pr: 0.424
+EVA_id: 4 dis: 224 price: 14.699 V: 66.776 pr: 0.224
+EVA_id: 5 dis: 352 price: 14.861 V: 63.747 pr: 0.077
+選択したEVA: 2
+EVA: 0 time: 8.895557868051323 S_num: 1 Bnum: 3
+EVA: 1 time: 8.895557868051323 S_num: 1 Bnum: 2
+EVA: 2 time: 8.895557868051323 S_num: 2 Bnum: 3
+EVA: 3 time: 8.895557868051323 S_num: 2 Bnum: 3
+EVA: 4 time: 8.895557868051323 S_num: 3 Bnum: 1
+EVA: 5 time: 8.895557868051323 S_num: 2 Bnum: 3
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.194
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.033
+EVA_id: 3 dis: 226 price: 16.302 V: -88.289 pr: 0.223
+EVA_id: 5 dis: 140 price: 16.302 V: -85.709 pr: 0.55
+選択したEVA: 5
+EVA: 0 time: 8.895730921437242 S_num: 1 Bnum: 3
+EVA: 1 time: 8.895730921437242 S_num: 1 Bnum: 2
+EVA: 2 time: 8.895730921437242 S_num: 2 Bnum: 3
+EVA: 3 time: 8.895730921437242 S_num: 2 Bnum: 3
+EVA: 4 time: 8.895730921437242 S_num: 3 Bnum: 1
+EVA: 5 time: 8.895730921437242 S_num: 2 Bnum: 4
+EVA: 0 time: 8.926978515686162 S_num: 1 Bnum: 3
+EVA: 1 time: 8.926978515686162 S_num: 1 Bnum: 1
+EVA: 2 time: 8.926978515686162 S_num: 2 Bnum: 3
+EVA: 3 time: 8.926978515686162 S_num: 2 Bnum: 3
+EVA: 4 time: 8.926978515686162 S_num: 3 Bnum: 1
+EVA: 5 time: 8.926978515686162 S_num: 2 Bnum: 4
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.27
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.038
+EVA_id: 3 dis: 226 price: 16.302 V: -88.289 pr: 0.256
+EVA_id: 5 dis: 140 price: 16.516 V: -86.779 pr: 0.435
+選択したEVA: 5
+EVA: 0 time: 8.968974930843121 S_num: 1 Bnum: 3
+EVA: 1 time: 8.968974930843121 S_num: 1 Bnum: 1
+EVA: 2 time: 8.968974930843121 S_num: 2 Bnum: 3
+EVA: 3 time: 8.968974930843121 S_num: 2 Bnum: 3
+EVA: 4 time: 8.968974930843121 S_num: 3 Bnum: 1
+EVA: 5 time: 8.968974930843121 S_num: 2 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.324
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.045
+EVA_id: 3 dis: 226 price: 16.302 V: -88.289 pr: 0.307
+EVA_id: 5 dis: 140 price: 16.788 V: -88.142 pr: 0.323
+選択したEVA: 5
+EVA: 0 time: 8.984720312629015 S_num: 1 Bnum: 3
+EVA: 1 time: 8.984720312629015 S_num: 1 Bnum: 1
+EVA: 2 time: 8.984720312629015 S_num: 2 Bnum: 3
+EVA: 3 time: 8.984720312629015 S_num: 2 Bnum: 3
+EVA: 4 time: 8.984720312629015 S_num: 3 Bnum: 1
+EVA: 5 time: 8.984720312629015 S_num: 2 Bnum: 6
+EVA: 0 time: 9.057469762961968 S_num: 1 Bnum: 3
+EVA: 1 time: 9.057469762961968 S_num: 1 Bnum: 1
+EVA: 2 time: 9.057469762961968 S_num: 2 Bnum: 3
+EVA: 3 time: 9.057469762961968 S_num: 2 Bnum: 2
+EVA: 4 time: 9.057469762961968 S_num: 3 Bnum: 1
+EVA: 5 time: 9.057469762961968 S_num: 2 Bnum: 6
+EVA_id: 1 dis: 266 price: 16.031 V: -88.137 pr: 0.337
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.047
+EVA_id: 3 dis: 226 price: 16.142 V: -87.489 pr: 0.423
+EVA_id: 5 dis: 140 price: 17.104 V: -89.722 pr: 0.193
+選択したEVA: 1
+EVA: 0 time: 9.070812938469617 S_num: 1 Bnum: 3
+EVA: 1 time: 9.070812938469617 S_num: 1 Bnum: 2
+EVA: 2 time: 9.070812938469617 S_num: 2 Bnum: 3
+EVA: 3 time: 9.070812938469617 S_num: 2 Bnum: 2
+EVA: 4 time: 9.070812938469617 S_num: 3 Bnum: 1
+EVA: 5 time: 9.070812938469617 S_num: 2 Bnum: 6
+EVA: 0 time: 9.083043449471411 S_num: 1 Bnum: 3
+EVA: 1 time: 9.083043449471411 S_num: 1 Bnum: 2
+EVA: 2 time: 9.083043449471411 S_num: 2 Bnum: 3
+EVA: 3 time: 9.083043449471411 S_num: 2 Bnum: 2
+EVA: 4 time: 9.083043449471411 S_num: 2 Bnum: 1
+EVA: 5 time: 9.083043449471411 S_num: 2 Bnum: 6
+EVA_id: 1 dis: 266 price: 16.14 V: -88.679 pr: 0.296
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.05
+EVA_id: 3 dis: 226 price: 16.142 V: -87.489 pr: 0.449
+EVA_id: 5 dis: 140 price: 17.104 V: -89.722 pr: 0.205
+選択したEVA: 1
+EVA: 0 time: 9.121424090791027 S_num: 1 Bnum: 3
+EVA: 1 time: 9.121424090791027 S_num: 1 Bnum: 3
+EVA: 2 time: 9.121424090791027 S_num: 2 Bnum: 3
+EVA: 3 time: 9.121424090791027 S_num: 2 Bnum: 2
+EVA: 4 time: 9.121424090791027 S_num: 2 Bnum: 1
+EVA: 5 time: 9.121424090791027 S_num: 2 Bnum: 6
+EVA_id: 1 dis: 266 price: 14.963 V: 66.835 pr: 0.178
+EVA_id: 2 dis: 408 price: 14.861 V: 62.067 pr: 0.034
+EVA_id: 3 dis: 226 price: 14.862 V: 67.529 pr: 0.228
+EVA_id: 5 dis: 140 price: 14.861 V: 70.104 pr: 0.56
+選択したEVA: 5
+EVA: 0 time: 9.13758990709598 S_num: 1 Bnum: 3
+EVA: 1 time: 9.13758990709598 S_num: 1 Bnum: 3
+EVA: 2 time: 9.13758990709598 S_num: 2 Bnum: 3
+EVA: 3 time: 9.13758990709598 S_num: 2 Bnum: 2
+EVA: 4 time: 9.13758990709598 S_num: 2 Bnum: 1
+EVA: 5 time: 9.13758990709598 S_num: 3 Bnum: 6
+EVA: 0 time: 9.219224234816437 S_num: 1 Bnum: 3
+EVA: 1 time: 9.219224234816437 S_num: 1 Bnum: 3
+EVA: 2 time: 9.219224234816437 S_num: 2 Bnum: 3
+EVA: 3 time: 9.219224234816437 S_num: 2 Bnum: 2
+EVA: 4 time: 9.219224234816437 S_num: 2 Bnum: 1
+EVA: 5 time: 9.219224234816437 S_num: 3 Bnum: 5
+EVA: 0 time: 9.238224689085929 S_num: 1 Bnum: 2
+EVA: 1 time: 9.238224689085929 S_num: 1 Bnum: 3
+EVA: 2 time: 9.238224689085929 S_num: 2 Bnum: 3
+EVA: 3 time: 9.238224689085929 S_num: 2 Bnum: 2
+EVA: 4 time: 9.238224689085929 S_num: 2 Bnum: 1
+EVA: 5 time: 9.238224689085929 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 16.296 V: -89.458 pr: 0.208
+EVA_id: 2 dis: 408 price: 16.302 V: -93.749 pr: 0.046
+EVA_id: 3 dis: 226 price: 16.142 V: -87.489 pr: 0.415
+EVA_id: 5 dis: 140 price: 16.788 V: -88.142 pr: 0.33
+選択したEVA: 1
+EVA: 0 time: 9.28728367005375 S_num: 1 Bnum: 2
+EVA: 1 time: 9.28728367005375 S_num: 1 Bnum: 4
+EVA: 2 time: 9.28728367005375 S_num: 2 Bnum: 3
+EVA: 3 time: 9.28728367005375 S_num: 2 Bnum: 2
+EVA: 4 time: 9.28728367005375 S_num: 2 Bnum: 1
+EVA: 5 time: 9.28728367005375 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.964 V: 66.841 pr: 0.207
+EVA_id: 2 dis: 408 price: 14.861 V: 62.067 pr: 0.039
+EVA_id: 3 dis: 226 price: 14.862 V: 67.529 pr: 0.264
+EVA_id: 5 dis: 140 price: 14.7 V: 69.301 pr: 0.49
+選択したEVA: 3
+EVA: 0 time: 9.311714824025309 S_num: 1 Bnum: 2
+EVA: 1 time: 9.311714824025309 S_num: 1 Bnum: 4
+EVA: 2 time: 9.311714824025309 S_num: 2 Bnum: 3
+EVA: 3 time: 9.311714824025309 S_num: 3 Bnum: 2
+EVA: 4 time: 9.311714824025309 S_num: 2 Bnum: 1
+EVA: 5 time: 9.311714824025309 S_num: 3 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.204
+EVA_id: 1 dis: 383 price: 16.521 V: -94.093 pr: 0.034
+EVA_id: 2 dis: 207 price: 16.302 V: -87.719 pr: 0.314
+EVA_id: 4 dis: 224 price: 16.036 V: -86.901 pr: 0.418
+EVA_id: 5 dis: 352 price: 16.788 V: -94.502 pr: 0.029
+選択したEVA: 2
+EVA: 0 time: 9.349375405449333 S_num: 1 Bnum: 2
+EVA: 1 time: 9.349375405449333 S_num: 1 Bnum: 4
+EVA: 2 time: 9.349375405449333 S_num: 2 Bnum: 4
+EVA: 3 time: 9.349375405449333 S_num: 3 Bnum: 2
+EVA: 4 time: 9.349375405449333 S_num: 2 Bnum: 1
+EVA: 5 time: 9.349375405449333 S_num: 3 Bnum: 5
+EVA: 0 time: 9.383355366501304 S_num: 1 Bnum: 2
+EVA: 1 time: 9.383355366501304 S_num: 1 Bnum: 4
+EVA: 2 time: 9.383355366501304 S_num: 2 Bnum: 4
+EVA: 3 time: 9.383355366501304 S_num: 2 Bnum: 2
+EVA: 4 time: 9.383355366501304 S_num: 2 Bnum: 1
+EVA: 5 time: 9.383355366501304 S_num: 3 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.964 V: 66.841 pr: 0.207
+EVA_id: 2 dis: 408 price: 14.864 V: 62.082 pr: 0.039
+EVA_id: 3 dis: 226 price: 14.862 V: 67.529 pr: 0.264
+EVA_id: 5 dis: 140 price: 14.7 V: 69.301 pr: 0.49
+選択したEVA: 5
+EVA: 0 time: 9.393792336049307 S_num: 1 Bnum: 2
+EVA: 1 time: 9.393792336049307 S_num: 1 Bnum: 4
+EVA: 2 time: 9.393792336049307 S_num: 2 Bnum: 4
+EVA: 3 time: 9.393792336049307 S_num: 2 Bnum: 2
+EVA: 4 time: 9.393792336049307 S_num: 2 Bnum: 1
+EVA: 5 time: 9.393792336049307 S_num: 4 Bnum: 5
+EVA: 0 time: 9.43333960993823 S_num: 1 Bnum: 2
+EVA: 1 time: 9.43333960993823 S_num: 1 Bnum: 4
+EVA: 2 time: 9.43333960993823 S_num: 2 Bnum: 4
+EVA: 3 time: 9.43333960993823 S_num: 2 Bnum: 1
+EVA: 4 time: 9.43333960993823 S_num: 2 Bnum: 1
+EVA: 5 time: 9.43333960993823 S_num: 4 Bnum: 5
+EVA: 0 time: 9.420275848917811 S_num: 1 Bnum: 2
+EVA: 1 time: 9.420275848917811 S_num: 1 Bnum: 4
+EVA: 2 time: 9.420275848917811 S_num: 1 Bnum: 4
+EVA: 3 time: 9.420275848917811 S_num: 2 Bnum: 1
+EVA: 4 time: 9.420275848917811 S_num: 2 Bnum: 1
+EVA: 5 time: 9.420275848917811 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.14 V: -88.949 pr: 0.227
+EVA_id: 1 dis: 383 price: 16.521 V: -94.093 pr: 0.038
+EVA_id: 2 dis: 207 price: 16.521 V: -88.813 pr: 0.238
+EVA_id: 4 dis: 224 price: 16.036 V: -86.901 pr: 0.465
+EVA_id: 5 dis: 352 price: 16.789 V: -94.504 pr: 0.032
+選択したEVA: 2
+EVA: 0 time: 9.458295264520212 S_num: 1 Bnum: 2
+EVA: 1 time: 9.458295264520212 S_num: 1 Bnum: 4
+EVA: 2 time: 9.458295264520212 S_num: 1 Bnum: 5
+EVA: 3 time: 9.458295264520212 S_num: 2 Bnum: 1
+EVA: 4 time: 9.458295264520212 S_num: 2 Bnum: 1
+EVA: 5 time: 9.458295264520212 S_num: 4 Bnum: 5
+EVA: 0 time: 9.48771627731729 S_num: 1 Bnum: 2
+EVA: 1 time: 9.48771627731729 S_num: 1 Bnum: 4
+EVA: 2 time: 9.48771627731729 S_num: 1 Bnum: 5
+EVA: 3 time: 9.48771627731729 S_num: 2 Bnum: 1
+EVA: 4 time: 9.48771627731729 S_num: 1 Bnum: 1
+EVA: 5 time: 9.48771627731729 S_num: 4 Bnum: 5
+EVA: 0 time: 9.492670266668103 S_num: 1 Bnum: 1
+EVA: 1 time: 9.492670266668103 S_num: 1 Bnum: 4
+EVA: 2 time: 9.492670266668103 S_num: 1 Bnum: 5
+EVA: 3 time: 9.492670266668103 S_num: 2 Bnum: 1
+EVA: 4 time: 9.492670266668103 S_num: 1 Bnum: 1
+EVA: 5 time: 9.492670266668103 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.964 V: 66.841 pr: 0.244
+EVA_id: 2 dis: 408 price: 14.964 V: 62.581 pr: 0.055
+EVA_id: 3 dis: 226 price: 14.862 V: 67.531 pr: 0.31
+EVA_id: 5 dis: 140 price: 14.48 V: 68.198 pr: 0.392
+選択したEVA: 5
+EVA: 0 time: 9.533123823089158 S_num: 1 Bnum: 1
+EVA: 1 time: 9.533123823089158 S_num: 1 Bnum: 4
+EVA: 2 time: 9.533123823089158 S_num: 1 Bnum: 5
+EVA: 3 time: 9.533123823089158 S_num: 2 Bnum: 1
+EVA: 4 time: 9.533123823089158 S_num: 1 Bnum: 1
+EVA: 5 time: 9.533123823089158 S_num: 5 Bnum: 5
+EVA: 0 time: 9.574323873583856 S_num: 1 Bnum: 1
+EVA: 1 time: 9.574323873583856 S_num: 1 Bnum: 4
+EVA: 2 time: 9.574323873583856 S_num: 1 Bnum: 4
+EVA: 3 time: 9.574323873583856 S_num: 2 Bnum: 1
+EVA: 4 time: 9.574323873583856 S_num: 1 Bnum: 1
+EVA: 5 time: 9.574323873583856 S_num: 5 Bnum: 5
+EVA: 0 time: 9.575935790154812 S_num: 1 Bnum: 1
+EVA: 1 time: 9.575935790154812 S_num: 1 Bnum: 4
+EVA: 2 time: 9.575935790154812 S_num: 1 Bnum: 4
+EVA: 3 time: 9.575935790154812 S_num: 2 Bnum: 1
+EVA: 4 time: 9.575935790154812 S_num: 1 Bnum: 1
+EVA: 5 time: 9.575935790154812 S_num: 4 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.261
+EVA_id: 1 dis: 383 price: 16.521 V: -94.093 pr: 0.036
+EVA_id: 2 dis: 207 price: 16.521 V: -88.813 pr: 0.226
+EVA_id: 4 dis: 224 price: 16.031 V: -86.877 pr: 0.446
+EVA_id: 5 dis: 352 price: 16.788 V: -94.502 pr: 0.031
+選択したEVA: 5
+EVA: 0 time: 9.597496893631844 S_num: 1 Bnum: 1
+EVA: 1 time: 9.597496893631844 S_num: 1 Bnum: 4
+EVA: 2 time: 9.597496893631844 S_num: 1 Bnum: 4
+EVA: 3 time: 9.597496893631844 S_num: 2 Bnum: 1
+EVA: 4 time: 9.597496893631844 S_num: 1 Bnum: 1
+EVA: 5 time: 9.597496893631844 S_num: 4 Bnum: 6
+EVA_id: 1 dis: 266 price: 14.964 V: 66.841 pr: 0.243
+EVA_id: 2 dis: 408 price: 14.964 V: 62.581 pr: 0.055
+EVA_id: 3 dis: 226 price: 14.862 V: 67.531 pr: 0.31
+EVA_id: 5 dis: 140 price: 14.481 V: 68.205 pr: 0.392
+選択したEVA: 3
+EVA: 0 time: 9.610520174234665 S_num: 1 Bnum: 1
+EVA: 1 time: 9.610520174234665 S_num: 1 Bnum: 4
+EVA: 2 time: 9.610520174234665 S_num: 1 Bnum: 4
+EVA: 3 time: 9.610520174234665 S_num: 3 Bnum: 1
+EVA: 4 time: 9.610520174234665 S_num: 1 Bnum: 1
+EVA: 5 time: 9.610520174234665 S_num: 4 Bnum: 6
+EVA: 0 time: 9.657819028088012 S_num: 1 Bnum: 1
+EVA: 1 time: 9.657819028088012 S_num: 1 Bnum: 4
+EVA: 2 time: 9.657819028088012 S_num: 1 Bnum: 4
+EVA: 3 time: 9.657819028088012 S_num: 3 Bnum: 1
+EVA: 4 time: 9.657819028088012 S_num: 1 Bnum: 1
+EVA: 5 time: 9.657819028088012 S_num: 4 Bnum: 5
+EVA_id: 1 dis: 266 price: 14.964 V: 66.841 pr: 0.264
+EVA_id: 2 dis: 408 price: 14.964 V: 62.581 pr: 0.059
+EVA_id: 3 dis: 226 price: 14.699 V: 66.716 pr: 0.252
+EVA_id: 5 dis: 140 price: 14.48 V: 68.202 pr: 0.425
+選択したEVA: 5
+EVA: 0 time: 9.75407386125636 S_num: 1 Bnum: 1
+EVA: 1 time: 9.75407386125636 S_num: 1 Bnum: 4
+EVA: 2 time: 9.75407386125636 S_num: 1 Bnum: 4
+EVA: 3 time: 9.75407386125636 S_num: 3 Bnum: 1
+EVA: 4 time: 9.75407386125636 S_num: 1 Bnum: 1
+EVA: 5 time: 9.75407386125636 S_num: 5 Bnum: 5
+EVA: 0 time: 9.758289302654363 S_num: 1 Bnum: 1
+EVA: 1 time: 9.758289302654363 S_num: 1 Bnum: 4
+EVA: 2 time: 9.758289302654363 S_num: 1 Bnum: 3
+EVA: 3 time: 9.758289302654363 S_num: 3 Bnum: 1
+EVA: 4 time: 9.758289302654363 S_num: 1 Bnum: 1
+EVA: 5 time: 9.758289302654363 S_num: 5 Bnum: 5
+EVA_id: 0 dis: 275 price: 16.031 V: -88.407 pr: 0.235
+EVA_id: 1 dis: 383 price: 16.521 V: -94.093 pr: 0.032
+EVA_id: 2 dis: 207 price: 16.296 V: -87.688 pr: 0.303
+EVA_id: 4 dis: 224 price: 16.031 V: -86.877 pr: 0.402
+EVA_id: 5 dis: 352 price: 16.786 V: -94.488 pr: 0.028
+選択したEVA: 4
+EVA: 0 time: 9.891921203925813 S_num: 1 Bnum: 1
+EVA: 1 time: 9.891921203925813 S_num: 1 Bnum: 4
+EVA: 2 time: 9.891921203925813 S_num: 1 Bnum: 3
+EVA: 3 time: 9.891921203925813 S_num: 3 Bnum: 1
+EVA: 4 time: 9.891921203925813 S_num: 1 Bnum: 2
+EVA: 5 time: 9.891921203925813 S_num: 5 Bnum: 5

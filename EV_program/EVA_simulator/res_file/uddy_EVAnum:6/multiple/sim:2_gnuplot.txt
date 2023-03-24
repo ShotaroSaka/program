@@ -1,0 +1,26 @@
+set border lw 2
+set xlabel "determining factor(distance, price)"
+set ylabel "q_i(k)"
+set xlabel font "Helvetica,14"
+set ylabel font "Helvetica,14"
+
+set key right top
+set style data histogram
+set style histogram cluster gap 1
+
+set yrange[0:1]
+set style fill solid border rgb "black"
+set boxwidth 0.5 relative
+
+plot "open_price.dat" using 2:xtic(1) title "EVA 1" linecolor rgb "light-blue", \
+             '' using 3         title "EVA 2" linecolor rgb "light-red"
+set tics    font "Consolas,12"
+set key     font "Consolas,12"
+set title   font "Consolas,12"
+set xlabel  font "Consolas,12"
+set ylabel  font "Consolas,12"
+set terminal pdf enhanced color size 3.0in, 2.25in
+set output "open-price.pdf"
+replot
+set output
+

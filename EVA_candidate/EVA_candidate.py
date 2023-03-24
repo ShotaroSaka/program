@@ -2,9 +2,7 @@ import os
 import sys
 import osmnx as ox
 import math
-
 import taxicab as tc
-from geopy.distance import geodesic
 
 import random 
 random.seed(1)
@@ -17,11 +15,7 @@ class Place(object):
         self._pop = population   # 人気度の重み
 
         self._id = None           
-
-    
-    def set_id(self, id) -> None:
-        self._place_id = id      # 場所の id 
-       
+   
 
         
 class Simulate(object):
@@ -32,10 +26,6 @@ class Simulate(object):
 
         self.EVA_dis_list = []   # 目的地と EVA の距離が格納されている
         self.EVA_list = []       # 選ばれた EVA
-
-        self._alpha = 1
-        self._beta = -1
-        self._lamda = 0.5
         
         self.G = None            # グラフネットワーク
 
@@ -71,21 +61,12 @@ class Simulate(object):
         '''全ての場所 id を G に格納
            場所の id と id をそれぞれの場所に格納'''
         for i, dep in enumerate(self._dep_list):
-            point = (dep._lat, dep._lon)
-            place_id = ox.get_nearest_node(self.G, point)
-            dep.set_id(place_id)
             dep._id = i
     
         for i, des in enumerate(self._des_list):
-            point = (des._lat, dep._lon)
-            place_id = ox.get_nearest_node(self.G, point)
-            des.set_id(place_id)
             des._id = i
 
         for i, EVA in enumerate(self._EVA_list):
-            point = (EVA._lat, EVA._lon)
-            place_id = ox.get_nearest_node(self.G, point)
-            EVA.set_id(place_id)
             EVA._id = i
 
                 

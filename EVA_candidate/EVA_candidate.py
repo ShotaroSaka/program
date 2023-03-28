@@ -24,7 +24,7 @@ class Simulate(object):
         self._des_list = []
         self._EVA_list = []
 
-        self.EVA_dis_list = []   # 目的地と EVA の距離が格納されている
+        self.EVA_dis_list = []   # 目的地 h とそれぞれの EVA の距離が格納されている
         self.EVA_list = []       # 選ばれた EVA
         
         self.G = None            # グラフネットワーク
@@ -104,34 +104,24 @@ class Simulate(object):
         '''目的地リストから des_num 個目的地候補を選ぶ
            多項ロジットモデルで２つの指標（人気度，距離）を用いて決定'''
         des_pop_list = [des._pop for des in self._des_list]   
+
         # 目的地リストの中から des_num 個目的地候補を選択しリストで格納
         des_choice = self.random_choices(self._des_list[:], des_num, des_pop_list)
         
         return des_choice
 
 
-    def random_choices(self, plist, n, weights):
+    def random_choices(self, des_list, n, weights):
         '''目的地リストの中から重みあり，重複なしで目的地を n 個選択
            選択した目的地を配列 ret に格納'''
         ret = []
         for i in range(n):
-            idx = random.choices(range(len(plist)), weights)[0]
-            ret.append(plist.pop(idx))
+            idx = random.choices(range(len(des_list)), weights)[0]
+            ret.append(des_list.pop(idx))
             weights.pop(idx)
 
         return ret 
-            
-    
-    def calc_pro(self, v_list) -> list:
-        '''ガンベル分布に従うように効用からそれぞれの選択確率に変換
-           pr はそれぞれの選択確率が格納された配列'''
-        sum = 0
-        for i in v_list:
-            sum += math.exp(self._lamda*i)
-        pr = [math.exp(self._lamda*j) / sum for j in v_list]
-
-        return pr
-    
+                
         
     def pickup_EVA(self, des_place_list) -> None:
         '''目的地オブジェクトのリストを入力
@@ -141,14 +131,13 @@ class Simulate(object):
         self.new_EVA_dis_list = self.calc_new_EVA_list(des_place_list)
 
         # 行き先候補の EVAid を一時的に格納する配列
-        EVA_id_list = []
+        tmp = []
         for dis, EVA in zip(self.new_EVA_dis_list, self._EVA_list):
             # 500m 以内の EVA を抽出(目的地周辺)
             if dis <= 500:
-                EVA_id_list.append(EVA._id)
+                tmp.append(EVA._id)
 
-        self.EVA_list = list(set(EVA_id_list))
-
+        self.EVA_list = list(set(tmp))
                 
         
     def calc_new_EVA_list(self, des_list):
@@ -156,7 +145,7 @@ class Simulate(object):
            同じ要素同士を比較し，一番小さい値を new_EVA_dis_list に格納
            一次配列を出力'''
 
-        self.new_EVA_dis_list = []
+        new_EVA_dis_list = []
         # 全 EVA 回比較を行う
         for j in range(len(self._EVA_list)):
             # 目的地リストで選ばれたものだけ比較
@@ -166,9 +155,9 @@ class Simulate(object):
                     min_dis = self.EVA_dis_list[des._id][j]
                     
             # 一番距離の短い EVA を格納
-            self.new_EVA_dis_list.append(min_dis)
+            new_EVA_dis_list.append(min_dis)
 
-        return self.new_EVA_dis_list
+        return new_EVA_dis_list
 
 
     def print_des_factor(self, des_id, des_pop, dis, V):
@@ -238,9 +227,9 @@ def make_class(data, name, sim):
             
 def main():
     place = "Sanda,Hyogo,Japan"
-    house_list = read_csv("Sanda_home_uf.txt")
-    shop_list = read_csv("Sanda_shop_uf.txt")
-    EVA_list = read_csv("Sanda_parking_uf.txt")
+    house_list = read_csv("Sanda_home_u.txt")
+    shop_list = read_csv("Sanda_shop_u.txt")
+    EVA_list = read_csv("Sanda_parking_u.txt")
 
     sim = Simulate()
     make_class(house_list, "departure", sim)
@@ -252,7 +241,7 @@ def main():
     sim.get_all_id()
     sim.get_distance_des_to_EVA()
 
-    l = [1, 4]   
+    l = [1, 2]   
     
     # 試行回数
     n = int(sys.argv[1])  
@@ -263,12 +252,12 @@ def main():
         sim.print_start_end_place(dis_num, start_point)
 
         # 目的地の候補を決定
-        end_point_list = sim.choice_random_des(dis_num)        
+        des_point_list = sim.choice_random_des(dis_num)        
        
         # 目的地候補から EVA を抽出
-        sim.pickup_EVA(end_point_list)
+        sim.pickup_EVA(des_point_list)
 
-        sim.print_pickup_EVA_distance(end_point_list)
+        sim.print_pickup_EVA_distance(des_point_list)
         #sim.print_file_pickup_EVA_distance()
       
 if __name__ == "__main__":

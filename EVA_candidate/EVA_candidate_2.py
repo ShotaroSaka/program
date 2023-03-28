@@ -139,6 +139,7 @@ class Simulate(object):
         # 各目的地を選ぶ確率に変換
         v_list = self.calc_pro(des_candidate)
         print(v_list)
+        print(self._des_list)
         # 目的地リストの中から des_num 個目的地候補を選択しリストで格納
         des_choice = self.random_choices(self._des_list[:], des_num, v_list)
         
@@ -273,9 +274,9 @@ def make_class(data, name, sim):
             
 def main():
     place = "Sanda,Hyogo,Japan"
-    house_list = read_csv("Sanda_population_list_2.txt")
-    shop_list = read_csv("Sanda_shop_list_2.txt")
-    EVA_list = read_csv("Sanda_parking_list_2.txt")
+    house_list = read_csv("Sanda_home_u.txt")
+    shop_list = read_csv("Sanda_shop_u.txt")
+    EVA_list = read_csv("Sanda_parking_u.txt")
 
     sim = Simulate()
     make_class(house_list, "departure", sim)
@@ -292,7 +293,7 @@ def main():
     for i in range(n):
         # スタート地点，目的地の数を決定
         start_point = sim.choice_random_dep()                          
-        dis_num = random.randint(1, 3)
+        dis_num = random.randint(1, 2)
         sim.print_start_end_place(dis_num, start_point)
 
         # 目的地の候補を決定

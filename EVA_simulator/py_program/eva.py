@@ -503,7 +503,6 @@ def main():
            
         sim.print_EV_price_rate_2()
     sim.print_dep_list()
-
             
 if __name__ == "__main__":
     main()

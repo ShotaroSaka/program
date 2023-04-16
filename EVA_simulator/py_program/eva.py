@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 import sys
 import math
-
-from scipy.integrate import odeint
-from scipy.integrate import solve_ivp
 from scipy.optimize import minimize
 
 import random
@@ -12,22 +9,12 @@ random.seed(2)
 
 class EV(object) :
     def __init__(self, id, kind = None):
-        self._id = id                                       # identification number of the EV group
+        self._id = id                                      # identification number of the EV group
         self._kappa_s = 100                                # 売電価格の計算式における係数
         self._kappa_b = 100                                # 買電価格の計算式における係数
 
         if kind == None:   self._kind = self.set_kind()     # kind of EVs (kind = 'S' or kind = 'B') in the group
         else:              self._kind = kind
-
-        
-    def set_time(self, arrT, depT, t_a) -> None:
-        self._arrT = arrT         # arrival time of EV
-        self._depT = depT         # departure time of EV
-        self._t_a = t_a           # 現在の時間をもたせる
-
-
-    def set_EVA_candidate(self, EVA_candidate) -> None:
-        self.EVA_can = EVA_candidate     # 候補の EVA_idと距離の集合（辞書型）
 
         
     def set_kind(self) -> str:           # EV の種類を決定（"S" or "B"）
@@ -37,21 +24,34 @@ class EV(object) :
 
         return kind
 
-        
-    def set_calc_param(self, kappa_r, base_p, Es, Eb) -> None:
+    
+    def set_param_time(self, arrT, depT, t_a) -> None:
+        self._arrT = arrT         # arrival time of EV
+        self._depT = depT         # departure time of EV
+        self._t_a = t_a           # 現在の時間をもたせる
+
+    def set_param_private(self, Es, Eb, kappa_dis, kappa_price):
+        self._Es = Es               
+        self._Eb = Eb
+        self._kappa_dis = kappa_dis          # 多項ロジットモデルでの重み（距離）
+        self._kappa_price = kappa_price      # 多項ロジットモデルでの重み（値段）
+
+        self._E_now = 0                # 今まで取引した電力量
+        self._price = 0                # 電力売買価格
+
+    def set_param_calc(self, kappa_r, base_p) -> None:
         self._gamma = 2             # parameter of the utility function
         self._kappa_r = kappa_r     # coefficient used in the derivs
         self._base_p = base_p       # base line of price
 
-        self._Es = Es               
-        self._Eb = Eb
-        self._E_now = 0             # 今まで取引した電力量
         self._gamma_fact = 2        # 価格の計算式に用いられているガンマ
         self._rate = None
 
-        self._price = 0             # 電力売買価格   
-
         
+    def set_EVA_candidate(self, EVA_candidate) -> None:
+        self.EVA_can = EVA_candidate     # 候補の EVA_idと距離の集合（辞書型）
+    
+       
     def derivs_util(self, x) :
         return (x + 1)**(-self._gamma)   # differential equation of the utility function
 
@@ -65,8 +65,8 @@ class EV(object) :
             p = self._kappa_s * rate**(self._gamma_fact) * (p[0]-p[2])
             self._price += rate*(t1 - self._t_a)*self._base_p - p*(t1 - self._t_a)        # 今まで取引した価格    
             self._price_rate = (rate*self._base_p - p) / rate                             # 1 kWh あたりの値段
-            self._price_pre = self._price + (self._Es - self._E_now)*self._price_rate     # 混雑状況が一定のときの値段
-            
+            self._price_pre = self._price + (self._Es - self._E_now)*self._price_rate     # 混雑状況が一定のときの値段       
+
         elif self._kind == "B":  # for buyers
             p = self._kappa_b * rate**(self._gamma_fact) * (p[1]+p[2])
             self._price += rate*(t1 - self._t_a)*self._base_p + p*(t1 - self._t_a)
@@ -86,14 +86,11 @@ class EVA(object) :
         self._EV_list = {}
 
         
-    def set_param(self, k1, k2, k3, limit_As, limit_Ar, kappa) -> None:
+    def set_param(self, k1, k2, k3, limit_As, limit_Ar) -> None:
         self._k1 = k1                  # EVA_k でのペナルティ
         self._k2 = k2
         self._k3 = k3
-        
-        self._kappa_dis = 1            # 多項ロジットモデルでの重み（距離）
-        self._kappa_price = kappa      # 多項ロジットモデルでの重み（値段）
-        
+                
         self._limit_As = limit_As      # ケーブル容量
         self._limit_Ar = limit_Ar
         
@@ -221,15 +218,14 @@ class Simulator(object):
         self._stT = stT                # start time of simulation
         self._endT = endT              # end time of simulation
 
-        self._lam = 5                 # EV の発生頻度 23, 28
-        self._lamda = 0.5              # 多項ロジットモデルでのランダム性の大きさ
+        self._lam = 23                 # EV の発生頻度 23, 28
+        self._lamda = 0.4              # 多項ロジットモデルでのランダム性の大きさ
 
-        self._sol = None               # time series of states
         self._opt = None               # convergence values of states
 
-        self._EVA_list = []            # 全EVAのリスト
+        self._EVA_list = []            # 全 EVA のリスト
         self._EVA_candidate_list = []  
-        self.dep_ev_list = []          # 出発したEVのリスト
+        self.dep_ev_list = []          # 出発した EV のリスト
         
 
     def add_EVA(self, EVA) -> None:
@@ -243,37 +239,6 @@ class Simulator(object):
         return x
 
 
-    def calc_v(self, EV) -> None:
-        self.v_list = []
-        self.EVA_price = []
-        self.EVA_place = []
-        self.EVA_id = []
-        v_cal = 0
-        for eva_id, eva_dis in EV.EVA_can.items():
-            if EV._kind == "S":
-                kappa_price = self._EVA_list[eva_id]._kappa_price                
-                kappa_dis = self._EVA_list[eva_id]._kappa_dis
-                price_rate = self._EVA_list[eva_id]._EV_list[0]._price_rate
-            elif EV._kind == "B":                
-                kappa_price = -self._EVA_list[eva_id]._kappa_price
-                kappa_dis = self._EVA_list[eva_id]._kappa_dis
-                price_rate = self._EVA_list[eva_id]._EV_list[1]._price_rate
-
-            v_cal = -kappa_dis*(eva_dis*0.05) + kappa_price*price_rate   # 多項ロジットモデル
-
-            self.v_list.append(v_cal)
-            self.EVA_id.append(eva_id)
-            self.EVA_place.append(eva_dis)
-            self.EVA_price.append(price_rate)
-                                               
-       
-    def calc_pro(self, EV) -> None:
-        all = 0
-        for i in self.v_list:
-            all += math.exp(self._lamda*i)
-        self._pr = [math.exp(self._lamda*j) / all for j in self.v_list]
-
-        
     def choice_EVA(self, EV):            # 確率をもとに EVA を選択する
         self.calc_v(EV)
         self.calc_pro(EV)
@@ -283,6 +248,33 @@ class Simulator(object):
         self.print_calc_comfirmation()
       
         return self._EVA_id
+
+
+    def calc_v(self, EV) -> None:
+        self.v_list = []
+        self.EVA_price = []
+        self.EVA_place = []
+        self.EVA_id = []
+        v_cal = 0
+        for eva_id, eva_dis in EV.EVA_can.items():
+            if EV._kind == "S":
+                price_rate = -self._EVA_list[eva_id]._EV_list[0]._price_rate
+            elif EV._kind == "B":                
+                price_rate = self._EVA_list[eva_id]._EV_list[1]._price_rate
+
+            v_cal = EV._kappa_dis*eva_dis + EV._kappa_price*price_rate   # 多項ロジットモデル
+
+            self.v_list.append(v_cal)
+            self.EVA_id.append(eva_id)
+            self.EVA_place.append(eva_dis)
+            self.EVA_price.append(price_rate)
+
+       
+    def calc_pro(self, EV) -> None:
+        all = 0
+        for i in self.v_list:
+            all += math.exp(-self._lamda*i)
+        self._pr = [math.exp(-self._lamda*j) / all for j in self.v_list]
 
             
     def calc_all(self, t) -> None:
@@ -394,35 +386,39 @@ def calc_norm(vec) :
     return math.sqrt(norm)
        
 
-def make_EVA(EVA_num, sim, price_kappa):
+def make_EVA(EVA_num, sim):
     for i in range(EVA_num):
         eva = EVA(id = i)
-        eva.set_param(k1 = 0.1, k2 = 0.1, k3 = 0.1,
-                      limit_As = 64, limit_Ar = 64, kappa = price_kappa) 
+        eva.set_param(k1 = 0.1, k2 = 0.1, k3 = 0.1, limit_As = 64, limit_Ar = 64) 
         sim.add_EVA(eva)
         make_first_EV(eva, sim)            # 常に買い手，売り手 EV は存在
-
-
+        
+        
 def make_first_EV(eva, sim):
     seller = EV(id = 0, kind = "S")
-    seller.set_time(arrT = sim._stT, depT = sim._endT, t_a = sim._stT)
-    seller.set_calc_param(kappa_r = 0.1, base_p = 15,Es = 10000, Eb = 0)
+    seller.set_param_time(arrT = sim._stT, depT = sim._endT, t_a = sim._stT)
+    seller.set_param_private(Es = 10000, Eb = 0, kappa_dis = 0, kappa_price = 1)
+    seller.set_param_calc(kappa_r = 0.1, base_p = 15)
     eva.add_EV(seller)
 
     buyer = EV(id = 1, kind = "B")
-    buyer.set_time(arrT = sim._stT, depT = sim._endT, t_a = sim._stT)
-    buyer.set_calc_param(kappa_r = 0.1, base_p = 16, Es = 0, Eb = 10000)
+    buyer.set_param_time(arrT = sim._stT, depT = sim._endT, t_a = sim._stT)
+    buyer.set_param_private(Es = 0, Eb = 10000, kappa_dis = 0, kappa_price = 1)
+    buyer.set_param_calc(kappa_r = 0.1, base_p = 16)
     eva.add_EV(buyer)
 
     
-def make_EV(i, time, EVA_can):
+def make_EV(i, time, EVA_can, k_dis, k_price):
     ev = EV(id = i)
-    ev.set_time(arrT = time, depT = time + 50, t_a = time)
+    ev.set_param_time(arrT = time, depT = time + 50, t_a = time)
     ev.set_EVA_candidate(EVA_can)
     if ev._kind == "S":
-        ev.set_calc_param(kappa_r = 0.1, base_p = 15, Es = 17, Eb = 0)
+        ev.set_param_private(Es = 17, Eb = 0, kappa_dis = k_dis, kappa_price = k_price)
+        ev.set_param_calc(kappa_r = 0.1, base_p = 15)
+
     elif ev._kind == "B":
-        ev.set_calc_param(kappa_r = 0.1, base_p = 16, Es = 0, Eb = 17)
+        ev.set_param_private(Es = 0, Eb = 17, kappa_dis = k_dis, kappa_price = k_price)
+        ev.set_param_calc(kappa_r = 0.1, base_p = 16)
         
     return ev
 
@@ -439,13 +435,12 @@ def main():
     t = 0                # 現在の時刻
     sim = Simulator(stT = stT, endT = endT)
     sim.read_csv("easy_EVAnum:6.txt")
-    #sim.read_csv("Sanda_EVA_candidate.txt")
     EVA_candidate = sim.EVA_candidate_generator()
     
-    EV_num = 2                         # 初期の EV の数
+    EV_num = 2              # 初期の EV の数
     EVA_num = 6             # EVA の台数
-    price_kappa = float(sys.argv[1])   # 多項ロジットモデルでの価格の重み
-    make_EVA(EVA_num, sim, price_kappa)
+    kappa_price = float(sys.argv[1])   # 多項ロジットモデルでの価格の重み
+    make_EVA(EVA_num, sim)
     
     next_arr_time = sim.rnd_exp()
     next_dep_time = endT  
@@ -455,7 +450,8 @@ def main():
             t = next_arr_time
             
             sim.calc_all(t)                                         # 追加したので，全て計算
-            EV = make_EV(i = EV_num, time = t, EVA_can = EVA_candidate.__next__())        # EV を作成    
+            EV = make_EV(i = EV_num, time = t, EVA_can = EVA_candidate.__next__(),
+                         k_dis = 0.03, k_price = kappa_price)        # EV を作成    
             EV_num += 1
 
             print("EV_kind: {0} Event arrT: {1} ".format(EV._kind, t))

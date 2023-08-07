@@ -211,7 +211,7 @@ class EVA(object) :
 
     
 class Simulator(object):
-    def __init__(self, start_time, end_time, EV_frequency_of_occurrence):
+    def __init__(self, start_time, end_time, EVA_num, EV_frequency_of_occurrence):
         self._stT = start_time                # start time of simulation
         self._endT = end_time              # end time of simulation
 
@@ -222,6 +222,10 @@ class Simulator(object):
         self._EVA_list = []            # 全 EVA のリスト
         self._EVA_candidate_list = []  
         self.dep_ev_list = []          # 出発した EV のリスト
+
+        self.max_S_num = [0]*EVA_num # maxを計算するためのリスト
+        self.max_B_num = [0]*EVA_num
+
         
 
     def add_EVA(self, EVA) -> None:
@@ -265,7 +269,7 @@ class Simulator(object):
             self.EVA_place.append(eva_dis)
             self.EVA_price.append(price_rate)
 
-       
+      
     def calc_pro(self, ev) -> None:
         all = 0
         for i in self.v_list:
@@ -312,6 +316,13 @@ class Simulator(object):
             yield EVA_candidate
 
             
+    def calc_max_num(self, id, s_num, b_num):
+        if self.max_S_num[id] < s_num:
+            self.max_S_num[id] = s_num
+        if self.max_B_num[id] < b_num:
+            self.max_B_num[id] = b_num
+
+
     def print_calc_comfirmation(self) -> None:
         for id, dis, price, V ,p in zip(self.EVA_id, self.EVA_place,self.EVA_price, self.v_list, self._pr):
             print("EVA_id: {0} dis: {1} price: {2} V: {3} pr: {4}"
@@ -327,8 +338,10 @@ class Simulator(object):
                     s_num += 1
                 elif ev._kind == "B":
                     b_num += 1
+            self.calc_max_num(eva._id, s_num, b_num)
             print("EVA: {0} S_num: {1} Bnum: {2}"
                   .format(eva._id, s_num, b_num))
+            
 
             
     def print_EV_price_rate_1(self) -> None:
@@ -374,7 +387,20 @@ class Simulator(object):
         B_ave = B_sum / j
         print("S_num: {0} S_ave_price: {1} B_num: {2} B_ave_price: {3}".format(i, S_ave, j, B_ave))
         
-        
+
+    def print_EVA_max_num(self):
+        i = 0
+        for eva_num in self.max_S_num:
+            print("EVA_S: {0} max_s_num: {1}"
+                  .format(i, eva_num))
+            i += 1
+
+        i = 0
+        for eva_num in self.max_B_num:
+            print("EVA_B: {0} max_b_num: {1}"
+                  .format(i, eva_num))
+            i += 1
+
         
 
 def calc_norm(vec) :
@@ -451,7 +477,7 @@ def main():
 
     
     sim = Simulator(start_time = stT, end_time = endT,
-                    EV_frequency_of_occurrence = EV_lambda)
+                    EVA_num = EVA_num, EV_frequency_of_occurrence = EV_lambda)
     sim.read_data_from_file(candidate_file)
     EVA_candidate = sim.EVA_candidate_generator()
     make_EVA(EVA_num, sim)
@@ -503,7 +529,9 @@ def main():
            
         sim.print_EV_price_rate_2()
     sim.print_dep_list()
-            
+    sim.print_EVA_max_num()
+    
 if __name__ == "__main__":
+
     main()
         

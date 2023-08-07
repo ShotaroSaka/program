@@ -202,7 +202,7 @@ class Simulate(object):
         
 
 
-def read_csv(file):
+def read_text_file(file):
     '''ファイルの読み込み
        lat = 緯度，lon = 軽度，pop = 人気度'''
     data = []
@@ -227,9 +227,9 @@ def make_class(data, name, sim):
             
 def main():
     place = "Sanda,Hyogo,Japan"
-    house_list = read_csv("Sanda_home_u.txt")
-    shop_list = read_csv("Sanda_shop_u.txt")
-    EVA_list = read_csv("Sanda_parking_u.txt")
+    house_list = read_text_file("Sanda_home_u.txt")
+    shop_list = read_text_file("Sanda_shop_u.txt")
+    EVA_list = read_text_file("Sanda_parking_u.txt")
 
     sim = Simulate()
     make_class(house_list, "departure", sim)

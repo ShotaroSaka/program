@@ -376,7 +376,7 @@ class Simulator(object):
                   .format(i, eva_num))
             i += 1
 
-
+            
     def EV_num_calc(self) -> None:
         for eva in self._EVA_list:
             if self.max_S_num[eva._id] < eva._s_num:

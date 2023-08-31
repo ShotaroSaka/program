@@ -1,7 +1,6 @@
 import os
 import sys
 import osmnx as ox
-import math
 import taxicab as tc
 
 import random 
@@ -14,33 +13,136 @@ class Place(object):
         self._lon = longitude    # 経度
         self._pop = population   # 人気度の重み
 
-        self._id = None           
+    def set_id(self, id):
+        self._id = id           
    
 
         
+class EV(object):
+    def __init__(self, id):
+        self._id = id
+        self.candidate_EVA = None  # EV_i の行き先候補となる EVA
+
+        # 生成と同時に以下を決定
+        # 出発地，目的地数，目的地候補
+        self.select_departure()
+        self.determine_num_destinations()
+        self.select_destination(self.destination_num)
+      
+        
+    def select_departure(self) -> object:
+        '''出発地点リストの中から人気度の重みをもとにランダムに一つ出発地点を選ぶ関数
+           研究では，全て同じ人気度となっている'''
+        dep_pop = [dep._pop for dep in sim._dep_list]
+        selected_dep = random.choices(sim._dep_list[:],
+                                      k = 1,
+                                      weights = dep_pop)
+
+        self.departure_point = selected_dep[0]
+
+
+    def determine_num_destinations(self):
+        '''目的地の数を決定する関数
+           50％の確率で全ての目的地を選択'''
+        if random.random() >= 0.5: self.destination_num = 1
+        else:                      self.destination_num = len(sim._des_list)
+        
+        
+    def select_destination(self, des_num) -> object:
+        '''目的地リストから des_num 個目的地候補を選ぶ関数'''
+        des_pop_list = [des._pop for des in sim._des_list]   
+        # 目的地リストの中から des_num 個目的地候補を選択しリストで格納
+        selected_des = self.weighted_choice_no_duplicates(sim._des_list[:],
+                                                          k = des_num,
+                                                          weights = des_pop_list)
+
+        self.destinations_list = selected_des
+  
+
+    def weighted_choice_no_duplicates(self, place_list, k, weights):
+        '''目的地リストの中から重みあり，重複なしで目的地を k 個選択
+           選択した目的地を配列 select_place に格納'''
+        select_place = []
+        for i in range(k):
+            tmp = random.choices(range(len(place_list)), weights)[0]
+            select_place.append(place_list.pop(tmp))
+            weights.pop(tmp)
+
+        return select_place
+
+    
+    def set_candidates_EVA(self, select_EVA):
+        self.candidate_EVA = select_EVA
+
+    
+    def print_information(self):
+        '''出発地と目的地候補をプリント'''
+        print("出発地点: {0}".format(self.departure_point._id))
+        print("目的地候補の数: {0}".format(self.destination_num))
+        print("目的地候補: ", end = "")
+        for des in self.destinations_list:
+            print(des._id, end = " ")
+        print()
+
+            
+    def print_select_EVA_distance(self) -> None:
+        '''EVAの行き先候補をプリント(確認用)
+           EVA_id と目的地からの距離
+           ex)  id: x  dis: y'''        
+        for EVA_id, distance_m in self.candidate_EVA.items():
+            print("id: {0} dis: {1}".format(EVA_id, distance_m))
+        print()
+        print()
+        
+       
+    def print_select_EVA_distance_file(self) -> None:
+           # EVAの行き先候補をプリント(実験用)
+           # EVA_id と目的地からの距離
+           # ex)  id_1 id_2 id_3 dis_1 dis_2 dis_3
+        for EVA_id in self.candidate_EVA.keys():
+            print(str(EVA_id) + " " , end = "")
+        for distance_m in self.candidate_EVA.values():
+            print(str(distance_m + " " , end = ""))
+        print()
+
+
+
 class Simulate(object):
     def __init__(self):
         self._dep_list = []
         self._des_list = []
         self._EVA_list = []
 
-        self.EVA_dis_list = []   # 目的地 h とそれぞれの EVA の距離が格納されている
-        self.EVA_list = []       # 選ばれた EVA
+        self.G = None                  # グラフネットワーク
+        self.filer_distance_m = None   # 候補となる EVA を選択する際の基準となる距離
         
-        self.G = None            # グラフネットワーク
+        self.distance_table = []       # 目的地 h とそれぞれの EVA の距離が格納されている（データベース）
+        self.EVA_list = None           # EV i の候補と成る EVA の辞書（EVA_id : distance）
+        
+       
+    def read_text_file(self, file, kind):
+        '''ファイルの読み込み
+        lat = 緯度，lon = 経度，pop = 人気度'''
+        for line in open(file, 'r'):
+            lat, lon, pop = map(float, line.split())
+            place = Place(latitude = lat, longitude = lon, population = pop)
+
+            if kind == "destination":   self.add_des(place)
+            elif kind == "departure":   self.add_dep(place)
+            elif kind == "EVA":         self.add_EVA(place)
 
     
-    def add_dep(self, Place) -> None:
+    def add_dep(self, place) -> None:
         '''目的地のリストを作成'''
-        self._dep_list.append(Place)
+        self._dep_list.append(place)
 
-    def add_des(self, Place) -> None:
+    def add_des(self, place) -> None:
         '''出発地のリストを作成'''
-        self._des_list.append(Place)
+        self._des_list.append(place)
     
-    def add_EVA(self, Place) -> None:
+    def add_EVA(self, place) -> None:
         '''EVA のリストを作成'''
-        self._EVA_list.append(Place)
+        self._EVA_list.append(place)
 
               
     def create_graph(self, query) -> None:
@@ -57,209 +159,94 @@ class Simulate(object):
             self.G = ox.load_graphml(graphml_outfile)
 
     
-    def get_all_id(self) -> None:
-        '''全ての場所 id を G に格納
-           場所の id と id をそれぞれの場所に格納'''
-        for i, dep in enumerate(self._dep_list):
-            dep._id = i
-    
-        for i, des in enumerate(self._des_list):
-            des._id = i
-
-        for i, EVA in enumerate(self._EVA_list):
-            EVA._id = i
-
+    def assign_id(self) -> None:
+        '''全ての場所に id を割り当てる'''
+        [dep.set_id(i) for i, dep in enumerate(self._dep_list)]
+        [des.set_id(i) for i, des in enumerate(self._des_list)]
+        [EVA.set_id(i) for i, EVA in enumerate(self._EVA_list)]
+   
                 
-    def get_distance_des_to_EVA(self) -> None:
+    def measure_distance_des_to_EVA(self) -> None:
         '''全ての EVA と目的地の距離を先に格納
            EVA_dis_list は距離が格納されている二次配列'''
         for des in self._des_list:
 
-            # 一時的に使う配列
-            tmp = []
-
-            # 全 EVA までの距離を測定
+            des_tmp = []
             for EVA in self._EVA_list:            
-                EVA_place = (EVA._lat, EVA._lon)
                 des_place = (des._lat, des._lon)
-
-                # 二地点の緯度経度を入力すると，道のりの距離が出力される
-                dis = tc.distance.shortest_path(self.G, des_place, EVA_place)
-
-                # dis[0] には距離が格納されている
-                tmp.append(round(dis[0]))
-
-            self.EVA_dis_list.append(tmp)
-        
-    
-    def choice_random_dep(self) -> object:
-        '''出発地点リストの中から重みをもとにランダムに一つ出発地点を選ぶ'''
-        dep_pop = [dep._pop for dep in self._dep_list]
-        dep_choice = random.choices(self._dep_list, k = 1, weights = dep_pop)
-
-        return dep_choice[0]
-
-    
-    def choice_random_des(self, des_num) -> object:
-        '''目的地リストから des_num 個目的地候補を選ぶ
-           多項ロジットモデルで２つの指標（人気度，距離）を用いて決定'''
-        des_pop_list = [des._pop for des in self._des_list]   
-
-        # 目的地リストの中から des_num 個目的地候補を選択しリストで格納
-        des_choice = self.random_choices(self._des_list[:], des_num, des_pop_list)
-        
-        return des_choice
-
-
-    def random_choices(self, des_list, n, weights):
-        '''目的地リストの中から重みあり，重複なしで目的地を n 個選択
-           選択した目的地を配列 ret に格納'''
-        ret = []
-        for i in range(n):
-            idx = random.choices(range(len(des_list)), weights)[0]
-            ret.append(des_list.pop(idx))
-            weights.pop(idx)
-
-        return ret 
+                EVA_place = (EVA._lat, EVA._lon)
                 
+                # 二地点の緯度経度を入力すると，道のりの距離が出力される
+                distance = tc.distance.shortest_path(self.G, des_place, EVA_place)
+                # distance[0] には距離が格納されている
+                des_tmp.append(round(distance[0]))
+
+            self.distance_table.append(des_tmp)
+
+
+    def set_filter(self, filter_distance_m):
+        self.filter_distance_m = filter_distance_m
+
         
-    def pickup_EVA(self, des_place_list) -> None:
+    def select_EVA_from_destinations(self, destinations_list) -> None:
         '''目的地オブジェクトのリストを入力
            EVA のリストを出力'''
-        
         # 一番近くの EVA の距離を新しい距離とする
-        self.new_EVA_dis_list = self.calc_new_EVA_list(des_place_list)
+        EVA_dis_list = self.calc_min_EVA_list(destinations_list)
 
-        # 行き先候補の EVAid を一時的に格納する配列
-        tmp = []
-        for dis, EVA in zip(self.new_EVA_dis_list, self._EVA_list):
-            # 500m 以内の EVA を抽出(目的地周辺)
-            if dis <= 500:
-                tmp.append(EVA._id)
+        select_EVA_list = {}
+        for EVA_id, EVA_dis in enumerate(EVA_dis_list):
+            # 基準値以内の EVA を抽出(目的地周辺)
+            if EVA_dis < self.filter_distance_m:
+                select_EVA_list[EVA_id] = EVA_dis
 
-        self.EVA_list = list(set(tmp))
+        return select_EVA_list 
                 
         
-    def calc_new_EVA_list(self, des_list):
-        '''目的地候補のリストを入力し，一番近い EVA の距離を格納する
-           同じ要素同士を比較し，一番小さい値を new_EVA_dis_list に格納
+    def calc_min_EVA_list(self, destinations_list) -> list:
+        '''目的地候補のリストを取得し，一番近い EVA の距離を格納する
+           同じ要素同士を比較し，一番小さい値を min_distance_to_EVA に格納
            一次配列を出力'''
+        min_distance_to_EVA = []
+        for i in range(len(self._EVA_list)):
+             distances = [self.distance_table[des._id][i] for des in destinations_list]
+             min_dis = min(distances)
+             min_distance_to_EVA.append(min_dis)
 
-        new_EVA_dis_list = []
-        # 全 EVA 回比較を行う
-        for j in range(len(self._EVA_list)):
-            # 目的地リストで選ばれたものだけ比較
-            min_dis = 100000
-            for des in des_list:
-                if min_dis > self.EVA_dis_list[des._id][j]:
-                    min_dis = self.EVA_dis_list[des._id][j]
-                    
-            # 一番距離の短い EVA を格納
-            new_EVA_dis_list.append(min_dis)
-
-        return new_EVA_dis_list
-
-
-    def print_des_factor(self, des_id, des_pop, dis, V):
-        '''目的地の効用をプリント(確認用)'''
-        print("目的地id: {0} 目的地の人気度: {1} 目的地までの距離: {2} 目的地の効用: {3}"
-              .format(des_id, des_pop, dis, V))
-        
-                                
-    def print_start_end_place(self, num, start) -> None:
-        '''出発地と目的地候補をプリント'''
-        print("出発地点: {0}".format(start._id))
-        print("目的地候補の数: {0}". format(num))
-
-              
-    def print_pickup_EVA_distance(self, end_list) -> None:
-        '''EVAの行き先候補をプリント(確認用)
-           EVA_id と目的地からの距離
-           ex)  id: x  dis: y'''
-        print("目的地候補: ", end = "")
-        for end in end_list:
-            print(end._id, end = " ")
-        print()
-        
-        for EVA_id in self.EVA_list:
-            print("id: {0} dis: {1}".format(EVA_id, self.new_EVA_dis_list[EVA_id]))
-        print()
-        print()
-        
-       
-    def print_file_pickup_EVA_distance(self) -> None:
-        '''EVAの行き先候補をプリント(実験用)
-           EVA_id と目的地からの距離
-           ex)  id_1 id_2 id_3 dis_1 dis_2 dis_3 '''
-        for EVA_id in self.EVA_list:
-            print(str(EVA_id) + " " , end = "")
-        for EVA_id in self.EVA_list:
-            print(str(self.new_EVA_dis_list[EVA_id]) + " " , end = "")
-        print()    
+        return min_distance_to_EVA                    
             
-
         
-        
-
-
-def read_text_file(file):
-    '''ファイルの読み込み
-       lat = 緯度，lon = 軽度，pop = 人気度'''
-    data = []
-    for line in open(file, 'r'):
-        lat, lon, pop = map(float, line.split())
-        data.append([lat, lon, pop])
-     
-    return data
-
-
-def make_class(data, name, sim):
-    '''クラスを作成し，それぞれに追加'''
-    for d in data:
-        # 格納するデータ(緯度，経度，人口)
-        place = Place(latitude = d[0], longitude = d[1], population = d[2])  
-        if name == "destination":   sim.add_des(place)
-        elif name == "departure":   sim.add_dep(place)
-        elif name == "EVA":         sim.add_EVA(place)
-
-    
-
             
-def main():
-    place = "Sanda,Hyogo,Japan"
-    house_list = read_text_file("Sanda_home_u.txt")
-    shop_list = read_text_file("Sanda_shop_u.txt")
-    EVA_list = read_text_file("Sanda_parking_u.txt")
-
+if __name__ == "__main__":
     sim = Simulate()
-    make_class(house_list, "departure", sim)
-    make_class(shop_list, "destination", sim)
-    make_class(EVA_list, "EVA", sim)
+
+    # u  : ウッディータウンの意味
+    # uf : ウッディータウン and フラワータウンの意味
+    sim.read_text_file(file = "Sanda_departure_u.txt",   kind = "departure")
+    sim.read_text_file(file = "Sanda_destination_u.txt", kind = "destination")
+    sim.read_text_file(file = "Sanda_EVA_u.txt",         kind = "EVA")
+
     
     # place のグラフネットワークを作成
-    sim.create_graph(query = place)
-    sim.get_all_id()
-    sim.get_distance_des_to_EVA()
+    # 目的地から EVA までの距離をデータベースとして先に取得
+    simulation_place = "Sanda,Hyogo,Japan"
+    sim.create_graph(query = simulation_place)
+    sim.assign_id()
+    sim.measure_distance_des_to_EVA()
 
-    l = [1, 2]   
-    
+    # 目的地候補となる距離
+    filter_distance_m = int(sys.argv[1])
+    sim.set_filter(filter_distance_m)
+
     # 試行回数
-    n = int(sys.argv[1])  
-    for i in range(n):
-        # スタート地点，目的地の数を決定
-        start_point = sim.choice_random_dep()                          
-        dis_num = random.choice(l)
-        sim.print_start_end_place(dis_num, start_point)
-
-        # 目的地の候補を決定
-        des_point_list = sim.choice_random_des(dis_num)        
+    n_trials = 10
+    for i in range(n_trials):
+        ev = EV(id = i)
+        ev.print_information()
        
-        # 目的地候補から EVA を抽出
-        sim.pickup_EVA(des_point_list)
+        # 目的地候補から候補となる EVA を選択
+        select_EVA_list = sim.select_EVA_from_destinations(ev.destinations_list)
+        ev.set_candidates_EVA(select_EVA_list)
 
-        sim.print_pickup_EVA_distance(des_point_list)
-        #sim.print_file_pickup_EVA_distance()
-      
-if __name__ == "__main__":
-    main()
-
+        ev.print_select_EVA_distance()
+ 

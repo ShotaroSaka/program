@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/Bin/zsh
 
 EVA_num=$1
 weight_1=$2

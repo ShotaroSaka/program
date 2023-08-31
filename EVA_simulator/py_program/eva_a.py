@@ -39,13 +39,12 @@ class EV(object) :
         self._kappa_nu = kappa_nu                  # 多項ロジットモデルでのランダム性の大きさ
 
 
-    def set_param_calc(self, base_P) -> None:
-        self._gamma      = 2             # parameter of the utility function
-        self._gamma_fact = 2        # 価格の計算式に用いられているガンマ
+    def set_param_calc(self, request_E) -> None:
+        self._gamma      = 2           # parameter of the utility function
+        self._gamma_fact = 2           # 価格の計算式に用いられているガンマ
         self._kappa_r    = 0.1         # coefficient used in the derivs
 
-        self._request_E_kWh = 17               
-        self._base_P = base_P       # base line of price
+        self._request_E_kWh = request_E               
         self._rate = None
 
         
@@ -96,6 +95,8 @@ class EVA(object) :
         
         self._limit_As = limit_As      # ケーブル容量
         self._limit_Ar = limit_Ar
+
+        self._base_P = base_P       # base line of price
         
 
     def add_EV(self, EV) -> None:
@@ -129,8 +130,10 @@ class EVA(object) :
 
 
     def get_conv(self, e_time) -> None:
-        self._opt = minimize(self.norm_derivs, self._init)   # その時のレートとペナルティを計算
         EV_n = len(self._EV_list)
+        self._init = [self._init_x]*EV_n + [self._init_p]*3
+        self._opt = minimize(self.norm_derivs, self._init)   # その時のレートとペナルティを計算
+        
 
         p1 = self._opt.x[EV_n]
         p2 = self._opt.x[EV_n + 1]
@@ -214,9 +217,6 @@ class Simulator(object):
         self._EVA_candidate_list = []  # 行き先候補の全体リスト
 
         self._opt = None               # convergence values of states
-
-
-        
         self._lam = dep_flrequency                # EV の発生頻度 23, 28
         
         self.max_S_num = [0]*EVA_num # maxを計算するためのリスト

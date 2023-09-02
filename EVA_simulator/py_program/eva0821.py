@@ -7,7 +7,7 @@ from scipy.optimize import minimize
 
 class EV(object) :
     def __init__(self, id, kind = None):
-        self._id = id                          # identification number of the EV group
+        self._id = id                          # identification number of the EV group        
 
         if kind == None:  self.set_kind()      # kind をランダムに設定
         else:             self._kind  = kind   # kind を指定して設定
@@ -21,7 +21,7 @@ class EV(object) :
 
     def set_kind(self) -> str:
         k = random.random()
-        if k < 0.9:  kind = "S"
+        if k < 0.5:  kind = "S"
         else:        kind = "B"
 
         self._kind = kind
@@ -50,8 +50,9 @@ class EV(object) :
         self._request_E_kWh = 17      # EV ユーザが取引したい電力量
 
         
-    def set_EVA_candidate(self, EVA_candidate):
+    def set_EVA_candidate(self, EVA_candidate, home_id):
         self._EVA_can = EVA_candidate   # 候補の EVAid と距離の集合（辞書型）
+        self._home_id = home_id           # 出発地点（ウッディータウンかフラワータウンの人かを判別）
 
         
     def derivs_util(self, x):
@@ -240,7 +241,6 @@ class EVA(object):
             tmp_p = -(p1 - p3)
         elif ev._kind == "B":
             tmp_p =   p2 + p3
-
         
         # 新しく計算された電力レートをセット
         E_rate_kW = self._opt.x[EV_n - 1]
@@ -312,6 +312,7 @@ class Simulator(object):
         self._EVA_list = []
         self._dep_ev_list = []
         self._EVA_candidate_list = []
+        self._home_list = []
 
         self._opt = None               # convergence values of states
         self._lam = 20                 # EV の発生頻度 23, 28
@@ -371,7 +372,6 @@ class Simulator(object):
     def get_next_dep_EV(self) -> object:
         # 次に出発する EV を選択
         next_dep_ev = EV(id = 0)  # ダミー ev の作成
-        next_dep_ev.set_param_time(arrT = 0, depT = 1000, nowT = 0)
         next_depT = 1000
         for eva in self._EVA_list:     
             for ev in eva._EV_list.values():
@@ -394,14 +394,16 @@ class Simulator(object):
             data = list(map(int, line.split()))
 
             j = int(len(data)/2)
+
+            self._home_list.append(data[0])
             for i in range(j):
-                EVA_data_tmp.update({data[i]: data[j + i]})
+                EVA_data_tmp.update({data[i+1]: data[j+i+1]})
             self._EVA_candidate_list.append(EVA_data_tmp)
 
 
     def EVA_candidate_generator(self):
-        for EVA_candidate in self._EVA_candidate_list: 
-            yield EVA_candidate
+        for EVA_candidate, dep_id in zip(self._EVA_candidate_list, self._home_list): 
+            yield EVA_candidate, dep_id
 
 
     def simulation(self):
@@ -445,6 +447,7 @@ class Simulator(object):
         t = self._stT                 # current time
         next_arrT = self.rnd_exp()    # next arrive time
         next_depT = self._endT        # next departure time
+        EVA_can = sim.EVA_candidate_generator()
 
         while (t < self._endT):
             if (next_arrT < next_depT):
@@ -454,7 +457,7 @@ class Simulator(object):
 
                 # EV を生成し，売買する EVA を選択
                 ev = make_EV(id = EV_id + 1, arrT = t, depT = t + self.rnd_exp() + 0.5,
-                             k_dis = 0.03, k_P = kappa_P, k_nu = kappa_nu)
+                             k_dis = 0.03, k_P = kappa_P, k_nu = kappa_nu, EVA_can = EVA_can)
                 self.select_EVA_and_add_EV(ev)                      
                 EV_id += 1
                 
@@ -486,10 +489,10 @@ class Simulator(object):
     def print_dep_list(self) -> None:
         print("dep_EV_list")
         for ev in self._dep_ev_list:
-            print("id: {1} kind: {2} EVA: {0} arrT: {3} depT: {4} totalT: {5} energyT: {6} priceT: {7}"
+            print("id: {1} home_id: {8} kind: {2} EVA: {0} arrT: {3} depT: {4} totalT: {5} energyT: {6} priceT: {7}"
                   .format(ev._EVA_id, ev._id, ev._kind, ev._arrT, ev._depT,
                           ev._depT - ev._arrT, round(ev._total_E_kWh, 3),
-                          round(ev._total_P_yen, 3)))
+                          round(ev._total_P_yen, 3), ev._home_id))
 
     def print_EV_price_rate(self) -> None:
         for eva in self._EVA_list:
@@ -523,16 +526,14 @@ def calc_norm(vec) :
     return math.sqrt(norm)
 
 
-def make_EV(id, arrT, depT, k_dis, k_P, k_nu):
+def make_EV(id, arrT, depT, k_dis, k_P, k_nu, EVA_can):
+    EVA_can, home_id = EVA_can.__next__()
+
     ev = EV(id = id)
     ev.set_param_time(arrT = arrT, depT = depT, nowT = arrT)
     ev.set_param_model(kappa_dis = k_dis, kappa_P = k_P, kappa_nu = k_nu)
     ev.set_param_calc(alpha = 2, base_P = 17)
-
-    # EV の行き先候補をセット
-    EVA_candidate = sim.EVA_candidate_generator()
-    EVA_can = EVA_candidate.__next__()
-    ev.set_EVA_candidate(EVA_can)
+    ev.set_EVA_candidate(EVA_can, home_id)
         
     return ev
 

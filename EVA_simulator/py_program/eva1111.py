@@ -36,17 +36,14 @@ class EV(object) :
 
     def set_param_model(self, kappa_dis, kappa_P, kappa_nu):
         self._kappa_dis = kappa_dis    # 多項ロジットモデルでの距離の重み
+        self._kappa_P   = kappa_P      # 多項ロジットモデルでの価格の重み
         self._kappa_nu  = kappa_nu     # 多項ロジットモデルでのランダム性の強さ
-        if self._kind == "S":
-            self._kappa_P = -kappa_P      # 多項ロジットモデルでの価格の重み
-        elif self._kind == "B":
-            self._kappa_P =  kappa_P      
 
 
     def set_param_calc(self, alpha, base_P):
         self._alpha   = alpha         # parameter of the utility function
         self._gamma_r = 0.1           # coefficient used in the derivs            
-        self._gamma_P = 150           # 電力価格の計算式における係数
+        self._gamma_P = 100           # 電力価格の計算式における係数
         self._gamma_fact = 2          # 価格の計算式に用いられているガンマ
 
         self._base_P = base_P         # base line of price
@@ -72,19 +69,20 @@ class EV(object) :
 
         # 売り手と買い手によって異なる計算式
         if self._kind == "S":
-            tmp_p = p[0] - p[2]
-
+            tmp_p = -p[0] + p[2]
         elif self._kind == "B":
             tmp_p = p[1] + p[2]
 
-        # 価格計算(1kWh あたりの電力価格
+        # 価格計算(1kWh あたりの価格，現在まで合計価格)
         p = self._gamma_P * self._E_rate_kW**(self._gamma_fact) * tmp_p
-        self._P_rate = (self._E_rate_kW*self._base_P + p) / self._E_rate_kW
-            
+        #self._P_rate = (self._E_rate_kW*self._base_P - p) / self._E_rate_kW
+        self._P_rate = self._E_rate_kW*self._base_P + p
+        #self._total_P_yen += self._E_rate_kW*passedT*self._base_P + p*passedT
+        self._total_P_yen += self._P_rate*passedT
+ 
 
-    def set_total_P_E(self, nextT_h) -> None:
-        # 今まで取引した料金および電力量
-        self._total_P_yen += self._P_rate*self._E_rate_kW*(nextT_h - self._nowT)
+    def set_E_now(self, nextT_h) -> None:
+        # 今まで取引した電力量
         self._total_E_kWh += self._E_rate_kW*(nextT_h - self._nowT)
 
 
@@ -222,7 +220,7 @@ class EVA(object):
         for ev in self._EV_list.values():
             ev._E_rate_kW = self._opt.x[EV_id]   # 新しく計算された電力レートをセット
             ev.set_P_now((p1, p2, p3), time)     # 現在までの電力売買価格を計算
-            ev.set_total_P_E(time)               # 現在までの電力売買価格を計算
+            ev.set_E_now(time)                   # 現在までの電力売買価格を計算
             EV_id += 1
 
         # バッテリーの処理
@@ -244,19 +242,19 @@ class EVA(object):
         p1 = self._opt.x[EV_n]
         p2 = self._opt.x[EV_n + 1]
         p3 = self._opt.x[EV_n + 2]
-
-        # 新しく計算された電力レートをセット
-        E_rate_kW = self._opt.x[EV_n - 1]
       
         if ev._kind == "S":
-            tmp_p = p1 - p3
-
+            tmp_p = -p1 + p3
         elif ev._kind == "B":
             tmp_p = p2 + p3
-
+            
+        print(p1, p2, p3, tmp_p)
+        print(E_rate_kW)
+        # 新しく計算された電力レートをセット
+        E_rate_kW = self._opt.x[EV_n - 1]
         p = ev._kappa_P * E_rate_kW**(ev._gamma_fact) * tmp_p
-        P_rate = (E_rate_kW*ev._base_P + p) / E_rate_kW
-   
+        P_rate = E_rate_kW*ev._base_P + p
+
         return P_rate
 
 
@@ -345,8 +343,7 @@ class Simulator(object):
                 self._EVA_list[eva._id].get_conv(time)
 
                
-    def process_dep_EV(self, ev, t) -> None:  # 出発するEVの出発処理
-        ev._depT = t
+    def process_dep_EV(self, ev) -> None:  # 出発するEVの出発処理
         dep_ev = self._EVA_list[ev._EVA_id].remove_EV(ev)
         self._dep_ev_list.append(dep_ev)
         
@@ -443,7 +440,7 @@ class Simulator(object):
                 self.calc_all_EVA(t)
 
                 # 出発する EV の処理                    
-                self.process_dep_EV(next_dep_EV, t)   
+                self.process_dep_EV(next_dep_EV)   
 
             self.calc_all_EVA(t)
             # 次に出発する (EV, EV の時刻) を格納          
@@ -454,7 +451,7 @@ class Simulator(object):
     def check_simulation(self):
         EV_id = 0
         t = self._stT                 # current time
-        next_arrT = self.rnd_exp(28)    # next arrive time
+        next_arrT = self.rnd_exp(23)    # next arrive time
         next_depT = self._endT        # next departure time
         EVA_can = sim.EVA_candidate_generator()
 
@@ -465,7 +462,7 @@ class Simulator(object):
                 self.calc_all_EVA(t)
 
                 # EV を生成し，売買する EVA を選択
-                ev = make_EV(id = EV_id + 1, arrT = t, depT = t + 0.5,
+                ev = make_EV(id = EV_id + 1, arrT = t, depT = t + self.rnd_exp(5),
                              k_dis = 0.03, k_P = kappa_P, k_nu = kappa_nu, EVA_can = EVA_can)
                 self.select_EVA_and_add_EV(ev)                      
                 EV_id += 1
@@ -474,7 +471,7 @@ class Simulator(object):
                 self.print_EV_num()            
                 
                 # 次に到着する EV の時刻を格納
-                next_arrT += self.rnd_exp(28)                
+                next_arrT += self.rnd_exp(23)                
           
             else:
                 # 出発時刻 t までの電力売買を完了させる．
@@ -483,7 +480,7 @@ class Simulator(object):
                 print("Event depT: {0}".format(t))
                 
                 # 出発する EV の処理                    
-                self.process_dep_EV(next_dep_EV, t)
+                self.process_dep_EV(next_dep_EV)
                 self.print_EV_num()
 
 

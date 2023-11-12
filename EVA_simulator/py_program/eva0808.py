@@ -500,9 +500,9 @@ class Simulator(object):
             for ev in eva._EV_list.values():
                 if ev._id != 0:
                     print("EVA: {0} kind: {1} id: {2} E_rate: {3} E_now: {4} P_rate: {5} P_now: {6}"
-                          .format(eva._id, ev._kind, ev._id, round(ev._E_rate_kW, 2),
-                                  round(ev._total_E_kWh, 2), round(ev._P_rate, 3),
-                                  round(ev._total_P_yen, 3)))            
+                          .format(eva._id, ev._kind, ev._id, round(ev._request_E_kWh, 2),
+                                  round(ev._E_rate_kW, 2), round(ev._total_E_kWh, 2),
+                                  round(ev._P_rate, 3), round(ev._total_P_yen, 3)))            
         print()
 
     def print_EV_num(self):

@@ -3,6 +3,7 @@ import os
 import sys
 import osmnx as ox
 import taxicab as tc
+import numpy as np
 
 import random 
 random.seed(1)
@@ -29,8 +30,57 @@ class EV(object):
         self.select_departure()
         self.determine_num_destinations()
         self.select_destination(self.destination_num)
-      
+
+        # 世帯数，電力消費量，発電量を決定し，買い手EVか売り手EVを決定
+        household_size = self.determine_number_of_households()
+        self.set_consumption(household_size) 
+        self.set_power_generation()
+        self.kind = self.set_demand()
+
+    # 世帯数を決定
+    def determine_number_of_households(self):
+        probabilities = [0.30, 0.25, 0.25, 0.15, 0.05]
+        household_sizes = [1, 2, 3, 4, 5]
+
+        # 確率に基づいて世帯数を選択
+        household_size = random.choices(household_sizes, probabilities)[0]
+
+        return household_size
+
+    # 正規分布をもとに発電量を設定
+    def set_power_generation(self):
+        mean = 12.1
+        variance_1 = 1.0
+
+        self.generated_value = np.random.normal(mean, np.sqrt(variance_1))
+
+
+    # 正規分布をもとに消費電力を設定（世帯数）
+    def set_consumption(self, household_size):
+        # 世帯数に応じた平均と分散
+        means = [6.1, 10.5, 12.2, 13.1, 14.8]
+        variances = [1.0, 1.0, 1.0, 1.0, 1.0]
         
+        mean = means[household_size - 1]
+        variance_2 = variances[household_size - 1]
+
+        # 正規分布からランダムな値を生成
+        self.consumption_value = np.random.normal(mean, np.sqrt(variance_2))
+
+
+    # 発電量および消費電力をもとに売り手か買い手かを決定
+    def set_demand(self):
+        demand = self.generated_value - self.consumption_value
+
+        if demand > 0:
+            kind = 'S'
+        else:
+            kind = 'B'
+        print(demand, self.generated_value, self.consumption_value, kind)
+
+        return kind
+
+    
     def select_departure(self) -> object:
         '''出発地点リストの中から人気度の重みをもとにランダムに一つ出発地点を選ぶ関数
            研究では，全て同じ人気度となっている'''

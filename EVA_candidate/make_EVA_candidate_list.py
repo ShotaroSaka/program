@@ -3,6 +3,7 @@ import os
 import sys
 import osmnx as ox
 import taxicab as tc
+import numpy as np
 
 import random 
 random.seed(1)
@@ -20,16 +21,24 @@ class Place(object):
 
         
 class EV(object):
-    def __init__(self, id):
+    def __init__(self, id, trade_p):
         self._id = id
         self.candidate_EVA = None  # EV_i の行き先候補となる EVA
 
-        # 生成と同時に以下を決定
-        # 出発地，目的地数，目的地候補
+        # 出発地の決定
         self.select_departure()
-        self.determine_num_destinations()
-        self.select_destination(self.destination_num)
-      
+
+        # 目的地数および目的地候補の決定
+        destination_num = self.determine_num_of_destinations()
+        self.select_destination(destination_num)
+
+        # 世帯数を決定し，世帯数をもとに消費電力および発電量を決定
+        # 消費電力および発電量から S or B を決定
+        household_size = self.determine_num_of_households()
+        self.set_consumption(household_size) 
+        self.set_power_generation()
+        self.set_kind(trade_p)
+
         
     def select_departure(self) -> object:
         '''出発地点リストの中から人気度の重みをもとにランダムに一つ出発地点を選ぶ関数
@@ -42,11 +51,11 @@ class EV(object):
         self.departure_point = selected_dep[0]
 
         
-    def determine_num_destinations(self):
+    def determine_num_of_destinations(self):
         '''目的地の数を決定する関数
            50％の確率で全ての目的地を選択'''
-        if random.random() >= 0.5: self.destination_num = 1
-        else:                      self.destination_num = len(sim._des_list)
+        if random.random() >= 0.5: return 1
+        else:                      return len(sim._des_list)
 
         
     def select_destination(self, des_num) -> object:
@@ -75,7 +84,47 @@ class EV(object):
     def set_candidates_EVA(self, select_EVA):
         self.candidate_EVA = select_EVA
 
+
+    def determine_num_of_households(self):
+        probabilities = [0.289, 0.222, 0.192, 0.080]
+        household_sizes = [2, 3, 4, 5]
+
+        # 確率に基づいて世帯数を選択
+        household_size = random.choices(household_sizes, probabilities)[0]
+
+        return household_size
+
     
+    def set_consumption(self, household_size):
+        # 世帯数に応じた消費電力量の平均と分散
+        means = [10.5, 12.2, 13.1, 16.6]
+        variances = [1.0, 1.0, 1.0, 1.0]
+        
+        mean = means[household_size - 2]
+        variance = variances[household_size - 2]
+
+        # 正規分布からランダムな消費電力を設定
+        self.consumption_E_kWh = np.random.normal(mean, np.sqrt(variance))
+     
+
+    def set_power_generation(self):
+        # 発電量を設定
+        mean = 12.1
+        variance = 1.0
+
+        self.generated_E_kWh = np.random.normal(mean, np.sqrt(variance))
+    
+
+    def set_kind(self, trade_p):
+        # 発電量 - 消費量の値をもとに S or B を決定
+        # 全て売買するのではなく，trade_p% 分売買するとする
+        E_kWh = (self.generated_E_kWh - self.consumption_E_kWh)
+        self.request_E_kWh = E_kWh * (trade_p/100)
+        
+        if self.request_E_kWh > 0:  self.kind = 'S'
+        else:                       self.kind = 'B'
+        
+        
     def print_information(self):
         '''出発地と目的地候補をプリント'''
         print("出発地点: {0}".format(self.departure_point._id))
@@ -83,34 +132,15 @@ class EV(object):
         print("目的地候補: ", end = "")
         for des in self.destinations_list:
             print(des._id, end = " ")
-        print()
-
-            
-    def print_select_EVA_distance(self) -> None:
-        '''EVAの行き先候補をプリント(確認用)
-           EVA_id と目的地からの距離
-           ex)  id: x  dis: y'''        
-        for EVA_id, distance_m in self.candidate_EVA.items():
-            print("id: {0} dis: {1}".format(EVA_id, distance_m))
-        print()
-        print()
+        print()            
         
-       
+               
     def print_select_EVA_distance_file(self) -> None:
            # EVAの行き先候補をプリント(実験用)
            # EVA_id と目的地からの距離
-           # ex)  id_1 id_2 id_3 dis_1 dis_2 dis_3
-        for EVA_id in self.candidate_EVA.keys():
-            print(str(EVA_id) + " " , end = "")
-        for distance_m in self.candidate_EVA.values():
-            print(str(distance_m) + " " , end = "")
-        print()
-
-        
-    def print_select_EVA_distance_file_2(self) -> None:
-           # EVAの行き先候補をプリント(実験用)
-           # EVA_id と目的地からの距離
-           # ex)  departure_id id_1 id_2 id_3 dis_1 dis_2 dis_3
+           # ex)  SorB request_E_kWh dep_id id_1 id_2 id_3 dis_1 dis_2 dis_3
+        print(str(self.kind) + " " , end = "")
+        print(str(abs(self.request_E_kWh)) + " " , end = "")
         print(str(self.departure_point._id) + " " , end = "")
         for EVA_id in self.candidate_EVA.keys():
             print(str(EVA_id) + " " , end = "")
@@ -197,10 +227,12 @@ class Simulate(object):
             self.distance_table.append(des_tmp)
 
 
-    def set_filter(self, filter_distance_m):
+    def set_distance_filter(self, filter_distance_m):
         self.filter_distance_m = filter_distance_m
 
-        
+    def set_trade_persentage(self, trade_p):
+        self.trade_p = trade_p
+            
     def select_EVA_from_destinations(self, destinations_list) -> None:
         '''目的地オブジェクトのリストを入力
            EVA のリストを出力'''
@@ -227,17 +259,36 @@ class Simulate(object):
              min_distance_to_EVA.append(min_dis)
 
         return min_distance_to_EVA                    
+
+    
+    def simulation(self, n):
+        for i in range(n):
+            ev = EV(id = i, trade_p = self.trade_p)
+            #ev.print_information()
+
+            # 目的地候補から候補となる EVA を選択
+            select_EVA_list = self.select_EVA_from_destinations(ev.destinations_list)
+            ev.set_candidates_EVA(select_EVA_list)
+
+            #ev.print_select_EVA_distance()
+            ev.print_select_EVA_distance_file()
+
+
             
-        
             
 if __name__ == "__main__":
     sim = Simulate()
 
+    num = sys.argv[1]
+    trade_p = int(sys.argv[2])
+    filter_distance_m = int(sys.argv[3])
+
+    
     # u  : ウッディータウンの意味
     # uf : ウッディータウン and フラワータウンの意味
-    sim.read_text_file(file = "Sanda_departure_u.txt",   kind = "departure")
-    sim.read_text_file(file = "Sanda_destination_u.txt", kind = "destination")
-    sim.read_text_file(file = "Sanda_EVA_u.txt",         kind = "EVA")
+    sim.read_text_file(file = "system_model/Sanda_departure_u.txt",   kind = "departure")
+    sim.read_text_file(file = "system_model/Sanda_destination_u.txt", kind = "destination")
+    sim.read_text_file(file = "system_model/Sanda_EVA"+ num +"_u.txt",         kind = "EVA")
 
     
     # place のグラフネットワークを作成
@@ -247,20 +298,12 @@ if __name__ == "__main__":
     sim.assign_id()
     sim.measure_distance_des_to_EVA()
 
-    # 目的地候補となる距離
-    filter_distance_m = int(sys.argv[1])
-    sim.set_filter(filter_distance_m)
-
-    #試行回数
-    n_trials = 300
-    for i in range(n_trials):
-        ev = EV(id = i)
-        #ev.print_information()
-       
-        # 目的地候補から候補となる EVA を選択
-        select_EVA_list = sim.select_EVA_from_destinations(ev.destinations_list)
-        ev.set_candidates_EVA(select_EVA_list)
-
-        #ev.print_select_EVA_distance()
-        ev.print_select_EVA_distance_file_2()
- 
+    
+    # 目的地候補となる距離を設定
+    sim.set_distance_filter(filter_distance_m)
+    # 売買する電力量の割合を設定
+    sim.set_trade_persentage(trade_p)
+    
+    # 試行回数 (何台の EV を生成するか)
+    n_trials = 500
+    sim.simulation(n_trials)

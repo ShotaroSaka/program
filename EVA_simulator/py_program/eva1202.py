@@ -432,6 +432,7 @@ class Simulator(object):
             ev._EVA_id = select_EVA_id[0]
             self._EVA_list[ev._EVA_id].add_EV(ev)
 
+            
     
     def get_next_dep_EV(self) -> object:
         # 次に出発する EV を選択
@@ -568,7 +569,7 @@ class Simulator(object):
         for ev in self._dep_ev_list:
             print("id: {1} kind: {2} EVA: {0} arrT: {3} depT: {4} totalT: {5} request_E: {6} E_T: {7} P_T: {8}"
                   .format(ev._EVA_id, ev._id, ev._kind, ev._arrT, ev._depT,
-                          ev._depT - ev._arrT, round(ev._request_E_kWh),
+                          ev._depT - ev._arrT, round(ev._request_E_kWh, 3),
                           round(ev._total_E_kWh, 3), round(ev._total_P_yen, 3)))
 
             
@@ -577,7 +578,7 @@ class Simulator(object):
             for ev in eva._EV_list.values():
                 if ev._id != 0:
                     print("EVA: {0} kind: {1} id: {2} request_E: {3} E_rate: {4} E_now: {5} P_rate: {6} P_now: {7}"
-                          .format(eva._id, ev._kind, ev._id, round(ev._request_E_kWh, 2),
+                          .format(eva._id, ev._kind, ev._id, round(ev._request_E_kWh, 3),
                                   round(ev._E_rate_kW, 2), round(ev._total_E_kWh, 2),
                                   round(ev._P_rate, 3), round(ev._total_P_yen, 3)))            
         print()
@@ -592,6 +593,31 @@ class Simulator(object):
         print("next_arr_time: {0} next_dep_time: {1}".format(next_arr_time, next_dep_time))
 
         
+    def print_trade_EVA(self):
+        # 各 EVA での総電力売買量を S と B を分けて計算
+        eva_S_total_trade_kWh = [0]*len(self._EVA_list)
+        eva_B_total_trade_kWh = [0]*len(self._EVA_list)
+        for ev in self._dep_ev_list:
+            if ev._kind == "S":
+                eva_S_total_trade_kWh[ev._EVA_id] += ev._total_E_kWh
+            if ev._kind == "B":
+                eva_B_total_trade_kWh[ev._EVA_id] += ev._total_E_kWh
+
+        # 各 EVA での V2G
+        eva_V2G_trade_kWh = [0]*len(self._EVA_list)
+        for eva in self._EVA_list:
+            # バッテリーの初期値が 500 kWh
+            eva_V2G_trade_kWh[eva._id] = eva._battery_kWh - 500
+
+        print()
+        for eva in self._EVA_list:
+            print("EVA: {0} S_total: {1} B_total: {1} V2G: {2} S_V2V: {3} B_V2V: {3}"
+                  .format(eva._id, eva_S_total_trade_kWh[eva._id],
+                          eva_V2G_trade_kWh[eva._id],
+                          eva_S_total_trade_kWh[eva._id] - eva_V2G_trade_kWh[eva._id],
+                          eva_B_total_trade_kWh[eva._id] - eva_V2G_trade_kWh[eva._id]))
+            
+            
     def print_sim1_battery(self):
         pr_list = [0]*10
         for ev in self._dep_ev_list:
@@ -680,4 +706,5 @@ if __name__ == "__main__":
     #sim.simulation()
     sim.check_simulation()
     sim.print_dep_list()
+    sim.print_trade_EVA()
     #sim.print_sim1_battery()

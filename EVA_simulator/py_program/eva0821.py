@@ -518,7 +518,7 @@ class Simulator(object):
         for ev in self._dep_ev_list:
             print("id: {1} kind: {2} EVA: {0} arrT: {3} depT: {4} totalT: {5} request_E: {6} E_T: {7} P_T: {8}"
                   .format(ev._EVA_id, ev._id, ev._kind, ev._arrT, ev._depT,
-                          ev._depT - ev._arrT, round(ev._request_E_kWh),
+                          ev._depT - ev._arrT, round(ev._request_E_kWh, 3),
                           round(ev._total_E_kWh, 3), round(ev._total_P_yen, 3)))
 
             

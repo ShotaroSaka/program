@@ -43,19 +43,22 @@ class EV(object) :
             self._kappa_P =  kappa_P      
 
 
-    def set_param_calc(self, alpha, base_P):
-        self._alpha   = alpha         # parameter of the utility function
+    def set_param_calc(self, alpha):
+        self._alpha   = alpha         # parameter of the utility function        
         self._gamma_r = 0.1           # coefficient used in the derivs            
         self._gamma_P = 200           # 電力価格の計算式における係数
         self._gamma_fact = 2          # 価格の計算式に用いられているガンマ
-
-        self._base_P = base_P         # base line of price
-        self._request_E_kWh = 17      # EV ユーザが取引したい電力量
-
+        if self._kind == "S":
+            self._base_P = 20         # 電力の基準となる価格を設定
+        elif self._kind == "B":
+            self._base_P = 25      
         
-    def set_param_private(self, EVA_candidate, home_id):
-        self._EVA_can = EVA_candidate   # 候補の EVAid と距離の集合（辞書型）
+        
+
+    def set_param_private(self, EVA_can, home_id, E):
+        self._EVA_can = EVA_can         # 候補の EVAid と距離の集合（辞書型）
         self._home_id = home_id         # 出発地点（ウッディータウンかフラワータウンの人かを判別）
+        self._request_E_kWh = E         # EV ユーザが取引したい電力量
 
         
     def derivs_util(self, x):
@@ -77,7 +80,7 @@ class EV(object) :
         elif self._kind == "B":
             tmp_p =   p[1] + p[2]
 
-        # 価格計算(1kWh あたりの電力価格
+        # 価格計算 (1kWh あたりの電力価格)
         p = self._gamma_P * self._E_rate_kW**(self._gamma_fact) * tmp_p
         P_rate = (self._E_rate_kW*self._base_P + p) / self._E_rate_kW
         self._P_rate = eva.adjust_price(P_rate)
@@ -105,6 +108,10 @@ class EVA(object):
         # EV の種類別にカウント
         self._S_EV_num = 0
         self._B_EV_num = 0
+
+        # EVA 内の台数が上限のとき → True
+        # EVA 内の台数が上限でないとき → False 
+        self._is_limit = False
         
         # V 2 バッテリー → True
         # V 2 V          → False
@@ -127,10 +134,11 @@ class EVA(object):
         self._limit_Ar = limit_Ar
 
         
-    def set_premium_P(self, pre_P) -> None:
+    def set_param_value(self, pre_P, EV_limit_num) -> None:
         self._preP = pre_P
+        self._EV_limit_num = EV_limit_num
 
-        
+            
     def add_EV(self, ev) -> None:
         self._EV_list[ev._id] = ev
         self.EV_kind_counter(kind = ev._kind, count = 1)
@@ -152,7 +160,7 @@ class EVA(object):
         # dep_list を作成するため，popを使用し，出発する EV を返す
         dep_ev = self._EV_list.pop(ev._id)
         self.EV_kind_counter(kind = dep_ev._kind, count = -1)
-
+        
         # バッテリーで電力売買している場合
         if self._battery_exists:
             # バッテリーだけが EVA 内にいるので取り除く
@@ -171,7 +179,7 @@ class EVA(object):
     def generate_battery(self, ev, kind):
         eva_battery = EV(id = 0, kind = kind)
         eva_battery.set_param_time(arrT = ev._arrT, depT = 100, nowT = ev._nowT)
-        eva_battery.set_param_calc(alpha = 2, base_P = 17)
+        eva_battery.set_param_calc(alpha = 2)
         eva_battery._request_E_kWh = 500
         self._EV_list[eva_battery._id] = eva_battery
         self._battery_exists = True
@@ -194,6 +202,13 @@ class EVA(object):
             self._S_EV_num += count
         elif kind == "B":
             self._B_EV_num += count
+
+        # EV の数が上限に達しているかを判断する
+        total_EV_num = self._S_EV_num + self._B_EV_num
+        if self._EV_limit_num <= total_EV_num:
+            self._is_limit = True
+        else:
+            self._is_limit = False
 
             
     def adjust_price(self, price):
@@ -340,20 +355,23 @@ class Simulator(object):
 
         self._EVA_list = []
         self._dep_ev_list = []
+        self._cant_trade_EV_list = []
         self._EVA_candidate_list = []
-        self._home_list = []
 
         self._opt = None               # convergence values of states
+
+
+    def set_lambda(self, lam):
+        self._lam = lam
 
 
     def add_EVA(self, EVA) -> None:
         self._EVA_list.append(EVA)
 
         
-    def rnd_exp(self, lam):
-        # EV の発生頻度 lam 23, 28
+    def rnd_exp(self):
         u = random.random()
-        x = (-1/lam)*math.log(1 - u)
+        x = (-1/self._lam)*math.log(1 - u)
 
         return x
 
@@ -374,28 +392,45 @@ class Simulator(object):
         # 行き先候補の EVA の電力レートを仮計算する．
         v_list = []
         for eva_id, eva_dis in ev._EVA_can.items():
-            eva = self._EVA_list[eva_id]        
-            eva.add_EV(ev)
-            P_rate = eva.get_P_rate(ev) 
-        
+            eva = self._EVA_list[eva_id]
+            
             # 多項ロジットモデル
-            v_cal = ev._kappa_dis*eva_dis + ev._kappa_P*P_rate
+            if eva._is_limit:
+                v_cal = None
+            else:
+                eva.add_EV(ev)
+                P_rate = eva.get_P_rate(ev) 
+                v_cal = ev._kappa_dis*eva_dis + ev._kappa_P*P_rate
+                eva.remove_EV(ev)
+                
             v_list.append(v_cal)
-            eva.remove_EV(ev)                   
-        
+            
         # Gumbel distribution
         all_v = 0
         for i in v_list:
-            all_v += math.exp(-ev._kappa_nu*i)                           
+            if i == None:
+                all_v += 0
+            else:
+                all_v += math.exp(-ev._kappa_nu*i)                           
 
+                
         # random.choices を使用するため，リストに変換
-        pr = [math.exp(-ev._kappa_nu*j) / all_v for j in v_list]
+        pr = []
+        for i in v_list:
+            if i == None:
+                pr.append(0)
+            else:
+                pr.append(math.exp(-ev._kappa_nu*i) / all_v)
+        #pr = [math.exp(-ev._kappa_nu*j) / all_v for j in v_list]
         EVA_can_list = [EVA_id for EVA_id in ev._EVA_can]
-       
+
         # 各 EVA の効用をもとにランダムに一つの EVA を選択し，追加する
-        select_EVA_id = random.choices(EVA_can_list, k = 1, weights = pr)
-        ev._EVA_id = select_EVA_id[0]
-        self._EVA_list[ev._EVA_id].add_EV(ev)
+        if all(e == 0 for e in pr):
+            self._cant_trade_EV_list.append(ev)
+        else:
+            select_EVA_id = random.choices(EVA_can_list, k = 1, weights = pr)
+            ev._EVA_id = select_EVA_id[0]
+            self._EVA_list[ev._EVA_id].add_EV(ev)
 
     
     def get_next_dep_EV(self) -> object:
@@ -416,30 +451,43 @@ class Simulator(object):
         return next_dep_ev, next_depT
     
             
-    def read_data_from_file(self, file) -> None:  # ファイルの読み込み
+    def read_data_from_file(self, file) -> None:
+        # EV の情報が入ったファイルの読み込み (下記の形式で保存)
+        # kind req_E home_id EVA_id_1 EVA_id_2 EVA_dis_1 EVA_dis_2
+        self._kind_list = []
+        self._req_E_list = []
+        self._home_list = []
+       
         for line in open(file, "r"):
             EVA_data_tmp = {}
-            data = list(map(int, line.split()))
+            data = list(line.split())
 
-            j = int(len(data)/2)
+            j = int((len(data)-3) / 2)
 
-            self._home_list.append(data[0])
+            self._kind_list.append(data[0])
+            self._req_E_list.append(float(data[1]))
+            self._home_list.append(int(data[2]))
+            
             for i in range(j):
-                EVA_data_tmp.update({data[i+1]: data[j+i+1]})
+                EVA_data_tmp.update({int(data[i+3]): int(data[j+i+3])})
             self._EVA_candidate_list.append(EVA_data_tmp)
 
 
-    def EVA_candidate_generator(self):
-        for EVA_candidate, dep_id in zip(self._EVA_candidate_list, self._home_list): 
-            yield EVA_candidate, dep_id
+    def EV_info_generator(self):
+        for EV_kind, req_E, dep_id, EVA_can in zip(self._kind_list,
+                                                   self._req_E_list,
+                                                   self._home_list,
+                                                   self._EVA_candidate_list):
+            
+            yield EV_kind, req_E,  dep_id, EVA_can
 
 
     def simulation(self):
         EV_id = 0
         t = self._stT                 # current time
-        next_arrT = self.rnd_exp(40)  # next arrive time
+        next_arrT = self.rnd_exp()    # next arrive time
         next_depT = self._endT        # next departure time
-        EVA_can = sim.EVA_candidate_generator()
+        EV_info_g = self.EV_info_generator()
 
         while (t < self._endT):
             if (next_arrT < next_depT):
@@ -449,12 +497,13 @@ class Simulator(object):
 
                 # EV を生成し，売買する EVA を選択
                 ev = make_EV(id = EV_id + 1, arrT = t, depT = t + 0.5,
-                             k_dis = 0.03, k_P = kappa_P, k_nu = kappa_nu, EVA_can = EVA_can)
+                             k_dis = 0.03, k_P = kappa_P, k_nu = 0.5,
+                             EV_info_g = EV_info_g)
                 self.select_EVA_and_add_EV(ev)                      
                 EV_id += 1
 
                 # 次に到着する EV の時刻を格納
-                next_arrT += self.rnd_exp(40)
+                next_arrT += self.rnd_exp()
 
             else:
                 # 出発時刻 t までの電力売買を完了させる．
@@ -473,9 +522,9 @@ class Simulator(object):
     def check_simulation(self):
         EV_id = 0
         t = self._stT                   # current time
-        next_arrT = self.rnd_exp(20)    # next arrive time
+        next_arrT = self.rnd_exp()    # next arrive time
         next_depT = self._endT          # next departure time
-        EVA_can = sim.EVA_candidate_generator()
+        EV_info_g = self.EV_info_generator()
 
         while (t < self._endT):
             if (next_arrT < next_depT):
@@ -485,7 +534,8 @@ class Simulator(object):
 
                 # EV を生成し，売買する EVA を選択
                 ev = make_EV(id = EV_id + 1, arrT = t, depT = t + 0.5,
-                             k_dis = 0.03, k_P = kappa_P, k_nu = kappa_nu, EVA_can = EVA_can)
+                             k_dis = 0.03, k_P = kappa_P, k_nu = 0.5,
+                             EV_info_g = EV_info_g)
                 self.select_EVA_and_add_EV(ev)                      
                 EV_id += 1
                 
@@ -493,7 +543,7 @@ class Simulator(object):
                 self.print_EV_num()            
                 
                 # 次に到着する EV の時刻を格納
-                next_arrT += self.rnd_exp(20)                
+                next_arrT += self.rnd_exp()                
           
             else:
                 # 出発時刻 t までの電力売買を完了させる．
@@ -555,11 +605,13 @@ class Simulator(object):
             print(i, pr)
             i += 10
 
+            
     def print_sim2_EVnum(self, t) -> None:
         for eva in self._EVA_list:
             print("EVA: {0} time: {1} S_num: {2} Bnum: {3}"
                   .format(eva._id, t, eva._S_EV_num, eva._B_EV_num))
-        
+
+            
 def calc_norm(vec) :
     """
       calculate the 2nd norm of vector
@@ -571,43 +623,58 @@ def calc_norm(vec) :
     return math.sqrt(norm)
 
 
-def make_EV(id, arrT, depT, k_dis, k_P, k_nu, EVA_can):
-    EVA_can, home_id = EVA_can.__next__()
+def make_EV(id, arrT, depT, k_dis, k_P, k_nu, EV_info_g):
+    EV_kind, req_E, home_id, EVA_can = EV_info_g.__next__()
 
-    ev = EV(id = id)
+    ev = EV(id = id, kind = EV_kind)
+    ev.set_param_calc(alpha = 2)
     ev.set_param_time(arrT = arrT, depT = depT, nowT = arrT)
     ev.set_param_model(kappa_dis = k_dis, kappa_P = k_P, kappa_nu = k_nu)
-    ev.set_param_calc(alpha = 2, base_P = 17)
-    ev.set_param_private(EVA_can, home_id)
+    ev.set_param_private(EVA_can = EVA_can, home_id = home_id, E = req_E)
         
     return ev
 
 
+def calc_lambda(usage_p, time_h):
+    # 以下の情報から一時間あたりの到着台数 lam を計算
+
+    fre_p = 0.3                 # 使用頻度
+    usage_p = usage_p           # 普及率
+    total_house_holds = 1300   # ウッディータウンの世帯数
+
+    lam = total_house_holds*usage_p*fre_p / time_h
+
+    return lam
+    
+    
+    
 
     
 if __name__ == "__main__":
     # parameter setting for simulation
     seed = int(sys.argv[1])
-    EVA_num = int(sys.argv[2])         
-    kappa_P = float(sys.argv[3])       # 多項ロジットモデルでの価格の重み
-    kappa_nu = float(sys.argv[4])      # 多項ロジットモデルでのランダム性の強さ
-    premium_P = float(sys.argv[5])      
+    EVA_num = int(sys.argv[2])         # EVA の台数
+    EV_limit_num = int(sys.argv[3])    # EVA が同時に充電できる最大の数
+    kappa_P = float(sys.argv[4])       # 多項ロジットモデルでの価格の重み
+    usage_p = float(sys.argv[5])       # EV の普及率
     candidate_file = sys.argv[6]       # EV の行き先候補が書き込まれているファイル
 
     # make simulator
     stT = 0         
-    endT = 5        
+    endT = 2        
     sim = Simulator(stT = stT, endT = endT)
 
     # make EVA
     for i in range(EVA_num):
         eva = EVA(id = i)
-        eva.set_param(limit_As = 64, limit_Ar = 64)
-        eva.set_premium_P(pre_P = premium_P) 
+        eva.set_param(limit_As = 10, limit_Ar = 10)
+        eva.set_param_value(pre_P = 1.0, EV_limit_num = EV_limit_num)
         sim.add_EVA(eva)
 
     # preparation for simulation 
     sim.read_data_from_file(candidate_file)
+    lam = calc_lambda(usage_p, endT)
+    sim.set_lambda(lam)
     random.seed(seed)
 
     #sim.simulation()

@@ -389,18 +389,20 @@ class Simulator(object):
         self._dep_ev_list.append(dep_ev)
         
 
-    def select_EVA_and_add_EV(self, ev):      
+    def select_EVA_and_add_EV(self, ev):
+        # todo: 機能を追加したため，コードがぐちゃぐちゃになっているので，直す．
         # 行き先候補の EVA の電力レートを仮計算する．
         v_list = []
         for eva_id, eva_dis in ev._EVA_can.items():
             eva = self._EVA_list[eva_id]
             
-            # 多項ロジットモデル
+            # EVAが満であれば，計算しない
             if eva._is_limit:
                 v_cal = None
             else:
                 eva.add_EV(ev)
-                P_rate = eva.get_P_rate(ev) 
+                P_rate = eva.get_P_rate(ev)
+                # 多項ロジットモデル
                 v_cal = ev._kappa_dis*eva_dis + ev._kappa_P*P_rate
                 eva.remove_EV(ev)
                 
@@ -413,18 +415,19 @@ class Simulator(object):
                 all_v += 0
             else:
                 all_v += math.exp(-ev._kappa_nu*i)                           
-
                 
-        # random.choices を使用するため，リストに変換
         pr = []
         for i in v_list:
             if i == None:
                 pr.append(0)
             else:
                 pr.append(math.exp(-ev._kappa_nu*i) / all_v)
-        #pr = [math.exp(-ev._kappa_nu*j) / all_v for j in v_list]
+
+                
+        # random.choices を使用するため，リストに変換        
         EVA_can_list = [EVA_id for EVA_id in ev._EVA_can]
 
+        
         # 各 EVA の効用をもとにランダムに一つの EVA を選択し，追加する
         if all(e == 0 for e in pr):
             self._cant_trade_EV_list.append(ev)
@@ -521,75 +524,17 @@ class Simulator(object):
             self.print_time_EVnum(t)
 
 
-    def check_simulation(self):
-        EV_id = 0
-        t = self._stT                   # current time
-        next_arrT = self.rnd_exp()      # next arrive time
-        next_depT = self._endT          # next departure time
-        EV_info_g = self.EV_info_generator()
-
-        while (t < self._endT):
-            if (next_arrT < next_depT):
-                # 到着時刻 t までの電力売買を完了させる．
-                t = next_arrT
-                self.calc_all_EVA(t)
-
-                # EV を生成し，売買する EVA を選択
-                ev = make_EV(id = EV_id + 1, arrT = t, depT = t + 0.5,
-                             k_dis = 0.03, k_P = kappa_P, k_nu = 0.5,
-                             EV_info_g = EV_info_g)
-                self.select_EVA_and_add_EV(ev)                      
-                EV_id += 1
-                
-                print("EV_kind: {0} Event arrT: {1} ".format(ev._kind, t))
-                self.print_EV_num()            
-                
-                # 次に到着する EV の時刻を格納
-                next_arrT += self.rnd_exp()                
-          
-            else:
-                # 出発時刻 t までの電力売買を完了させる．
-                t = next_depT            
-                self.calc_all_EVA(t)
-                print("Event depT: {0}".format(t))
-                
-                # 出発する EV の処理                    
-                self.process_dep_EV(next_dep_EV, t)
-                self.print_EV_num()
-
-
-            self.calc_all_EVA(t)
-
-            # 次に出発する EV の時刻を格納          
-            next_dep_EV, next_depT = self.get_next_dep_EV()      
-            self.print_next_event_time(next_arrT, next_depT)
-            self.print_EV_price_rate()
-
-                        
-    def print_EV_price_rate(self) -> None:
-        for eva in self._EVA_list:
-            for ev in eva._EV_list.values():
-                if ev._id != 0:
-                    print("EVA: {0} kind: {1} id: {2} request_E: {3} E_rate: {4} E_now: {5} P_rate: {6} P_now: {7}"
-                          .format(eva._id, ev._kind, ev._id, round(ev._request_E_kWh, 3),
-                                  round(ev._E_rate_kW, 2), round(ev._total_E_kWh, 2),
-                                  round(ev._P_rate, 3), round(ev._total_P_yen, 3)))            
-        print()
-
-    def print_EV_num(self):
-        for eva in self._EVA_list:
-            print("EVA: {0} S_num: {1} Bnum: {2} Battry_kWh: {3}"
-                  .format(eva._id, eva._S_EV_num, eva._B_EV_num, eva._battery_kWh))
-
             
-    def print_next_event_time(self, next_arr_time, next_dep_time):
-        print("next_arr_time: {0} next_dep_time: {1}".format(next_arr_time, next_dep_time))
-
+    def print_time_EVnum(self, t) -> None:
+        for eva in self._EVA_list:
+            print("EVA_Time: EVA {0} time {1} S_num {2} Bnum {3}"
+                  .format(eva._id, t, eva._S_EV_num, eva._B_EV_num))
+        
         
     def print_dep_list(self) -> None:
         print()
         for ev in self._dep_ev_list:
-            print("EV_INFO: id: {1} kind: {2} EVA: {0} arrT: {3} depT: {4} totalT: {5} request_E: {6} E_T: {7} P_T: {8}"
+            print("EV_INFO: id {1} kind {2} EVA {0} arrT {3} depT {4} totalT {5} request_E {6} E_T {7} P_T {8}"
                   .format(ev._EVA_id, ev._id, ev._kind, ev._arrT, ev._depT,
                           ev._depT - ev._arrT, round(ev._request_E_kWh, 3),
                           round(ev._total_E_kWh, 3), round(ev._total_P_yen, 3)))
@@ -622,16 +567,12 @@ class Simulator(object):
                 eva_S_V2V_trade_kWh[eva._id] = eva_S_total_trade_kWh[eva._id] - eva_V2G_trade_kWh[eva._id]                                                                  
                 eva_B_V2V_trade_kWh[eva._id] = eva_B_total_trade_kWh[eva._id] 
                 
-            print("EVA_INFO: EVA: {0} S_total: {1} B_total: {2} V2G: {3} S_V2V: {4} B_V2V: {5}"
+            print("EVA_INFO: EVA {0} S_total {1} B_total {2} V2G {3} S_V2V {4} B_V2V {5}"
                   .format(eva._id, eva_S_total_trade_kWh[eva._id],
                           eva_B_total_trade_kWh[eva._id], eva_V2G_trade_kWh[eva._id],
                           eva_S_V2V_trade_kWh[eva._id], eva_B_V2V_trade_kWh[eva._id]))
             
                         
-    def print_time_EVnum(self, t) -> None:
-        for eva in self._EVA_list:
-            print("EVA_Time: EVA: {0} time: {1} S_num: {2} Bnum: {3}"
-                  .format(eva._id, t, eva._S_EV_num, eva._B_EV_num))
 
             
 def calc_norm(vec) :

@@ -21,7 +21,7 @@ class Place(object):
 
         
 class EV(object):
-    def __init__(self, id, trade_p):
+    def __init__(self, id):
         self._id = id
         self.candidate_EVA = None  # EV_i の行き先候補となる EVA
 
@@ -37,7 +37,7 @@ class EV(object):
         household_size = self.determine_num_of_households()
         self.set_consumption(household_size) 
         self.set_power_generation()
-        self.set_kind(trade_p)
+        self.set_kind()
 
         
     def select_departure(self) -> object:
@@ -117,9 +117,7 @@ class EV(object):
 
     def set_kind(self, trade_p):
         # 発電量 - 消費量の値をもとに S or B を決定
-        # 全て売買するのではなく，trade_p% 分売買するとする
-        E_kWh = (self.generated_E_kWh - self.consumption_E_kWh)
-        self.request_E_kWh = E_kWh * (trade_p/100)
+        self.request_E_kWh = self.generated_E_kWh - self.consumption_E_kWh
         
         if self.request_E_kWh > 0:  self.kind = 'S'
         else:                       self.kind = 'B'
@@ -230,8 +228,6 @@ class Simulate(object):
     def set_distance_filter(self, filter_distance_m):
         self.filter_distance_m = filter_distance_m
 
-    def set_trade_persentage(self, trade_p):
-        self.trade_p = trade_p
             
     def select_EVA_from_destinations(self, destinations_list) -> None:
         '''目的地オブジェクトのリストを入力
@@ -263,7 +259,7 @@ class Simulate(object):
     
     def simulation(self, n):
         for i in range(n):
-            ev = EV(id = i, trade_p = self.trade_p)
+            ev = EV(id = i)
             #ev.print_information()
 
             # 目的地候補から候補となる EVA を選択
@@ -280,15 +276,13 @@ if __name__ == "__main__":
     sim = Simulate()
 
     num = sys.argv[1]
-    trade_p = int(sys.argv[2])
-    filter_distance_m = int(sys.argv[3])
-
+    filter_distance_m = int(sys.argv[2])
     
     # u  : ウッディータウンの意味
     # uf : ウッディータウン and フラワータウンの意味
-    sim.read_text_file(file = "system_model/Sanda_departure_u.txt",   kind = "departure")
-    sim.read_text_file(file = "system_model/Sanda_destination_u.txt", kind = "destination")
-    sim.read_text_file(file = "system_model/Sanda_EVA"+ num +"_u.txt",         kind = "EVA")
+    sim.read_text_file(file = "geographic_model/Sanda_departure_u.txt",     kind = "departure")
+    sim.read_text_file(file = "geographic_model/Sanda_destination_u.txt",   kind = "destination")
+    sim.read_text_file(file = "geographic_model/Sanda_EVA"+ num +"_u.txt",  kind = "EVA")
 
     
     # place のグラフネットワークを作成
@@ -301,9 +295,7 @@ if __name__ == "__main__":
     
     # 目的地候補となる距離を設定
     sim.set_distance_filter(filter_distance_m)
-    # 売買する電力量の割合を設定
-    sim.set_trade_persentage(trade_p)
     
     # 試行回数 (何台の EV を生成するか)
-    n_trials = 500
+    n_trials = 1000
     sim.simulation(n_trials)
